@@ -1,0 +1,535 @@
+---
+sidebar: sidebar 
+permalink: asciidoc_syntax.html 
+---
+= AsciiDoc リファレンス
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での書き込みを開始するには、このページを参照してください。
+
+を参照してください http://asciidoctor.org/docs/user-manual/["AsciiDoctor ユーザーマニュアル"^] を参照してください。
+
+
+
+== 基本
+
+ドキュメントの更新を簡単に投稿するには、いくつかの点を知っておく必要があります。
+
+
+
+=== 見出し
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+===== Level 4 section
+....
+ページタイトルは 1 つしか設定できませんが、複数のセクションタイトルを設定できます。たとえば、レベル 2 および 3 のセクションを含むレベル 1 のセクションが 3 つあるとします。
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+== Level 1 section
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+....
+
+
+=== 太字
+
+....
+*Text*
+....
+
+
+=== 斜体
+
+....
+_Text_
+....
+
+
+=== 箇条書きリスト
+
+....
+* Item 1
++
+Continuation text for the previous list item.
+
+* Item 2
+** Item 2a
+
+* Item 3
+....
+
+TIP: + はリストの続きです。テキストはリストアイテムとインラインに保持されます。+ を省略すると、その行の書式設定に影響します。
+
+
+
+=== ラベル付きリスト
+
+....
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+または
+
+....
+[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+項目 1 の上に [horizontal] を追加すると、ラベルと概要が同じ行に表示されます。これは、簡単な説明をしていれば問題ありません。
+
+* 例（ [horizontal]* を使用しない場合）
+
+項目 1:: 概要 1.
+項目 2:: 概要 2.
+
+
+* 例に [horizontal]* を指定します
+
+項目 1:: 概要 1.
+項目 2:: 概要 2.
+
+
+
+
+=== 手順
+
+....
+.Steps
+
+. Step 1
+
+. Step 2
++
+Info for step 2
+
+. Step 3
+.. Step 3a
+.. Step 3b
+
+. Step 4
+....
+
+TIP: + はリストの続きです。テキストはリストアイテムとインラインに保持されます。+ を省略すると、その行の書式設定に影響します。
+
+
+
+=== イメージ
+
+....
+image::file.gif["alt text"]
+....
+_alt text_ は代替テキストを意味します。ページに表示されるイメージについて説明します。主な用途は、スクリーンリーダーを使用する視覚障害のあるユーザーです。
+
+
+TIP: カンマのような句読点は、コンテンツを AsciiDoc から HTML に変換する機能に影響を与える可能性があるため、 alt テキストを引用符で囲むことをお勧めします。
+
+
+
+=== ビデオ
+
+YouTube でホスト：
+
+....
+video::id[youtube]
+....
+GitHub でローカルにホスト：
+
+....
+video::file.mp4
+....
+
+
+=== リンク
+
+使用する構文は、リンク先によって異なります。
+
+* <<Link to an external site>>
+* <<Link to a section on the same page>>
+* <<Link to another page in the docs>>
+
+
+
+
+==== 外部サイトへのリンク
+
+....
+url[link text^]
+....
+^ をクリックすると、リンクが新しいブラウザタブで開きます。
+
+
+
+==== 同じページ上のセクションにリンクします
+
+....
+<<section_title>>
+....
+例：
+
+....
+For more details, see <<Headings>>.
+....
+リンクテキストには、セクションタイトル以外の内容を指定できます。
+
+....
+<<section_title,Different link text>>
+....
+例：
+
+....
+<<Headings,Learn the syntax for headings>>.
+....
+
+
+==== ドキュメント内の別のページへのリンク
+
+ファイルは同じ GitHub リポジトリにある必要があります。
+
+....
+link:<file_name>.html[Link text]
+....
+ファイル内のセクションに直接リンクするには、ハッシュ（ # ）とセクションのタイトルを追加します。
+
+....
+link:<file_name>.html#<section-name-using-dashes-and-all-lower-case>[Link text]
+....
+例：
+
+....
+link:style.html#use-simple-words[Use simple words]
+....
+
+
+=== メモ、ヒント、および注意
+
+メモ、ヒント、または注意事項を使用して、特定の記述に注意を払う必要がある場合があります。次のようにフォーマットします。
+
+....
+NOTE: text
+
+TIP: text
+
+CAUTION: text
+....
+これらは慎重に使用してください。メモやヒントがいっぱいのページは作成したくありません。それらはすることをより少なく意味をなされる。
+
+AsciiDoc のコンテンツが HTML に変換された場合、次のように表示されます。
+
+
+NOTE: これはメモです。読者が知る必要があるかもしれない追加情報を含んでいる。
+
+
+TIP: ヒントは、ユーザーが何かをしたり、何かを理解したりするのに役立つ情報を提供します。
+
+
+CAUTION: 注意は、読者に注意して行動するように促すものです。この手順はまれに使用してください。
+
+
+
+== 高度な機能
+
+新しいコンテンツを作成する場合は、このセクションで詳細を確認してください。
+
+
+
+=== 文書ヘッダー
+
+各 AsciiDoc ファイルには、 2 種類のヘッダーが含まれています。1 つ目は GitHub 用で、 2 つ目は AsciiDoctor 用で、 AsciiDoc のコンテンツを HTML に変換する発行ツールです。
+
+GitHub ヘッダーは、 .adoc ファイルの最初のコンテンツセットです。次の項目を含める必要があります。
+
+....
+---
+sidebar: sidebar
+permalink: <file_name>.html
+keywords: keyword1, keyword2, keyword3, keyword4, keyword5
+summary: "A summary."
+---
+....
+キーワードと概要は、検索結果に直接影響します。実際には、サマリー自体が検索結果に表示されます。使いやすくなっていることを確認してください。ベストプラクティスは、概要をリード段落に反映させることです。
+
+
+TIP: 引用符で要約を囲むことをお勧めします。句読点のようにコロンは、コンテンツを AsciiDoc から HTML に変換する機能に影響する可能性があるためです。
+
+次のヘッダーは、ドキュメントタイトルのすぐ下に表示されます（を参照） <<Headings>>）。このヘッダーには次のものが含まれている必要があり
+
+....
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+....
+この見出しのパラメータには触れなくてもかまいません。貼り付けて、忘れてください。
+
+
+
+=== 行送りの段落
+
+ドキュメントタイトルの下に表示される最初の段落には、そのすぐ上に次の構文が含まれている必要があります。
+
+....
+[.lead]
+This is my lead paragraph for this content.
+....
+[.lead] は CSS フォーマットを行の段落に適用します。行の段落には、それに続くテキストとは異なる書式が設定されています。
+
+
+
+=== 表
+
+基本テーブルの構文は次のとおりです。
+
+....
+[cols=2*,options="header",cols="25,75"]
+|===
+| heading column 1
+| heading column 2
+| row 1 column 1 | row 1 column 2
+| row 2 column 1 | row 2 column 2
+|===
+....
+テーブルをフォーマットする方法には、 _ 多 _ 種類の方法があります。を参照してください https://asciidoctor.org/docs/user-manual/#tables["AsciiDoctor ユーザーマニュアル"^] を参照してください。
+
+
+TIP: セルに箇条書きのような書式設定されたコンテンツが含まれている場合は、書式設定を有効にするために列ヘッダーに「 A 」を追加することをお勧めします。例： [cols="2 、 4a" options="header"]
+
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables["表の例については、『 AsciiDoc Syntax Quick Reference 』を参照してください"^]。
+
+
+
+=== タスクの見出し
+
+タスクの実行方法を説明している場合は、手順を開始する前に概要情報を含めることができます。また、手順の完了後に何をすべきかを説明しなければならない場合もあります。その場合は、ヘッダーを使用して情報を整理することをお勧めします。これにより、スキャンが可能になります。
+
+必要に応じて、次の見出しを使用します。
+
+_ ユーザーがタスクを完了するために必要な情報 _
+
+_ このタスクについてユーザーが知っておく必要がある追加のコンテキスト情報 _
+
+_ タスクを完了するための個別のステップ。 _
+
+ユーザーが次に行うべきこと _
+
+それぞれにが含まれている必要があります。テキストの直前に次のように表示されます。
+
+....
+.What you'll need
+.About this task
+.Steps
+.What's next?
+....
+この構文は、太字のテキストを大きなフォントで適用します。
+
+
+
+=== コマンド構文
+
+コマンド入力を指定する場合は、等幅フォントを適用するためにコマンドを「」で囲みます。
+
+....
+`volume show -is-encrypted true`
+....
+次のように表示されます。
+
+volume show -is-encrypted true と表示されます
+
+コマンドの出力やコマンド例には、次の構文を使用します。
+
+....
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+....
+4 本のダッシュを使用して、一緒に表示するテキストの行を個別に入力できます。結果は次のとおりです。
+
+[listing]
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+
+
+=== 変数テキスト
+
+コマンドおよびコマンド出力では、変数テキストをアンダースコアで囲み、イタリック体を適用します。
+
+....
+`vserver nfs modify -vserver _name_ -showmount enabled`
+....
+
+NOTE: 現在のところ、アンダースコアはコード構文の強調表示ではサポートされていません。
+
+
+
+=== コード構文の強調表示
+
+コード構文の強調表示により、最も一般的な言語をドキュメント化するための開発者向け解決策が提供されます。
+
+* 出力例 1 *
+
+[source, http]
+----
+POST https://netapp-cloud-account.auth0.com/oauth/token
+Header: Content-Type: application/json
+Body:
+{
+              "username": "<user_email>",
+              "scope": "profile",
+              "audience": "https://api.cloud.netapp.com",
+              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
+              "grant_type": "password",
+              "password": "<user_password>"
+}
+----
+* 出力例 2 *
+
+[source, json]
+----
+[
+    {
+        "header": {
+            "requestId": "init",
+            "clientId": "init",
+            "agentId": "init"
+        },
+        "payload": {
+            "init": {}
+        },
+        "id": "5801"
+    }
+]
+----
+* サポートされている言語 *
+
+* bash
+* カール
+* HTTPS
+* JSON
+* PowerShell
+* パペット
+* Python
+* YAML
+
+
+* 実装 *
+
+次の構文をコピーして貼り付け、サポートされている言語とコードを追加します。
+
+....
+[source,<language>]
+<code>
+....
+例：
+
+....
+[source,curl]
+curl -s https:///v1/ \
+-H accept:application/json \
+-H "Content-type: application/json" \
+-H api-key: \
+-H secret-key: \
+-X [GET,POST,PUT,DELETE]
+....
+
+
+=== コンテンツの再利用
+
+複数のページにまたがって繰り返されるコンテンツがある場合は、簡単に一度作成して、それらのページ間で再利用できます。再利用は、同じリポジトリ内および複数のリポジトリ間で可能です。その仕組みをご紹介します。
+
+. リポジトリ内に _include という名前のフォルダを作成します
++
+https://github.com/NetAppDocs/cloud-tiering["たとえば、 Cloud Tiering リポジトリを確認します"^]。
+
+. そのフォルダに、再利用するコンテンツを含む .adoc ファイルを追加します。
++
+文、リスト、テーブル、 1 つ以上のセクションなどを指定できます。ファイルに他のものを含めないでください。ヘッダや何もありません。
+
+. 次に、そのコンテンツを再利用したいファイルに移動します。
+. _Same _GitHub リポジトリ内のコンテンツを再利用する場合は ' 行ごとに次の構文を使用します
++
+....
+include::_include/<filename>.adoc[]
+....
++
+例：
+
++
+....
+include::_include/s3regions.adoc[]
+....
+. _different _repository 内のコンテンツを再利用する場合は、行に対して次の構文を単独で使用します。
++
+....
+include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
+....
++
+例：
+
++
+....
+include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
+....
+
+
+これで完了です。
+
+include ディレクティブの詳細については、 https://asciidoctor.org/docs/user-manual/#include-directive["『 AsciiDoctor User Manual 』を参照してください"^]。
+
+
+
+=== リンクのある画像
+
+画像にリンクを追加して、「ボタン」のように機能させることができます。
+
+* 出力例 *
+
+次のスクリーンショットでは、「ドキュメントセンターで表示」はリンクを含むイメージです。
+
+image::image_with_link.gif[「ドキュメントセンターに表示」というボタンの画像]
+
+* 構文 *
+
+イメージを追加するときは、次の構文を使用します。
+
+....
+image:<file_name>.<ext>[alt=<text>,link=<url>,window=_blank]
+....
+"window=_blank" は、新しいブラウザタブ（またはウィンドウ）でリンクを開きます。
+
+例：
+
+....
+image:btn-view-in-doc-center.png[alt=A button titled View in Documentation Center that links to the NetApp HCI Doc Center,link=http://docs.netapp.com/hci/index.jsp,window=_blank]
+....

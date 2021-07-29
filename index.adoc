@@ -1,0 +1,97 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+---
+= GitHub のネットアップテクニカルコンテンツに投稿できます
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ネットアップのいくつかの製品やサービスのドキュメントがオープンソースである。これにより、コンテンツに直接投稿して、改善、修正、提案を行うことができます。必要なのは、 GitHub アカウントと少しのイニシアチブだけです。
+
+ページを直接編集したり、変更を依頼したりすることができます。書式やスタイルについてサポートが必要な場合は、次のリソースを参照してください。
+
+* link:asciidoc_syntax.html["ドキュメントのソースの構文を確認します"]
+* link:style.html["ネットアップのドキュメントの形式と音声を確認します"]
+
+
+.手順
+. GitHub アカウントをお持ちでない場合は、 https://github.com/join["github.com から作成します"^]。
+. GitHub アカウントにログインします。
+. ブラウザを使用して、投稿するページを開きます。
++
+ページは直接編集することも、変更を要求することもできます。
+
+. ページを編集するには：
++
+.. Contribute で、 GitHub* で * 編集をクリックします。
++
+image:diagram_edit_on_github.png["GitHub で編集します"]
+
+.. 鉛筆アイコンをクリックし、内容の編集を開始します。
++
+コンテンツは、軽量マークアップ言語の AsciiDoc で記述されています。
+
++
+link:asciidoc_syntax.html["AsciiDoc チートシート"^]
+
++
+image:diagram_pencil_icon.png["鉛筆のアイコン"]
+
+.. 変更をコミットするには、ページを下にスクロールし、 [ このコミットの新しいブランチを作成し、プル要求 * を開始します ] を選択して、 [ ファイルの変更を提案 * ] をクリックします。
++
+GitHub は、変更のために自動的にブランチ名（ _username-patch-n など）を入力します。
+
++
+image:diagram_propose_file_change.png["ファイルの変更を提案する"]
+
+.. 作成した編集に関するコメントを入力し、 * プル要求の作成 * をクリックします。
++
+image:diagram_create_pull_requst.png["プル要求を作成します"]
+
++
+変更を提案したら、変更内容を確認して GitHub リポジトリに統合します。
+
++
+GitHub 検索ボックスの横にある上部バナーで *Pull requests* をクリックして、プル要求のステータスを表示することもできます。
+
++
+image:diagram_pull_request_tab.png["プルリクエストタブ"]
+
+
+
+. ページへの変更を要求するには：
++
+.. Contribute で、「ドキュメントの変更をリクエスト」をクリックします。
++
+image:diagram_request_doc_changes.png["ドキュメントの変更を申請してください"]
+
++
+テキストボックスが表示され、リクエストの詳細を入力できます。
+
+.. テキストボックスに詳細を入力し、 [ 新規問題の送信 ] をクリックして、リクエストの問題を作成します。
++
+テキストボックスには、ページのタイトルと URL があらかじめ入力されています。この情報は削除しないでください。
+
++
+image:diagram_submit_new_issue.png["新しい問題を送信します"]
+
++
+問題を開くと、 GitHub のコメントを使用してコラボレーションを行うことができます。GitHub のアカウント設定で指定した設定に基づいて、電子メール通知が送信されます。
+
++
+GitHub 検索ボックスの横にある上部バナーで [* Issues* （問題） ] をクリックして、リクエストのステータスを表示することもできます。
+
++
+image:diagram_issues_tab.png["[ 問題 ] タブ"]
+
+
+
+
