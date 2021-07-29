@@ -479,28 +479,20 @@ https://github.com/NetAppDocs/cloud-tiering["たとえば、 Cloud Tiering リ�
 . 次に、そのコンテンツを再利用したいファイルに移動します。
 . _Same _GitHub リポジトリ内のコンテンツを再利用する場合は ' 行ごとに次の構文を使用します
 +
-....
-include::_include/<filename>.adoc[]
-....
+ include::_include/<filename>.adoc[]
 +
 例：
 
 +
-....
-include::_include/s3regions.adoc[]
-....
+ include::_include/s3regions.adoc[]
 . _different _repository 内のコンテンツを再利用する場合は、行に対して次の構文を単独で使用します。
 +
-....
-include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
-....
+ include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
 +
 例：
 
 +
-....
-include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
-....
+ include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
 
 
 これで完了です。
