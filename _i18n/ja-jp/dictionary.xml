@@ -475,4 +475,6 @@
   <block id="36da226eb3fe17950978138e8ad49367" category="paragraph">たとえば、ボリューム自体での作成は完全な目標ではないため、ボリュームの作成手順はワークフローにはなりません。ESX サーバでストレージを使用できるようにする手順は、ワークフローになります。この手順には、ボリュームの作成だけでなく、ボリュームのエクスポート、必要な権限の設定、ネットワークインターフェイスの作成などが含まれます。ワークフローは、お客様のユースケースに基づいています。ワークフローは、目標を達成するための最良の方法を 1 つだけ示しています。</block>
   <block id="f0e4224652765b139f46a83b11feccc3" category="sidebar">コンテンツを投稿します</block>
   <block id="10d4522e6465e87db3593c69181bea32" category="sidebar">ネットアップのドキュメントの形式</block>
+  <block id="1c63689daf8192c8174ec60fb9622c70" category="paragraph">このコマンドと変数テキストは次のようになります。</block>
+  <block id="42e7934bd699cbe3d1423783834cc1ca" category="paragraph">vserver nfs modify -vserver_name_ - showmount enabled `</block>
 </blocks>

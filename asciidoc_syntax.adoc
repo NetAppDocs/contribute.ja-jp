@@ -388,6 +388,10 @@ vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
 ....
 `vserver nfs modify -vserver _name_ -showmount enabled`
 ....
+このコマンドと変数テキストは次のようになります。
+
+vserver nfs modify -vserver_name_ - showmount enabled `
+
 
 NOTE: 現在のところ、アンダースコアはコード構文の強調表示ではサポートされていません。
 
