@@ -1,52 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="927796bbaa454c7de262b6c5f63a9498" category="doc">GitHub のネットアップテクニカルコンテンツに投稿できます</block>
-  <block id="5228344774d765214d271cc876038810" category="paragraph">ネットアップのいくつかの製品やサービスのドキュメントがオープンソースである。これにより、コンテンツに直接投稿して、改善、修正、提案を行うことができます。必要なのは、 GitHub アカウントと少しのイニシアチブだけです。</block>
-  <block id="146f2221ee4dce71c48573b3a78b384f" category="paragraph">ページを直接編集したり、変更を依頼したりすることができます。書式やスタイルについてサポートが必要な場合は、次のリソースを参照してください。</block>
-  <block id="08dc1654f6cdcafeb4b7b793651b7723" category="inline-link-macro">ドキュメントのソースの構文を確認します</block>
-  <block id="b502a4b959edbac4fd7b0d572361eee4" category="list-text"><block ref="b502a4b959edbac4fd7b0d572361eee4" category="inline-link-macro-rx"></block></block>
-  <block id="5d087c1cff27e88c1a964731166286aa" category="inline-link-macro">ネットアップのドキュメントの形式と音声を確認します</block>
-  <block id="e070fb2820f346a3dd367d79c2ff55e2" category="list-text"><block ref="e070fb2820f346a3dd367d79c2ff55e2" category="inline-link-macro-rx"></block></block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="2e91d8a2b46d1150d0a32df6d40575f5" category="inline-link">github.com から作成します</block>
   <block id="3abb7514ea5c7ede0747a0733732c2f3" category="list-text">GitHub アカウントをお持ちでない場合は、<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block>。</block>
   <block id="b18871a00508acb170fcc72706ee5239" category="list-text">GitHub アカウントにログインします。</block>
-  <block id="1a5342f56c20c51fdd7b42a289f407b7" category="list-text">ブラウザを使用して、投稿するページを開きます。</block>
-  <block id="665e38d4cc52bc49aa3819f878619c72" category="paragraph">ページは直接編集することも、変更を要求することもできます。</block>
-  <block id="19767061c412fafbb13bd5d119ef8113" category="list-text">ページを編集するには：</block>
-  <block id="189c6c34221fcb57f76b4fff137ce702" category="list-text">Contribute で、 GitHub* で * 編集をクリックします。</block>
-  <block id="06c48f0ff675a1331b3e9e49bc1f6f1e" category="inline-image-macro">GitHub で編集します</block>
-  <block id="1c6ad4efbd0e6a08a74c1b104683f5c5" category="paragraph"><block ref="1c6ad4efbd0e6a08a74c1b104683f5c5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="11743fae7071ba41c063d79f9d47ca33" category="list-text">鉛筆アイコンをクリックし、内容の編集を開始します。</block>
-  <block id="be838e02af3d2bacb04fbc2880042163" category="paragraph">コンテンツは、軽量マークアップ言語の AsciiDoc で記述されています。</block>
-  <block id="52f1e9b7668fc16cad5166f6495b2f91" category="inline-link-macro">AsciiDoc チートシート</block>
-  <block id="0ae2a118f2dda46de41c746e9292866c" category="paragraph"><block ref="0ae2a118f2dda46de41c746e9292866c" category="inline-link-macro-rx"></block></block>
   <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">鉛筆のアイコン</block>
-  <block id="88f62b3e84a51635cf5cbf1e53120c06" category="paragraph"><block ref="88f62b3e84a51635cf5cbf1e53120c06" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d470dc77895be6d3289f18d71d21256c" category="list-text">変更をコミットするには、ページを下にスクロールし、 [ このコミットの新しいブランチを作成し、プル要求 * を開始します ] を選択して、 [ ファイルの変更を提案 * ] をクリックします。</block>
   <block id="0c78a81fa65e4357f7ee46b933c7e6dd" category="paragraph">GitHub は、変更のために自動的にブランチ名（ _username-patch-n など）を入力します。</block>
   <block id="931231a18711fc1a896b57286e811c85" category="inline-image-macro">ファイルの変更を提案する</block>
-  <block id="1c98441615b75b7b4dd2424f328a68e1" category="paragraph"><block ref="1c98441615b75b7b4dd2424f328a68e1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae1151e4be411b5f717a9545786a443" category="list-text">作成した編集に関するコメントを入力し、 * プル要求の作成 * をクリックします。</block>
   <block id="de275cc7c4f3e817ed9ecc4e830c24d7" category="inline-image-macro">プル要求を作成します</block>
-  <block id="cd513965f13ef948f0c3b13552598858" category="paragraph"><block ref="cd513965f13ef948f0c3b13552598858" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="882f4c0e96d0ee1e0f76ee012723caf5" category="paragraph">変更を提案したら、変更内容を確認して GitHub リポジトリに統合します。</block>
-  <block id="1b298dec052f6b43025abe6b9aa176a8" category="paragraph">GitHub 検索ボックスの横にある上部バナーで *Pull requests* をクリックして、プル要求のステータスを表示することもできます。</block>
   <block id="eb343639c45a95881e36d4973088d4ee" category="inline-image-macro">プルリクエストタブ</block>
-  <block id="f6c6236611b62805f70cf5b438a69171" category="paragraph"><block ref="f6c6236611b62805f70cf5b438a69171" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="50127da97fc4ced3247d533cf9897a10" category="list-text">ページへの変更を要求するには：</block>
-  <block id="5148133edc2261bd83f90bcca7e7c2c8" category="list-text">Contribute で、「ドキュメントの変更をリクエスト」をクリックします。</block>
   <block id="951885a0dd056fe4b77aec324c26ddc3" category="inline-image-macro">ドキュメントの変更を申請してください</block>
-  <block id="5f5e28e33ce68bf0f36cc44e1432c579" category="paragraph"><block ref="5f5e28e33ce68bf0f36cc44e1432c579" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bf7f5045cec10ba95d57c65df9a970af" category="paragraph">テキストボックスが表示され、リクエストの詳細を入力できます。</block>
-  <block id="3c485ad3c399d7e7463d5becec3dd9d8" category="list-text">テキストボックスに詳細を入力し、 [ 新規問題の送信 ] をクリックして、リクエストの問題を作成します。</block>
-  <block id="d0b7efc470de41ef0813d7b834eb1e08" category="paragraph">テキストボックスには、ページのタイトルと URL があらかじめ入力されています。この情報は削除しないでください。</block>
   <block id="f6e56229ccb769a21a8ee36c8ce1097b" category="inline-image-macro">新しい問題を送信します</block>
-  <block id="e9b5cfc4b4bf53ce9ec6d120a2c302e8" category="paragraph"><block ref="e9b5cfc4b4bf53ce9ec6d120a2c302e8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4be02c3b6a1dbb553947465f6eafa24e" category="paragraph">問題を開くと、 GitHub のコメントを使用してコラボレーションを行うことができます。GitHub のアカウント設定で指定した設定に基づいて、電子メール通知が送信されます。</block>
   <block id="0cc0be5a3257632810d8db494aff25e6" category="paragraph">GitHub 検索ボックスの横にある上部バナーで [* Issues* （問題） ] をクリックして、リクエストのステータスを表示することもできます。</block>
   <block id="3dd521ea84dae3c68a7c4831eb73ee9c" category="inline-image-macro">[ 問題 ] タブ</block>
-  <block id="9f76e49f1ac670fcfcfd481e689d9d99" category="paragraph"><block ref="9f76e49f1ac670fcfcfd481e689d9d99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de2149b178d59ac3e76c6bf02f61f3c7" category="doc">AsciiDoc リファレンス</block>
   <block id="cd0bd58632de2fcc1ba5422e3cca6c4e" category="paragraph">AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での書き込みを開始するには、このページを参照してください。</block>
   <block id="f9ad3e2b82cfd8da0b3369fed741706c" category="inline-link">AsciiDoctor ユーザーマニュアル</block>
@@ -477,4 +445,51 @@
   <block id="10d4522e6465e87db3593c69181bea32" category="sidebar">ネットアップのドキュメントの形式</block>
   <block id="1c63689daf8192c8174ec60fb9622c70" category="paragraph">このコマンドと変数テキストは次のようになります。</block>
   <block id="42e7934bd699cbe3d1423783834cc1ca" category="paragraph">vserver nfs modify -vserver_name_ - showmount enabled `</block>
+  <block id="5b1673a33a3bc92200f7685076cfb382" category="paragraph">ネットアップの製品とサービスのドキュメントはオープンソースで提供されています。これにより、改善、修正、提案を行うことで、コンテンツに貢献できます。必要なのは、 GitHub アカウントと少しのイニシアチブだけです。</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="section-title">概要</block>
+  <block id="f1eb983643f08d3d76ff0c9dcdd99f9b" category="paragraph">ドキュメントには次のオプションを使用して投稿できます。</block>
+  <block id="8cde20289ec80332bf3964328635ceb5" category="list-text">[ ドキュメントの変更をリクエスト ] をクリックして一般的なフィードバックを送信するか、コンテンツに関する質問をします。ネットアップのコンテンツリーダーがリクエストを確認し、ドキュメントに必要な変更を特定します。これが最も一般的なオプションです。</block>
+  <block id="23d6db8a7a0210825154e8421432bd93" category="inline-xref">このオプションの詳しい手順を確認してください</block>
+  <block id="7529a6aeec9295f2f09df129b4d04439" category="paragraph"><block ref="bdef3b81bca2a18babf456d240e884c2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f9acf8da15ab4fb5a75a7c0351d299b6" category="list-text">コンテンツを自分で直接編集するには、 [ このページを編集 ] をクリックします。ネットアップのコンテンツリーダーが編集内容を確認し、マージします。</block>
+  <block id="fc6fa4fa9c3500ee1dd0b740b3114c08" category="paragraph"><block ref="c1785ec6df9b224ef79cf3c09e64e1f0" category="inline-xref-macro-rx"></block>。</block>
+  <block id="c32408dce34914d1382b48004c1bf8b6" category="paragraph">ドキュメントの変更リクエストを提出することは、ネットアップのドキュメントを作成するための最も一般的な方法です。リクエストを送信すると、コンテンツリーダーがフィードバックを受け取ったことを確認します。GitHub から電子メール通知が送信されます。</block>
+  <block id="7c7af2a4854e39ebf4680896ae4a923c" category="paragraph">コンテンツリーダーが、コンテンツの品質を向上させることができることに同意した場合は、その直後に変更をコミットします。フィードバックが反映されたことを知らせる通知が表示されます。</block>
+  <block id="a05fae06f0ea6344a1a2e3664f26c452" category="admonition">ユーザが入力したコメントはすべて一般に公開されています。GitHub リポジトリで問題に移動した人は誰でもコメントを見ることができます。</block>
+  <block id="f8bf3ad3550f95af891e242fcfff7b8a" category="inline-link">docs.netapp.com</block>
+  <block id="8a4e27c18032ec0b6639a19d635d31e4" category="list-text">Web ブラウザを使用して、のページを開きます<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> これはあなたのフィードバックに関連しています。</block>
+  <block id="1f619b573ae23c66ea41f59e590271bc" category="list-text">ページの右側で、 [ ドキュメントの変更を要求する *] をクリックします。</block>
+  <block id="58d1e1d3dad3ec015e2540b3713ef488" category="paragraph"><block ref="58d1e1d3dad3ec015e2540b3713ef488" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="da894d315c3a28edc86e627db54669ca" category="paragraph">新しいブラウザタブが開き、ドキュメントチームに詳細を提供するためのフォームが表示されます。</block>
+  <block id="5f2272ef73288779845c4c08e2f59ebf" category="list-text">タイトルを入力し、リクエストの詳細を入力します。</block>
+  <block id="aced665f55b18038fb5c4f5d628e63ab" category="paragraph">コメントフィールドには、ページのタイトルと URL があらかじめ入力されています。この情報は削除しないでください。リクエストを理解するために必要になります。</block>
+  <block id="947e4b9915f7e5c398e8dbce136bcf89" category="paragraph"><block ref="947e4b9915f7e5c398e8dbce136bcf89" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2890ce089ba2b3aaa1f10b5e3e703a49" category="list-text">[ 新しい問題の送信 ] をクリックして、リクエストの問題を作成します。</block>
+  <block id="95aee4fc901facb0b53ed386f6ba53da" category="paragraph">問題を開くと、 GitHub のコメントを使用してコラボレーションを行うことができます。GitHub のアカウント設定で指定した設定に基づいて、電子メール通知が送信されます。</block>
+  <block id="0e3fe7eab71196775ffe760806bbfb3e" category="paragraph"><block ref="0e3fe7eab71196775ffe760806bbfb3e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1482bc2757808e2d1858d6d85b2b3760" category="section-title">ドキュメントに編集内容を送信します</block>
+  <block id="adcb9bdb1b09c21b0c4ebd90bea887b4" category="paragraph">コンテンツを自分で編集したい場合は、ソースファイルを直接編集して、表示するドキュメントの変更を送信できます。</block>
+  <block id="b1f21a83d31638b65d6935686b2feb28" category="paragraph">外部の寄与者として、変更を直接パブリッシュすることはできません。コンテンツリードが変更内容を確認し、必要な編集を行った後、変更内容をマージします。この場合、 GitHub から電子メール通知が送信されます。</block>
+  <block id="f827e33f584cf187cf4dc21885d3a813" category="paragraph">記述スタイルまたはソース構文についてサポートが必要な場合は、次のリソースを使用できます。</block>
+  <block id="c0401f891276697902a45a2088f0b8b5" category="list-text"><block ref="c0401f891276697902a45a2088f0b8b5" category="inline-link-macro-rx"></block></block>
+  <block id="10785bb6cb06604e049556197d164114" category="inline-link-macro">AsciiDoc の構文</block>
+  <block id="5a154fee0d82d09b2f38381ace957a3a" category="list-text"><block ref="5a154fee0d82d09b2f38381ace957a3a" category="inline-link-macro-rx"></block></block>
+  <block id="579b796bc7d54ee31ef84e8c48422971" category="list-text">Web ブラウザを使用して、のページを開きます<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> を編集します。</block>
+  <block id="7a662600d17a7a3fc3d67377bf85d44b" category="list-text">ページの右側で、「 * このページを編集する * 」をクリックします。</block>
+  <block id="e7d8ad09698890d7f20cd3a3b8e95fc8" category="inline-image-macro">このページを編集します</block>
+  <block id="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="paragraph"><block ref="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b59c044d870fb1294e907044621f124b" category="list-text">鉛筆アイコンをクリックします。</block>
+  <block id="e2e5c2e55b331168cbbca8d31c8231aa" category="paragraph"><block ref="e2e5c2e55b331168cbbca8d31c8231aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="792d0dce959b2d9ae148b407c3b1fcdc" category="list-text">コンテンツを編集します。</block>
+  <block id="a00f3d1c6f1da7962755317b49908656" category="inline-link-macro">AsciiDoc の構文については、こちらをクリックしてください</block>
+  <block id="3064132ace3608ae734c003590fb2fe4" category="paragraph">コンテンツは、軽量マークアップ言語の AsciiDoc で記述されています。サポートが必要な場合は、 <block ref="2bedc0416ed9f3a7518e6a4699b53152" category="inline-link-macro-rx"></block>。</block>
+  <block id="2d03f964de7fdb330c454135ee653115" category="list-text">変更を確定するには、ページを下にスクロールしてフォームに入力します。</block>
+  <block id="61a1e31c63e5f226790417c1f720a1a0" category="list-text">タイトルとオプションの概要を入力します。</block>
+  <block id="72f37f83756bbfaf46021d50b742f9e1" category="list-text">* このコミットの新しいブランチを作成し、プル要求を開始 * を選択します。</block>
+  <block id="d153affd9948551a245f582eb2c07226" category="list-text">変更を提案する * をクリックします。</block>
+  <block id="093fde2206aa408d480819dfd5a67301" category="paragraph"><block ref="093fde2206aa408d480819dfd5a67301" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eff336df8f860a8a23a11f39595d1d8a" category="paragraph"><block ref="eff336df8f860a8a23a11f39595d1d8a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3ca8213edfdeec4eefac41aec2db1d81" category="paragraph">変更を提案したら、変更内容を確認し、必要な編集を行ってから、変更内容を GitHub リポジトリにマージします。</block>
+  <block id="b5dd88b790a83a46fee3bc8055ca8606" category="paragraph">GitHub 検索ボックスの横にある上部バナーで [*Pull requests*] をクリックすると、プル要求のステータスを表示できます。</block>
+  <block id="179de754e52640d4cfddf43d10964d76" category="paragraph"><block ref="179de754e52640d4cfddf43d10964d76" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
