@@ -492,4 +492,8 @@
   <block id="3ca8213edfdeec4eefac41aec2db1d81" category="paragraph">変更を提案したら、変更内容を確認し、必要な編集を行ってから、変更内容を GitHub リポジトリにマージします。</block>
   <block id="b5dd88b790a83a46fee3bc8055ca8606" category="paragraph">GitHub 検索ボックスの横にある上部バナーで [*Pull requests*] をクリックすると、プル要求のステータスを表示できます。</block>
   <block id="179de754e52640d4cfddf43d10964d76" category="paragraph"><block ref="179de754e52640d4cfddf43d10964d76" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8183edfde3465c9016aab7bccd65b592" category="paragraph">2 つの注意：</block>
+  <block id="88a5eb6b6d68c90223dbe1ecc9129d1a" category="inline-link">AsciiDoctor のドキュメント</block>
+  <block id="eb9b66b605c8336a3d2c3912d75f5a3f" category="list-text">。<block ref="277bb80f420881b6a109659a04261392" category="inline-link-rx"></block> ブロックするイメージ _ は _ コロン： `image::file.png` を付けた単独の行に置く必要があることを指定します</block>
+  <block id="5626a4a10f9aac34b82efd657e99bbb4" category="paragraph">しかし、上に示すように、コロンを 1 つ使用することを好みます。1 つのコロンを使用した方が同じ結果になり、社内ツールを使用した方が効果的です。</block>
 </blocks>
