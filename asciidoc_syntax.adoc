@@ -14,7 +14,7 @@ permalink: asciidoc_syntax.html
 
 
 [role="lead"]
-AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での書き込みを開始するには、このページを参照してください。
+AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での執筆を開始するには、以下のセクションを参照してください。
 
 を参照してください http://asciidoctor.org/docs/user-manual/["AsciiDoctor ユーザーマニュアル"^] を参照してください。
 
