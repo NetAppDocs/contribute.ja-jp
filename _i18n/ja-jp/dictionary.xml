@@ -495,5 +495,5 @@
   <block id="88a5eb6b6d68c90223dbe1ecc9129d1a" category="inline-link">AsciiDoctor のドキュメント</block>
   <block id="eb9b66b605c8336a3d2c3912d75f5a3f" category="list-text">。<block ref="277bb80f420881b6a109659a04261392" category="inline-link-rx"></block> ブロックするイメージ _ は _ コロン： `image::file.png` を付けた単独の行に置く必要があることを指定します</block>
   <block id="5626a4a10f9aac34b82efd657e99bbb4" category="paragraph">しかし、上に示すように、コロンを 1 つ使用することを好みます。1 つのコロンを使用した方が同じ結果になり、社内ツールを使用した方が効果的です。</block>
-  <block id="6eb1807d4fa2bdda156d7a90de391552" category="paragraph">AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での執筆を開始するには、以下のセクションを参照してください。</block>
+  <block id="cd0bd58632de2fcc1ba5422e3cca6c4e" category="paragraph">AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での書き込みを開始するには、このページを参照してください。</block>
 </blocks>
