@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head class="at-element-marker">
+  <title>ネットアップのドキュメントのスタイルガイド</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="ネットアップのドキュメントのスタイルガイド" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ja-jp/contribute/style.html" />
+	<meta property="og:description" content="" />
+  <meta property="og:image" content="https://docs.netapp.com/ja-jp/contribute/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
+  
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/ja-jp/contribute/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/contribute/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/ja-jp/contribute/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/contribute/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/contribute/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/ja-jp/contribute/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/ja-jp/contribute/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/ja-jp/contribute/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/ja-jp/contribute/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/ja-jp/contribute/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/ja-jp/contribute/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/contribute/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/contribute/css/na-pagenav.css' type='text/css'>
+
+  
+  <link rel="stylesheet" href="/ja-jp/contribute/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/ja-jp/contribute/css/tabbed-blocks.css" type="text/css">
+  <link rel="stylesheet" href='/ja-jp/contribute/css/product-family.css' type="text/css">
+  
+
+  
+  <link rel='stylesheet' href='/ja-jp/contribute/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+    <script src='/ja-jp/contribute/js/na-search.js'></script>
+  
+
+  
+  <script src='/ja-jp/contribute/js/na-pagenav.js'></script>
+  
+
+  <link rel='stylesheet' href='/ja-jp/contribute/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/contribute/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/ja-jp/contribute/js/na-utility.js'></script>
+  <script src='/ja-jp/contribute/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/ja-jp/contribute/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/ja-jp/contribute/js/toc.js'></script>
+  <script src='/ja-jp/contribute/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+  <script src='/ja-jp/contribute/js/version-dropdown.js'></script>
+  <script src='/ja-jp/contribute/js/product-family.js'></script>
+  <script src='/ja-jp/contribute/js/FileSaver.min.js'></script>
+  <script src='/ja-jp/contribute/js/jszip-utils.min.js'></script>
+  <script src='/ja-jp/contribute/js/jszip.min.js'></script>
+  <script src='/ja-jp/contribute/js/pdf-ux.js'></script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">製品とソリューション</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">サポートとトレーニング</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">コミュニティ</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">ブログ</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">ユーザ事例</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/ja-jp/contribute/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/ja-jp/contribute/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/ja-jp/contribute/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/ja-jp/contribute/search.html"
+          data-type="widget" 
+          data-placeholder="ドキュメントを検索" 
+          data-no-results-found="{query}に該当する結果はありません" 
+          data-did-you-mean="{suggestion} を検索" 
+          data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?" 
+          data-results-found="{hitCount} 件見つかりました"  
+          data-sk-es-pf-indexes=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">日本語</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/contribute/style.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/contribute/style.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/contribute/style.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                </li></ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/ja-jp/contribute/images/pdf.png" width="16" height="16"/>利用可能なPDF<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        <a target="_blank" href="/ja-jp/contribute/pdfs/fullsite-sidebar/GitHub_のネットアップテクニカルコンテンツに投稿できます.pdf" >
+          <img src="/ja-jp/contribute/images/pdf.png" width="16" height="16"/>このドキュメントサイトのPDF</a>
+
+
+    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
+  <a target="_blank" href="/ja-jp/contribute/pdfs/pages/style.pdf" >
+    <img src="/ja-jp/contribute/images/pdf.png" width="16" height="16"/>
+    PDF of this page
+  </a>
+</li>
+
+</ul>
+  
+
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/ja-jp/contribute/images/pdf-zip.png" width="16" height="16"/>
+      <pre>個別のPDFドキュメントのコレクション<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="sidebar-nav-container">
+  <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ja-jp/contribute/index.html">
+        コンテンツを投稿します
+      </a></li><li class="  active "><a class="na-navbar-padding" href="/ja-jp/contribute/style.html">
+        ネットアップのドキュメントの形式
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/contribute/asciidoc_syntax.html">
+        AsciiDoc リファレンス
+      </a></li></ul>
+</div>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">ホーム</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">ドキュメント</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/ja-jp/contribute/">Contributor's&nbsp;Guide</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          ネットアップのドキュメントのスタイルガイド
+        </li>
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/ja-jp/contribute/common/svg/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> 日本語は機械翻訳による参考訳です。内容に矛盾や不一致があった場合には、英語の内容が優先されます。 </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">ネットアップのドキュメントのスタイルガイド</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2021-07-29 23:49:13 +0000">07/29/2021</time>
+    
+  
+
+<span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-bcammett">
+    <img  class="avatar avatar-small"
+          alt="netapp-bcammett"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/18287750?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/netapp-ssmith">
+    <img  class="avatar avatar-small"
+          alt="netapp-ssmith"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/67073499?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+</span>
+
+
+</p>
+
+
+<div id="toc" class="toc">
+<div id="toctitle">目次</div>
+<ul class="sectlevel1">
+<li><a href="#書き込みの変換">書き込みの変換</a></li>
+<li><a href="#簡単に記入してください">簡単に記入してください</a></li>
+<li><a href="#最小限の情報を書き込みます">最小限の情報を書き込みます</a></li>
+<li><a href="#積極的に書く">積極的に書く</a></li>
+<li><a href="#包括的な言語を使用します">包括的な言語を使用します</a></li>
+<li><a href="#その点に到達します">その点に到達します</a></li>
+<li><a href="#多くのビジュアル要素を使用します">多くのビジュアル要素を使用します</a></li>
+<li><a href="#スキャン可能なコンテンツを作成します">スキャン可能なコンテンツを作成します</a></li>
+<li><a href="#ユーザの目標やその目標の特定の側面に焦点を当てます">ユーザの目標やその目標の特定の側面に焦点を当てます</a></li>
+<li><a href="#ユーザーの目標に沿ってコンテンツを整理する">ユーザーの目標に沿ってコンテンツを整理する</a></li>
+<li><a href="#グローバルユーザー向けに作成します">グローバルユーザー向けに作成します</a></li>
+<li><a href="#az-のガイドラインです">A~Z のガイドラインです</a>
+<ul class="sectlevel2">
+<li><a href="#アクティブな音声パッシブな音声とは対照的">アクティブな音声（「パッシブな音声」とは対照的）</a></li>
+<li><a href="#モニター">モニター</a></li>
+<li><a href="#導入後-1-回">導入後（「 1 回」）</a></li>
+<li><a href="#また">また</a></li>
+<li><a href="#および-または">および / または</a></li>
+<li><a href="#として">として</a></li>
+<li><a href="#を使用する使用または-with-を使用する">を使用する（「使用」または「 with 」を使用する）</a></li>
+<li><a href="#可能かもしれないかもしれないすべきすべきすべき">可能（「かもしれない」、「かもしれない」、「すべき」、「すべき」、「すべき」）</a></li>
+<li><a href="#資本金">資本金</a></li>
+<li><a href="#注意事項">注意事項</a></li>
+<li><a href="#一貫性">一貫性</a></li>
+<li><a href="#収縮">収縮</a></li>
+<li><a href="#確認または検証とは対照的に">（「確認」または「検証」とは対照的に）</a></li>
+<li><a href="#グラフィックス">グラフィックス</a></li>
+<li><a href="#文法">文法</a></li>
+<li><a href="#そうでない場合は">そうでない場合は</a></li>
+<li><a href="#if-いつまたはいつのどちらか">IF （「いつ」または「いつ」のどちらか）</a></li>
+<li><a href="#命令的な音声">命令的な音声</a></li>
+<li><a href="#ip-アドレスと-ipv6-アドレス">IP アドレスと IPv6 アドレス</a></li>
+<li><a href="#今後の機能またはリリース">今後の機能またはリリース</a></li>
+<li><a href="#技術情報アーティクル-referring-to">技術情報アーティクル：「 Referring to</a></li>
+<li><a href="#リスト">リスト</a></li>
+<li><a href="#ローカリゼーション">ローカリゼーション</a></li>
+<li><a href="#ミニマリズム">ミニマリズム</a></li>
+<li><a href="#note-情報">NOTE 情報</a></li>
+<li><a href="#数字">数字</a></li>
+<li><a href="#多賀主義">多賀主義</a></li>
+<li><a href="#前提条件">前提条件</a></li>
+<li><a href="#以前前前または前">以前（「前」、「前」、または「前」）</a></li>
+<li><a href="#句読点">句読点</a></li>
+<li><a href="#以来">以来</a></li>
+<li><a href="#スペルチェック">スペルチェック</a></li>
+<li><a href="#それ誰が">それ（「誰が」）</a></li>
+<li><a href="#tip-情報">TIP 情報</a></li>
+<li><a href="#商標">商標</a></li>
+<li><a href="#ユーザインターフェイス">ユーザインターフェイス</a></li>
+<li><a href="#一時的はい">一時的（「はい」）</a></li>
+<li><a href="#ワークフロー">ワークフロー</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>私たちのスタイルは会話型で共感的ですが、プロ意識を維持し、その点に到達しています。ネットアップのドキュメントのコンテンツを作成する際は、次のガイドラインに従ってください。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="書き込みの変換">書き込みの変換</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>プロフェッショナルな同僚に何かを説明しているときは、話しているように書きます。会話の中で文章を書くと、聞き手とつながりやすくなります。</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="ヒント">
+</td>
+<td class="content">
+大きな声で書き出してください。アメリカの小説家およびスクリーンライター、 Elmore Leonard が言ったように、「それが執筆のように聞こえたら、私はそれを書き直します。」。
+</td>
+</tr>
+</table>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">形式が多すぎます</th>
+<th class="tableblock halign-left valign-top">カジュアルすぎます</th>
+<th class="tableblock halign-left valign-top">私たちのスタイル</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cloud Tiering で問題が発生した場合は、クラスタダッシュボードに健全性ステータスを表示して、エラーの原因を特定できます。ヘルスは、 ONTAP システムとサービスコネクタのステータスを表します。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">失敗が起こったときは、楽しみではありません。ただし、クラスタダッシュボードを確認して、何が起こったのか、何が影響を受けたのかを確認してください。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">障害が発生すると、 Cloud Tiering は、クラスタダッシュボードに「失敗」正常性ステータスを表示します。ステータスを表示して、障害に関する情報を確認します。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">クラウド階層化の料金はさまざまな方法で支払うことができます。従量課金制のサブスクリプションを使用してクラウド階層化の料金を支払うか、 ONTAP 階層化ライセンスを使用して料金を支払うか、または両方を組み合わせて料金を支払うことができます。Cloud Manager からライセンスを取得することはできません。設定するには、 Cloud Tiering サービスに直接アクセスする必要があります。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">クラウド階層化の料金を支払う方法は 3 通りあります。もちろん、従量課金制のサブスクリプションだけでなく、 ONTAP の階層化ライセンス、あるいはその両方を組み合わせたライセンスも必要です。ただし、 Cloud Manager からライセンスを取得することはできません。 Cloud Tiering サービスに直接アクセスして、ライセンスを設定してください。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">従量課金制のサブスクリプション、 ONTAP 階層化ライセンス、またはその両方を組み合わせて使用して、クラウド階層化の料金を支払うことができます。ライセンスは Cloud Manager からは取得できませんが、直接 Cloud Tiering サービスにアクセスして設定できます。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージをプロビジョニングする前に、 Cloud Manager から ONTAP クラスタを検出する必要があります。検出が完了したら、作業環境を開いてストレージをプロビジョニングする必要があります。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">まず、 Cloud Manager から ONTAP クラスタを検出し、次に作業環境を開いてストレージのプロビジョニングを開始します。簡単！</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cloud Manager で ONTAP クラスタを検出したら、作業環境を開いてストレージをプロビジョニングします。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">分析する内容に応じて、ストレージシステムの健全性属性を 2 つの方法で分析します。ダッシュボードで健全性属性ウィジェットを選択するか、すべて表示を選択して健全性属性のリスト全体を表示します。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システムのウェルネス属性を分析するには、ダッシュボードでウェルネス属性ウィジェットを選択するだけです。または、 1 つのビューにウェルネス属性の全リストが表示される場合は、 [ すべて表示 ] を選択します。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ダッシュボードで健全性属性ウィジェットを選択するか、すべて表示を選択してすべてのアクションとリスクのリストを表示します。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">セットアップウィザードが起動したら、ウィザードの指示に従ってノードをセットアップし、クラスタに追加します。以下に、ウィザードでの手順を示します。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">セットアップウィザードが表示されます。このウィザードで、ノードを設定してクラスタに追加する簡単な手順を説明します。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">セットアップウィザードの手順に従ってノードをセットアップし、クラスタに追加します。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">新しいシステムのインストールとセットアップには、複数のコンテンツ形式から選択できます。各フォーマットタイプは、詳細な手順を提供します。学習方法に最も近い形式を選択してください。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システムをどのようにセットアップしてインストールしますか？複数のコンテンツ形式での手順を説明しますが、学習方法は知っているものだけです。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システムの設置とセットアップをガイドするコンテンツフォーマットタイプを選択します。</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="簡単に記入してください">簡単に記入してください</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>複雑で大きな言葉は避けてください。シンプルに管理あなたは専門の同僚に何かを説明していますが、語彙は表示されません。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>これではなく ** 「 NetApp Cloud Central アカウントからユーザを削除する」</p>
+</li>
+<li>
+<p>これを実行 ** ：「 NetApp Cloud Central アカウントからユーザを削除してください」</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="最小限の情報を書き込みます">最小限の情報を書き込みます</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>短い簡潔な文章で、コンテンツの読み取りやスキャンが簡単になります。より長い文章を今すぐ使用しても問題ありませんが、より短い文章をフォローしてください。いいですね。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>これよりも ** ：「 AWS および他のネットワークの ONTAP システムの Cloud Volumes ONTAP システム間でデータをレプリケートするには、 Amazon VPC と他のネットワーク（たとえば、 Azure VNet または企業ネットワーク）間に VPN 接続が必要です。」</p>
+</li>
+<li>
+<p>これを実行 **: 「ネットワーク間のデータレプリケーションには VPN 経由の接続が必要です。たとえば、 Amazon VPC と企業ネットワークの間、または AWS と Azure の間などです。」</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>も参照してください <a href="#minimalism">[minimalism]</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="積極的に書く">積極的に書く</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>受動的な声を避けることは技術的な記述のための標準的な規則であるが、会話をしたいときは特に活動的な声を使用することは重要である。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>この <strong> ではなく </strong> ：「最初のクラスタを展開する前に、必要な権限を提供する必要があります。」</p>
+</li>
+<li>
+<p>これを実行 **: 「最初のクラスタを展開する前に、必要な権限を指定してください。」</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>も参照してください <a href="#active voice (versus “passive voice”)">[active voice (versus “passive voice”)]</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="包括的な言語を使用します">包括的な言語を使用します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ネットアップは、製品ドキュメントに記載されている言語を差別化して排他的に使用することはできないと考えてい私たちが使用する言葉は、お客様との良好な関係を築くことと、お客様を離れさせることの違いを生み出すことができます。特に、言葉を書くと、意図よりもインパクトが重要になります。</p>
+</div>
+<div class="paragraph">
+<p>ネットアップ製品のコンテンツを作成する際には、デグレード、人種差別、表現力の低下と解釈される言語は使用しないでください。その代わりに、ドキュメントを使用する必要があるすべてのユーザーにアクセスして歓迎される言語を使用してください。たとえば、「マスター / スレーブ」ではなく「プライマリ / セカンダリ」と指定します。</p>
+</div>
+<div class="paragraph">
+<p>すべての非包括的な言語をドキュメントや製品から削除するために、私たちは取り組んでいることを知っています。現在は、当社の標準とベストプラクティスに積極的に取り組んでおり、将来的に追加のガイダンスを提供してこのセクションを更新する予定です。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="その点に到達します">その点に到達します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>まず、ユーザーにとって重要なことから始めます。ユーザが何をしようとしているかを調べ、その目標を達成するための支援に焦点を当てます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>これよりも ** ： Cloud Sync では、転送中のデータ暗号化を使用して、ある NFS サーバから別の NFS サーバにデータを同期できます。データを暗号化すると、ネットワーク上でデータを転送するための厳格なセキュリティポリシーがある場合に役立ちます。」</p>
+</li>
+<li>
+<p>これを実行 **: 「企業が厳格なセキュリティポリシーを持っている場合は、転送中のデータ暗号化を使用して、異なるネットワーク上の NFS サーバ間でデータを同期します。」</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="多くのビジュアル要素を使用します">多くのビジュアル要素を使用します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ほとんどの人は視覚的な学習者である。ビデオ、図、スクリーンショットを使用して、学習を促進します。また、ビジュアル要素はテキストのブロックを分割するのにも役立ちます。</p>
+</div>
+<div class="ulist">
+<div class="title">例</div>
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/occm/concept_accounts_aws.html" target="_blank" rel="noopener">"例 1"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/occm/task_getting_started_azure.html" target="_blank" rel="noopener">"例 2"</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>も参照してください <a href="#graphics">[graphics]</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="スキャン可能なコンテンツを作成します">スキャン可能なコンテンツを作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>見出し、リスト、および表を使用して、ユーザーが必要なものを検索できるようにします。</p>
+</div>
+<div class="ulist">
+<div class="title">例</div>
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html" target="_blank" rel="noopener">"例 1"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html" target="_blank" rel="noopener">"例 2"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ユーザの目標やその目標の特定の側面に焦点を当てます">ユーザの目標やその目標の特定の側面に焦点を当てます</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>一連のタスクの実行方法を説明している場合は、概念や参照ベースの情報など、一連のセクションのすべてのページを 1 つのページにまとめます。ページをいくつかのミニページに分割しないでください。そのためには、クリックが多すぎます。同時に、長い、威圧的なページを作成しないでください。ページが長すぎる場合は、最善の判断で決定してください。</p>
+</div>
+<div class="ulist">
+<div class="title">例</div>
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html" target="_blank" rel="noopener">"例 1"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/occm/concept_ha.html" target="_blank" rel="noopener">"例 2"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ユーザーの目標に沿ってコンテンツを整理する">ユーザーの目標に沿ってコンテンツを整理する</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>必要なときに必要な情報を検索できるようにユーザを支援します。コンテンツを次のように整理することで、ドキュメントの内外にできる限り迅速に配置できます。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">左側ナビゲーションの最初のエントリ（高レベル）</dt>
+<dd>
+<p>ユーザーが達成しようとしている目標に沿ってコンテンツを整理する。たとえば、データの利用や保護などを行います。</p>
+</dd>
+<dt class="hdlist1">ナビゲーションの 2 番目のエントリ（中レベル）</dt>
+<dd>
+<p>目標を構成する幅広いタスクを中心にコンテンツを整理する。たとえば、ディザスタリカバリの設定やデータ保護の設定などを行います。</p>
+</dd>
+<dt class="hdlist1">個々のページ（詳細レベル）</dt>
+<dd>
+<p>幅広いタスクを構成する個々のタスクに関連してコンテンツを整理します。各タスクは、 1 つの学習に焦点を当てたり、その幅広いタスクを実行したりすることに重点を置いています。たとえば、ディザスタリカバリの設定に必要なタスクなどです。</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="グローバルユーザー向けに作成します">グローバルユーザー向けに作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>当社は世界中のお客様とパートナー様に情報を提供しています。当社のコンテンツの多くは、ニューラル機械翻訳ツールまたは人間による翻訳を使用して翻訳されています。わかりやすく、翻訳を容易にするには、次のガイドラインに従ってください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>短い簡潔な文を書く。</p>
+</li>
+<li>
+<p>標準の文法と句読点を使用します。</p>
+</li>
+<li>
+<p>1 つの意味に 1 つの単語を使用し、 1 つの単語に 1 つの意味を使用します。</p>
+</li>
+<li>
+<p>共通の収縮を使用します。</p>
+</li>
+<li>
+<p>グラフィックを使用してテキストを明確にするか、置換します。</p>
+</li>
+<li>
+<p>グラフィックにテキストを埋め込むことは避けてください。</p>
+</li>
+<li>
+<p>1 つの文字列に 3 つ以上の名詞を含めないでください。</p>
+</li>
+<li>
+<p>不明な許可を受けないようにします。</p>
+</li>
+<li>
+<p>専門用語、口語、および比喩は避けてください。</p>
+</li>
+<li>
+<p>テクニカル以外の例は避けてください。</p>
+</li>
+<li>
+<p>ハードリターンと間隔を使用しないでください。</p>
+</li>
+<li>
+<p>ユーモアや皮肉を使わないでください。</p>
+</li>
+<li>
+<p>差別的なコンテンツは使用しないでください。</p>
+</li>
+<li>
+<p>特定のペルソナに向けて作成する場合を除き、性別に偏った言語を使用しないでください。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="az-のガイドラインです">A~Z のガイドラインです</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="アクティブな音声パッシブな音声とは対照的">アクティブな音声（「パッシブな音声」とは対照的）</h3>
+<div class="paragraph">
+<p>アクティブな音声では、文の主題はアクションの doer です。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>システムを不適切にシャットダウンすると、インターフェイスに警告メッセージが表示されます。</p>
+</li>
+<li>
+<p>ネットアップは契約を受領しました。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>アクティブな音声で、明瞭かつ鮮明に表現できます。パッシブボイスを使用する理由がない限り、アクティブな音声およびアドレスユーザを「自分」として直接使用します。</p>
+</div>
+<div class="paragraph">
+<p>受動的な声では、行動の doer は不明である：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>システムが正しくシャットダウンされていない場合は、警告メッセージが表示されます。</p>
+</li>
+<li>
+<p>ネットアップは契約を獲得しました。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>次の場合にパッシブボイスを使用：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>アクションを実行したユーザーや実行した内容がわからない。</p>
+</li>
+<li>
+<p>アクションの結果に対するユーザーの責任を回避したい場合。</p>
+</li>
+<li>
+<p>前提条件に関する情報など、その情報を記述することはできません。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>その他の動詞の規則については、次を参照してください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"『 Microsoft Writing Style Guide 』"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"シカゴ・マニュアル・オブ・スタイル"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam - Webster の辞書オンライン"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="モニター">モニター</h3>
+<div class="paragraph">
+<p>次のラベルを使用して、メインコンテンツフローとは別にコンテンツを識別します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>注</p>
+<div class="paragraph">
+<p>テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要としない「知るべき情報」については、メモを使用しないでください。</p>
+</div>
+</li>
+<li>
+<p>ヒント</p>
+<div class="paragraph">
+<p>ヒントは、デフォルトで常にベストプラクティス情報を文書化するというポリシーであるため、慎重に使用してください。必要に応じて、ヒントを使用して、ユーザーが製品を使用したり、ステップやタスクを簡単かつ効率的に完了したりするのに役立つベストプラクティス情報を含めます。</p>
+</div>
+</li>
+<li>
+<p>注意</p>
+<div class="paragraph">
+<p>死亡や重傷につながることのない原因の人身事故を引き起こす可能性がある条件や手順について、ユーザに警告するときは注意してください。</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="導入後-1-回">導入後（「 1 回」）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>「後」を使用して年代を示します。「電源を入れてからコンピュータを起動します。」</p>
+</li>
+<li>
+<p>「 1 回」のみを「 1 回」を意味します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="また">また</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>「追加」を意味するには、「も」を使用します。</p>
+</li>
+<li>
+<p>「または」を意味するために「また」を使用しないでください。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="および-または">および / または</h3>
+<div class="paragraph">
+<p>用語がある場合は、より正確な用語を選択します。どちらの用語も他の用語より正確でない場合は、「 AND / OR 」を使用します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="として">として</h3>
+<div class="paragraph">
+<p>「理由」を意味するために「 As 」を使用しないでください。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="を使用する使用または-with-を使用する">を使用する（「使用」または「 with 」を使用する）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>を使用しているエンティティが件名である場合は、「を使用して」を使用します。「コンポーネント」メニューを使用して、新しいコンポーネントをリポジトリに追加できます。」</p>
+</li>
+<li>
+<p>文中の先頭には、「 using 」または「 with 」を使用できます。これらの文は、製品名に応じて使用できます。「 Using SnapDrive 、 you can manage virtual disks and Snapshot copies in a Windows environment. 」</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="可能かもしれないかもしれないすべきすべきすべき">可能（「かもしれない」、「かもしれない」、「すべき」、「すべき」、「すべき」）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>「 CAN 」を使用して、機能を示します。「この手順の実行中はいつでも変更をコミットできます。」</p>
+</li>
+<li>
+<p>「複数のプログラムをダウンロードすると処理時間に影響する可能性がある」という状況を示すには、「次の場合があります」を使用します</p>
+</li>
+<li>
+<p>「場合によっては」を使用しないでください。これは、機能または権限のどちらかを意味する可能性があるため、あいまいです。</p>
+</li>
+<li>
+<p>推奨されているがオプションのアクションを示すには、「すべき」を使用します。代わりに、「推奨」などの別のフレーズを使用することを検討してください。</p>
+</li>
+<li>
+<p>「必須」はパッシブなので使用しないでください。命令的な音声を使用して、思考を命令として再調整することを検討してください。「必須」を使用する場合は、これを使用して必要なアクションまたは条件を指定します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="資本金">資本金</h3>
+<div class="paragraph">
+<p>ほとんどすべての場合、文スタイルの大文字と小文字を使用します。大文字のみ：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>表の見出しを含む、センテンスと見出しの最初の単語</p>
+</li>
+<li>
+<p>文の断片を含むリスト項目の最初の単語</p>
+</li>
+<li>
+<p>適切な名詞</p>
+</li>
+<li>
+<p>ドキュメントのタイトルと字幕（ 5 文字以上の主な単語や前の位置をすべて大文字にする）</p>
+</li>
+<li>
+<p>UI 要素。ただし、インターフェイス内で大文字になっている場合に限ります。それ以外の場合は小文字を使用します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="注意事項">注意事項</h3>
+<div class="paragraph">
+<p>死亡や重傷につながることのない原因の人身事故を引き起こす可能性がある条件や手順について、ユーザに警告するときは注意してください。</p>
+</div>
+<div class="paragraph">
+<p>を参照してください <a href="#admonitions">[admonitions]</a> メインコンテンツフローとは別にコンテンツを識別する他のラベル。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="一貫性">一貫性</h3>
+<div class="paragraph">
+<p>「プロフェッショナルな同僚に何かを説明しているときは、あなたが話しているように書きます」とは、全員が違うことを意味します。アバナードのプロフェッショナルな会話スタイルは、ユーザーとのつながりを支援し、複数の貢献者の間で軽微な不整合の頻度を高めます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>コンテンツを明確にして使いやすくすることに重点を置いています。すべてのコンテンツが明確で使いやすい場合、若干の不整合は問題になりません。</p>
+</li>
+<li>
+<p>作成しているページ内で一貫性を保ちます。</p>
+</li>
+<li>
+<p>のガイドラインに必ず従ってください <a href="#Write for a global audience">[Write for a global audience]</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="収縮">収縮</h3>
+<div class="paragraph">
+<p>収縮は会話の口調を補強し、多くの収縮は理解し、翻訳することが容易である。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>これらのような収縮を使い、理解しやすく、翻訳も簡単です。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ありません</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">あなたはです</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ありません</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ネットアップは</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">はいませんでした</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">それはある</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ありませんでした</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">それでは</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">分かりませんでした</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（将来の緊張が必要な場合）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ありません</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">できない（将来の緊張が必要な場合）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">しないでください</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">将来の緊張感が必要な場合は、</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>これらのような逆収縮は、理解して翻訳するのが難しいため使用しないでください。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可能性があります</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">必要です</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">お持ちではありません</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">お持ちではありません</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可能性もあります</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">できませんでした</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="確認または検証とは対照的に">（「確認」または「検証」とは対照的に）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>「確認」を使用して、「確認」を意味します。 必要に応じて、「それ」を含めます。「図の周囲に十分な白いスペースがあることを確認してください。」</p>
+</li>
+<li>
+<p>「確認」は、約束や保証を意味するものではありません。「 ONTAP クラスタで NFS ボリュームと CIFS ボリュームをプロビジョニングできるように、 Cloud Manager を使用してください」</p>
+</li>
+<li>
+<p>すでに存在するものや、すでに発生しているものを再度確認する必要がある場合は、「 confirm 」または「 verify 」を使用します。「 NFS がクラスタ上に設定されていることを確認します」</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="グラフィックス">グラフィックス</h3>
+<div class="paragraph">
+<p>コンテンツに役立つイラスト、図、フローチャート、スクリーンキャプチャ、その他の視覚的な参考資料などが含まれているかどうかを継続的に評価します。グラフィックは、複雑な概念や手順をテキストよりも明確に表します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>図の説明の概要を含めてください。「次の図は、背面パネルの AC 電源装置の LED を示しています。</p>
+</li>
+<li>
+<p>図の位置を「上」または「下」ではなく、「下」または「上」または「前」と参照してください。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="文法">文法</h3>
+<div class="paragraph">
+<p>特に明記されていない限り、文法、句読点、および次の表記法に従ってください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"『 Microsoft Writing Style Guide 』"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"シカゴ・マニュアル・オブ・スタイル"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam - Webster の辞書オンライン"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="そうでない場合は">そうでない場合は</h3>
+<div class="paragraph">
+<p>以前の文を参照するために、「そうでない場合」だけを使用しないでください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>この <strong> ではなく </strong> ： " コンピュータはオフになっている必要があります。そうでない場合は、オフにします。」</p>
+</li>
+<li>
+<p>これを実行 ** ： " コンピュータがオフになっていることを確認してください。 "</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="if-いつまたはいつのどちらか">IF （「いつ」または「いつ」のどちらか）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>「 If this 、 then that 」構文などの条件を指定するには、「 if 」を使用します。</p>
+</li>
+<li>
+<p>指定された条件または暗黙の条件がある場合は、「どうか」を使用します。翻訳を容易にするためには、「どうか」を単独で置き換えるのが最適です。</p>
+</li>
+<li>
+<p>時間の経過を示すには、「 when 」を使用します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="命令的な音声">命令的な音声</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ユーザアクションのリストには、ステップ、ディレクティブ、要求、および見出しに imperative voice を使用します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>「 [Working Environments （作業環境） ] ページで、 [Discover （検出） ] をクリックし、 ONTAP Cluster （クラスタの検出）を選択</p>
+</li>
+<li>
+<p>「カムハンドルを回して、電源装置と同一面になるようにします。」</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>パッシブボイスの代わりに必ず音声を使用することを検討してください。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>この <strong> ではなく </strong> ：「最初のクラスタを展開する前に、必要な権限を提供する必要があります。」</p>
+</li>
+<li>
+<p>これを実行 **: 「最初のクラスタを展開する前に、必要な権限を指定してください。」</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>概念的な情報とリファレンス情報に手順を組み込む場合は、 imperative voice を使用しないでください。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ip-アドレスと-ipv6-アドレス">IP アドレスと IPv6 アドレス</h3>
+<div class="paragraph">
+<p>たとえば、 IP アドレス（ IPv6 を含む）の場合は、「 10.x 」で始まるアドレスを含めても安全です。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="今後の機能またはリリース">今後の機能またはリリース</h3>
+<div class="paragraph">
+<p>今後リリースされる製品や機能のタイミングや内容を参照しないでください。ただし、機能が「現在サポートされていません」である場合を除く。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="技術情報アーティクル-referring-to">技術情報アーティクル：「 Referring to</h3>
+<div class="paragraph">
+<p>該当する場合は、 KB （ネットアップナレッジベース）記事を参照してください。リソースページおよび GitHub コンテンツの場合は、リンクを実行中のテキストに配置します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="リスト">リスト</h3>
+<div class="paragraph">
+<p>情報のリストは、通常、テキストのブロックよりもスキャンして吸収する方が簡単です。複雑な情報をリスト形式で表示することで、単純化する方法を検討します。以下に一般的なガイドラインをいくつか示しますが、あなたの判断を使用してください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>リストの理由が明確であることを確認します。完全な文、コロン付きの文、または見出しでリストを紹介します。</p>
+</li>
+<li>
+<p>リストには 2 ～ 7 のエントリが必要です。一般に、各エントリの情報が短いほど、リストをスキャン可能なまま追加できるエントリが増えます。</p>
+</li>
+<li>
+<p>リストエントリは、できる限りスキャン可能にする必要があります。リストエントリをスキャン可能な状態に保つ方法でテキストのブロックを避けます。</p>
+</li>
+<li>
+<p>リストエントリは大文字で開始する必要があり、リストエントリは文法的に平行である必要があります。たとえば、名詞または動詞を使用して各エントリを開始します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>すべてのリストエントリが完全な文の場合は、ピリオドで終了します。</p>
+</li>
+<li>
+<p>すべてのリストエントリが文の断片の場合は、ピリオドで終了しないでください。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>リストエントリは、アルファベット順や年代順に並べ替える必要があります。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ローカリゼーション">ローカリゼーション</h3>
+<div class="paragraph">
+<p>を参照してください <a href="#Write for a global audience">[Write for a global audience]</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ミニマリズム">ミニマリズム</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>この時点で、ユーザーはこのコンテンツを必要としていますか？</p>
+</li>
+<li>
+<p>あまり形式的でない、またはあまりにカジュアルではなく、より少ない言葉でコンテンツを表示できますか？</p>
+</li>
+<li>
+<p>長い文章を短くしたり、単純化したり、 2 つ以上の文章に分割することはできますか？</p>
+</li>
+<li>
+<p>リストを使用して、コンテンツをスキャン可能にできますか。</p>
+</li>
+<li>
+<p>グラフィックを使用してテキストブロックを補強または置換できますか。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="note-情報">NOTE 情報</h3>
+<div class="paragraph">
+<p>テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要としない「知るべき情報」については、メモを使用しないでください。</p>
+</div>
+<div class="paragraph">
+<p>を参照してください <a href="#admonitions">[admonitions]</a> メインコンテンツフローとは別にコンテンツを識別する他のラベル。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="数字">数字</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>次の例外を除いて、 10 以上のすべての数値にアラビア数字を使用します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>文字列の先頭に数字を使用する場合は、アラビア数字ではなく、単語を使用します。</p>
+</li>
+<li>
+<p>概算の数値には（数字ではなく）単語を使用します。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>10 未満の数字には単語を使用します。</p>
+</li>
+<li>
+<p>10 未満の数字と 10 を超える数字が混在する文がある場合は、すべての数字にアラビア数字を使用します。</p>
+</li>
+<li>
+<p>その他の番号の表記法については、次を参照してください</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"『 Microsoft Writing Style Guide 』"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"シカゴ・マニュアル・オブ・スタイル"</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="多賀主義">多賀主義</h3>
+<div class="paragraph">
+<p>ネットアップの製品、およびネットアップ製品とサードパーティ製品との連携について記載します。サードパーティ製品は文書化しません。サードパーティのコンテンツをコピーしてドキュメントに貼り付ける必要はなく、絶対にコピーしないでください。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="前提条件">前提条件</h3>
+<div class="paragraph">
+<p>前提条件は、存在する必要がある条件、または現在のタスクを開始する前にユーザが完了しておく必要がある操作を示します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>「前提条件」、「開始前」、「開始前」などの見出しを持つコンテンツの性質を識別します。</p>
+</li>
+<li>
+<p>前提条件の言葉にパッシブな声を使用することが妥当な場合は、次のようにします。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>クラスタに NFS または CIFS を設定する必要があります。</p>
+</li>
+<li>
+<p>クラスタを Cloud Manager に追加するには、クラスタ管理 IP アドレスと admin ユーザアカウントのパスワードが必要です。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>必要に応じて、前提条件を明確にします。「 NFS または CIFS をクラスタにセットアップする必要があります。System Manager または CLI を使用して、 NFS と CIFS を設定できます。</p>
+</li>
+<li>
+<p>他の方法で情報を提示することも検討してください。たとえば、現在のタスクの最初のステップとしてコンテンツをリワードするのが適切かどうかを検討します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>前提条件：「最初のクラスタを導入する前に、必要な権限を持っている必要があります。」</p>
+</li>
+<li>
+<p>手順：「最初のクラスタを展開するために必要な権限を指定します。」</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="以前前前または前">以前（「前」、「前」、または「前」）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>可能であれば、「前」を「前」に置き換えます。</p>
+</li>
+<li>
+<p>「前」を使用できない場合は、「前」を形容詞として使用して、以前に発生したことや重要度の高いことを参照します。</p>
+</li>
+<li>
+<p>「前へ」を使用して、事前に指定されていない時間に発生したことを示します。</p>
+</li>
+<li>
+<p>「先行」を使用して、事前に発生したことを示します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="句読点">句読点</h3>
+<div class="paragraph">
+<p>シンプルに管理一般に、文章に含まれる句読点が多いほど、理解するために必要な脳細胞が増えます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>3 つ以上の品目の説明リストで、組み合わせ（「 AND 」または「 OR 」）の前にシリアルカンマ（ Oxford コンマ）を使用します。</p>
+</li>
+<li>
+<p>セミコロンとコロンの使用を制限します。</p>
+</li>
+<li>
+<p>特に明記されていない限り、文法、句読点、および次の表記法に従ってください。</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"『 Microsoft Writing Style Guide 』"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"シカゴ・マニュアル・オブ・スタイル"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam - Webster の辞書オンライン"</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="以来">以来</h3>
+<div class="paragraph">
+<p>「経過時間」を示すには、「経過時間」を使用します。「理由」を意味するために「以降」を使用しないでください。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="スペルチェック">スペルチェック</h3>
+<div class="paragraph">
+<p>特に明記されていない限り、文法、句読点、および次の表記法に従ってください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"『 Microsoft Writing Style Guide 』"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"シカゴ・マニュアル・オブ・スタイル"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam - Webster の辞書オンライン"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="それ誰が">それ（「誰が」）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>（末尾にカンマを入れずに）「 that 」を使用して、文が意味を持つようにするために必要な句を説明します。</p>
+</li>
+<li>
+<p>「その」は、文章が英語ではなくても使用します。「コンピュータがオフになっていることを確認します。」</p>
+</li>
+<li>
+<p>補足情報を追加するが、意味を持たせるために文には必要ない句を導入するには、“ which ”（末尾にカンマを付けて）を使用します。</p>
+</li>
+<li>
+<p>「誰」を使用して、人を参照する句を紹介します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tip-情報">TIP 情報</h3>
+<div class="paragraph">
+<p>ヒントは、デフォルトで常にベストプラクティス情報を文書化するというポリシーであるため、慎重に使用してください。必要に応じて、ヒントを使用して、ユーザーが製品を使用したり、ステップやタスクを簡単かつ効率的に完了したりするのに役立つベストプラクティス情報を含めます。</p>
+</div>
+<div class="paragraph">
+<p>を参照してください <a href="#admonitions">[admonitions]</a> メインコンテンツフローとは別にコンテンツを識別する他のラベル。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="商標">商標</h3>
+<div class="paragraph">
+<p>ほとんどの技術コンテンツには商標記号は含まれていません。これは、テンプレートに記載されている法的記述が十分であるためです。ただし、を使用する場合は、すべての使用規則に従ってください <a href="https://www.netapp.com/us/legal/netapptmlist.aspx" target="_blank" rel="noopener">"ネットアップの商標"</a>：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>商標用語は、形容詞としてのみ使用し、名詞、動詞、または口頭として使用しないでください。</p>
+</li>
+<li>
+<p>商標用語を省略、ハイフンで区切る、または斜体にしないでください。</p>
+</li>
+<li>
+<p>商標のある用語を盗もうとしないでください。複数形が必要な場合は、商標名を形容詞として使用し、複数形名詞を修正します。</p>
+</li>
+<li>
+<p>商標用語の独占的形式は使用しないでください。ネットアップなど、ネットアップの会社名は、商標登録用語ではなく一般的な意味で使用されている場合に、独占的な形式を使用できます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ユーザインターフェイス">ユーザインターフェイス</h3>
+<div class="paragraph">
+<p>ユーザを誘導するには、可能な限りインターフェイスを使用します。</p>
+</div>
+<div class="sect3">
+<h4 id="一般的なガイドライン">一般的なガイドライン</h4>
+<div class="paragraph">
+<p>当社の UI 文書化のスタイルはシンプルで最小限です。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ユーザーがコンテンツの読み取り中にインターフェイスを使用しているとします。</p>
+</li>
+<li>
+<p>ユーザをガイドするには、インターフェイスを使用します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ユーザーがウィザードや画面の手順を一歩ずつ進めないようにしてください。インターフェイスから明確でない重要な事項のみを呼び出します。</p>
+</li>
+<li>
+<p>「 OK 」をクリックしたり、「保存」をクリックしたり、「ボリュームが作成されている」、またはタスクを実行している人にとって明らかなその他のものを含めないでください。</p>
+</li>
+<li>
+<p>成功を想定します。ほとんどの場合、処理が失敗すると予想される場合を除き、障害パスは文書化しないでください。インターフェイスが適切なガイダンスを提供しているとします。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>「クリック」は使わないでください。マウス、タッチ、キーボード、その他の選択方法をカバーするため、必ず「 SELECT 」を使用してください。</p>
+</li>
+<li>
+<p>お客様のユースケースに対応し、ワークフローを開始するためにユーザをインターフェイス内の適切な場所に配置するためのワークフローに、コンテンツを集中的に配置します。</p>
+</li>
+<li>
+<p>ユーザーの目標を達成するための最良の方法の 1 つを常に文書化してください。</p>
+</li>
+<li>
+<p>ワークフローで重大な決定が必要な場合は、必ず決定規則を文書化してください。</p>
+</li>
+<li>
+<p>ほとんどのユーザには、最低限必要な手順を使用します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="ui-要素に名前を付ける">UI 要素に名前を付ける</h4>
+<div class="paragraph">
+<p>UI 要素に名前を付ける必要がある細分性レベルにドキュメント化しないでください。インターフェイスを使用して、インタラクションの詳細をユーザーに説明します。特定のラベルを取得する必要がある場合は、そのラベルに名前を付けます。たとえば、「目的のボリュームを選択」または「既存のボリュームを使用」を選択します。 メニューやラジオボタン、またはチェックボックスに名前を付ける必要はありません。ラベルを使用してください。</p>
+</div>
+<div class="paragraph">
+<p>ユーザーが選択する必要があるアイコンの場合は、アイコンの画像を使用します。名前を付けないでください。このルール環境では、矢印、鉛筆、ギア、 kabob 、ハンバーガー、 など。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="表示されているラベルを表します">表示されているラベルを表します</h4>
+<div class="paragraph">
+<p>ラベルを識別するときは、ユーザインターフェイスで使用されるスペルと大文字小文字の区別に従ってください。ラベルの後ろに省略記号が付いている場合は、オブジェクトの名前に省略記号を含めないでください。ユーザインターフェイスラベルにタイトルスタイルの大文字と小文字を使用して、ユーザインターフェイスラベルについて簡単に記述できるようにするように開発者に勧めてください。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="スクリーンキャプチャを使用する">スクリーンキャプチャを使用する</h4>
+<div class="paragraph">
+<p>スクリーンキャプチャ（「スクリーンショット」）は、ワークフロー中にインターフェイスを開始または変更するときに、インターフェイス内の適切な場所にいることをユーザが確信できるようにします。入力するデータや選択する値をスクリーンキャプチャで表示しないでください。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="一時的はい">一時的（「はい」）</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>「 While 」を使用して、時間内に発生していることを示します。</p>
+</li>
+<li>
+<p>「はい」を使用して、ほぼ同じ時間に発生する、または別のアクティビティの直後に発生するアクティビティを表します。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ワークフロー">ワークフロー</h3>
+<div class="paragraph">
+<p>ユーザーはコンテンツを読み、特定の目標を達成します。ユーザーは、必要なコンテンツを検索し、目標を達成し、家族に向けて家に帰りたいと考えています。当社の仕事は製品や機能を文書化することではなく、ユーザーの目標を文書化することです。ワークフローは、ユーザの目標達成を支援する最も直接的な方法です。</p>
+</div>
+<div class="paragraph">
+<p>ワークフローとは、ユーザの目標を達成する方法を説明する一連のステップまたはサブタスクです。ワークフローの範囲は完全な目標です。</p>
+</div>
+<div class="paragraph">
+<p>たとえば、ボリューム自体での作成は完全な目標ではないため、ボリュームの作成手順はワークフローにはなりません。ESX サーバでストレージを使用できるようにする手順は、ワークフローになります。この手順には、ボリュームの作成だけでなく、ボリュームのエクスポート、必要な権限の設定、ネットワークインターフェイスの作成などが含まれます。ワークフローは、お客様のユースケースに基づいています。ワークフローは、目標を達成するための最良の方法を 1 つだけ示しています。</p>
+</div>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/contribute/issues/new?body=Page%3A%20[ネットアップのドキュメントのスタイルガイド](https://docs.netapp.com/ja-jp/contribute/style.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/contribute/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/contribute/blob/main/style.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/contribute/images/edit-sm.svg" class="github-icon" />GitHub で編集</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link" style="visibility: hidden;" ><img src="/ja-jp/contribute/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">このページ</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/contribute/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">Web サイトについてのフィードバックを<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">お寄せください</a>
+  <a href="https://docs.netapp.com/ja-jp/announcements/" class="n-footer__copyright">お知らせ</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ja-jp/contribute/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ja-jp/contribute/js/prism.js'></script>
+      <script type="text/javascript" src='/ja-jp/contribute/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ja-jp/contribute/js/www-ntap.js'></script>
+    <script src='/ja-jp/contribute/js/tabbed-blocks.js'></script>
+  </body>
+
+  
+</html>
