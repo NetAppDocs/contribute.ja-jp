@@ -5,6 +5,7 @@ permalink: index.html
 = GitHub のネットアップテクニカルコンテンツに投稿できます
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

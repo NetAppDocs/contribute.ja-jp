@@ -5,6 +5,7 @@ permalink: style.html
 = ネットアップのドキュメントのスタイルガイド
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font
