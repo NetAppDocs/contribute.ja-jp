@@ -509,30 +509,3 @@ https://github.com/NetAppDocs/cloud-tiering["たとえば、 Cloud Tiering リ�
 これで完了です。
 
 include ディレクティブの詳細については、 https://asciidoctor.org/docs/user-manual/#include-directive["『 AsciiDoctor User Manual 』を参照してください"^]。
-
-
-
-=== リンクのある画像
-
-画像にリンクを追加して、「ボタン」のように機能させることができます。
-
-* 出力例 *
-
-次のスクリーンショットでは、「ドキュメントセンターで表示」はリンクを含むイメージです。
-
-image::image_with_link.gif[「ドキュメントセンターに表示」というボタンの画像]
-
-* 構文 *
-
-イメージを追加するときは、次の構文を使用します。
-
-....
-image:<file_name>.<ext>[alt=<text>,link=<url>,window=_blank]
-....
-"window=_blank" は、新しいブラウザタブ（またはウィンドウ）でリンクを開きます。
-
-例：
-
-....
-image:btn-view-in-doc-center.png[alt=A button titled View in Documentation Center that links to the NetApp HCI Doc Center,link=http://docs.netapp.com/hci/index.jsp,window=_blank]
-....
