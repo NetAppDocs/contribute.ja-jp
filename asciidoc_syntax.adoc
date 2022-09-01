@@ -173,9 +173,9 @@ video::file.mp4
 
 使用する構文は、リンク先によって異なります。
 
-* <<Link to an external site>>
-* <<Link to a section on the same page>>
-* <<Link to another page in the docs>>
+*  to an external site
+*  to a section on the same page
+*  to another page in the docs
 
 
 
@@ -281,7 +281,7 @@ summary: "A summary."
 
 TIP: 引用符で要約を囲むことをお勧めします。句読点のようにコロンは、コンテンツを AsciiDoc から HTML に変換する機能に影響する可能性があるためです。
 
-次のヘッダーは、ドキュメントタイトルのすぐ下に表示されます（を参照） <<Headings>>）。このヘッダーには次のものが含まれている必要があり
+次のヘッダーは、ドキュメントタイトルのすぐ下に表示されます（を参照） ）。このヘッダーには次のものが含まれている必要があり
 
 ....
 :hardbreaks:
