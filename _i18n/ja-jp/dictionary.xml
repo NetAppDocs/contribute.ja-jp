@@ -126,14 +126,6 @@
   <block id="95765c2dfda7d084715936053f502991" category="paragraph">これで完了です。</block>
   <block id="514e377a927694fc176e85fdf041aca4" category="inline-link">『 AsciiDoctor User Manual 』を参照してください</block>
   <block id="26c37afe99559e49b8e1997dc66b06a4" category="paragraph">include ディレクティブの詳細については、<block ref="3614cbd0aad04b2c40fced01c250f6c0" category="inline-link-rx"></block>。</block>
-  <block id="5a475e4efa7b8ddf2d6321000dc8cbba" category="section-title">リンクのある画像</block>
-  <block id="12cefe5430e1589c2511b55bc8ab45d6" category="paragraph">画像にリンクを追加して、「ボタン」のように機能させることができます。</block>
-  <block id="5c58eb07dae698bdbd546d0e3ee7a618" category="paragraph">* 出力例 *</block>
-  <block id="74cd97b5776c170bc107c0ef3fa1f43f" category="paragraph">次のスクリーンショットでは、「ドキュメントセンターで表示」はリンクを含むイメージです。</block>
-  <block id="a92a4dce2a7a1ef62836f3c525107ff5" category="image-alt">「ドキュメントセンターに表示」というボタンの画像</block>
-  <block id="5622b64e835ffe9267d8000cea15b529" category="paragraph">* 構文 *</block>
-  <block id="dc2f84b1e0863d2edcde8848baa4ae90" category="paragraph">イメージを追加するときは、次の構文を使用します。</block>
-  <block id="5b09c2bf3bfcd66efa7232ef81a3b929" category="paragraph">"window=_blank" は、新しいブラウザタブ（またはウィンドウ）でリンクを開きます。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -496,4 +488,8 @@
   <block id="eb9b66b605c8336a3d2c3912d75f5a3f" category="list-text">。<block ref="277bb80f420881b6a109659a04261392" category="inline-link-rx"></block> ブロックするイメージ _ は _ コロン： `image::file.png` を付けた単独の行に置く必要があることを指定します</block>
   <block id="5626a4a10f9aac34b82efd657e99bbb4" category="paragraph">しかし、上に示すように、コロンを 1 つ使用することを好みます。1 つのコロンを使用した方が同じ結果になり、社内ツールを使用した方が効果的です。</block>
   <block id="6eb1807d4fa2bdda156d7a90de391552" category="paragraph">AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での執筆を開始するには、以下のセクションを参照してください。</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">必要なもの</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">このタスクについて</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">次の手順</block>
+  <block id="7acb8defb656ebd5f9decf15c05926ca" category="paragraph-title">完了したら</block>
 </blocks>
