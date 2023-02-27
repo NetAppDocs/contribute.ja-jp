@@ -15,3 +15,7 @@ sidebar:
     url: "/style.html"
   - title: AsciiDoc リファレンス
     url: "/asciidoc_syntax.html"
+  - title: AI生成コンテンツに関するポリシー
+    url: "/ai-policy.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
