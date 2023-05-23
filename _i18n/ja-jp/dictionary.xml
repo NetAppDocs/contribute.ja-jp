@@ -505,4 +505,12 @@
   <block id="2518fdb0845f92d5d9fe4aca9f03f286" category="list-text">すべての従業員、請負業者、およびパートナーは、本ポリシーを遵守することが求められます。違反が繰り返されると、オーサリング権限が中断される可能性があります。</block>
   <block id="ce9532327a3742b7a0020c494ee0ef96" category="list-text">Microsoft 365 Co-pilotなど、作業用コンピュータにインストールしたソフトウェアに組み込まれたAIベースのコンテンツ生成テクノロジはすべて、支援テクノロジをホストする企業にデータを送信します。リリースされていない製品機能の仕様を含むが、これに限定されない会社の機密コンテンツで、このような技術を促してはなりません。</block>
   <block id="a82c75ffafc08b7d85426b8da8626a7a" category="list-text">以前にリリースされていない**製品、製品のバージョン、または製品内の機能の技術文書を生成または編集するために、パブリックAIテクノロジを使用しないでください。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
