@@ -17,7 +17,7 @@ permalink: asciidoc_syntax.html
 [role="lead"]
 AsciiDoc は、マークダウンに似た軽量のマークアップ言語です。標準の Markdown よりも AsciiDoc を選択した理由は、デフォルトの機能がさらに充実しているためです。さらにパワフルなのに、使いやすさも変わりません。AsciiDoc での執筆を開始するには、以下のセクションを参照してください。
 
-を参照してください http://["AsciiDoctor ユーザーマニュアル"^] を参照してください。
+を参照してください http://asciidoctor.org/docs/user-manual/["AsciiDoctor ユーザーマニュアル"^] を参照してください。
 
 
 
@@ -147,7 +147,7 @@ _alt text_ は代替テキストを意味します。ページに表示される
 2 つの注意：
 
 . カンマのような句読点は、コンテンツを AsciiDoc から HTML に変換する機能に影響を与える可能性があるため、 alt テキストを引用符で囲むことをお勧めします。
-. 。 https://["AsciiDoctor のドキュメント"^] ブロックするイメージ _ は _ コロン： `image::file.png` を付けた単独の行に置く必要があることを指定します
+. 。 https://docs.asciidoctor.org/asciidoc/latest/macros/images/["AsciiDoctor のドキュメント"^] ブロックするイメージ _ は _ コロン： `image::file.png` を付けた単独の行に置く必要があることを指定します
 +
 しかし、上に示すように、コロンを 1 つ使用することを好みます。1 つのコロンを使用した方が同じ結果になり、社内ツールを使用した方が効果的です。
 
@@ -319,12 +319,12 @@ This is my lead paragraph for this content.
 | row 2 column 1 | row 2 column 2
 |===
 ....
-テーブルをフォーマットする方法には、 _ 多 _ 種類の方法があります。を参照してください https://["AsciiDoctor ユーザーマニュアル"^] を参照してください。
+テーブルをフォーマットする方法には、 _ 多 _ 種類の方法があります。を参照してください https://asciidoctor.org/docs/user-manual/#tables["AsciiDoctor ユーザーマニュアル"^] を参照してください。
 
 
 TIP: セルに箇条書きのような書式設定されたコンテンツが含まれている場合は、書式設定を有効にするために列ヘッダーに「 A 」を追加することをお勧めします。例： [cols="2 、 4a" options="header"]
 
-https://["表の例については、『 AsciiDoc Syntax Quick Reference 』を参照してください"^]。
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables["表の例については、『 AsciiDoc Syntax Quick Reference 』を参照してください"^]。
 
 
 
@@ -485,7 +485,7 @@ curl -s https:///v1/ \
 
 . リポジトリ内に _include という名前のフォルダを作成します
 +
-https://["たとえば、 Cloud Tiering リポジトリを確認します"^]。
+https://github.com/NetAppDocs/cloud-tiering["たとえば、 Cloud Tiering リポジトリを確認します"^]。
 
 . そのフォルダに、再利用するコンテンツを含む .adoc ファイルを追加します。
 +
@@ -512,4 +512,4 @@ https://["たとえば、 Cloud Tiering リポジトリを確認します"^]。
 
 これで完了です。
 
-include ディレクティブの詳細については、 https://["『 AsciiDoctor User Manual 』を参照してください"^]。
+include ディレクティブの詳細については、 https://asciidoctor.org/docs/user-manual/#include-directive["『 AsciiDoctor User Manual 』を参照してください"^]。
