@@ -108,8 +108,8 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 ほとんどの人は視覚的な学習者である。ビデオ、図、スクリーンショットを使用して、学習を促進します。また、ビジュアル要素はテキストのブロックを分割するのにも役立ちます。
 
 .例
-* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["例 1"^]
-* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html["例 2"^]
+* https://["例 1"^]
+* https://["例 2"^]
 
 
 も参照してください <<グラフィックス>>。
@@ -121,8 +121,8 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 見出し、リスト、および表を使用して、ユーザーが必要なものを検索できるようにします。
 
 .例
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["例 1"^]
-* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html["例 2"^]
+* https://["例 1"^]
+* https://["例 2"^]
 
 
 
@@ -132,8 +132,8 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 一連のタスクの実行方法を説明している場合は、概念や参照ベースの情報など、一連のセクションのすべてのページを 1 つのページにまとめます。ページをいくつかのミニページに分割しないでください。そのためには、クリックが多すぎます。同時に、長い、威圧的なページを作成しないでください。ページが長すぎる場合は、最善の判断で決定してください。
 
 .例
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["例 1"^]
-* https://docs.netapp.com/us-en/occm/concept_ha.html["例 2"^]
+* https://["例 1"^]
+* https://["例 2"^]
 
 
 
@@ -200,9 +200,9 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 
 その他の動詞の規則については、次を参照してください。
 
-* https://docs.microsoft.com/en-us/style-guide/welcome/["『 Microsoft Writing Style Guide 』"^]
-* https://www.chicagomanualofstyle.org/home.html["シカゴ・マニュアル・オブ・スタイル"^]
-* https://www.merriam-webster.com/["Merriam - Webster の辞書オンライン"^]
+* https://["『 Microsoft Writing Style Guide 』"^]
+* https://["シカゴ・マニュアル・オブ・スタイル"^]
+* https://["Merriam - Webster の辞書オンライン"^]
 
 
 
@@ -375,9 +375,9 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 
 特に明記されていない限り、文法、句読点、および次の表記法に従ってください。
 
-* https://docs.microsoft.com/en-us/style-guide/welcome/["『 Microsoft Writing Style Guide 』"^]
-* https://www.chicagomanualofstyle.org/home.html["シカゴ・マニュアル・オブ・スタイル"^]
-* https://www.merriam-webster.com/["Merriam - Webster の辞書オンライン"^]
+* https://["『 Microsoft Writing Style Guide 』"^]
+* https://["シカゴ・マニュアル・オブ・スタイル"^]
+* https://["Merriam - Webster の辞書オンライン"^]
 
 
 
@@ -494,8 +494,8 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 * 10 未満の数字と 10 を超える数字が混在する文がある場合は、すべての数字にアラビア数字を使用します。
 * その他の番号の表記法については、次を参照してください
 +
-** https://docs.microsoft.com/en-us/style-guide/welcome/["『 Microsoft Writing Style Guide 』"^]
-** https://www.chicagomanualofstyle.org/home.html["シカゴ・マニュアル・オブ・スタイル"^]
+** https://["『 Microsoft Writing Style Guide 』"^]
+** https://["シカゴ・マニュアル・オブ・スタイル"^]
 
 
 
@@ -548,9 +548,9 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 * セミコロンとコロンの使用を制限します。
 * 特に明記されていない限り、文法、句読点、および次の表記法に従ってください。
 +
-** https://docs.microsoft.com/en-us/style-guide/welcome/["『 Microsoft Writing Style Guide 』"^]
-** https://www.chicagomanualofstyle.org/home.html["シカゴ・マニュアル・オブ・スタイル"^]
-** https://www.merriam-webster.com/["Merriam - Webster の辞書オンライン"^]
+** https://["『 Microsoft Writing Style Guide 』"^]
+** https://["シカゴ・マニュアル・オブ・スタイル"^]
+** https://["Merriam - Webster の辞書オンライン"^]
 
 
 
@@ -567,9 +567,9 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 
 特に明記されていない限り、文法、句読点、および次の表記法に従ってください。
 
-* https://docs.microsoft.com/en-us/style-guide/welcome/["『 Microsoft Writing Style Guide 』"^]
-* https://www.chicagomanualofstyle.org/home.html["シカゴ・マニュアル・オブ・スタイル"^]
-* https://www.merriam-webster.com/["Merriam - Webster の辞書オンライン"^]
+* https://["『 Microsoft Writing Style Guide 』"^]
+* https://["シカゴ・マニュアル・オブ・スタイル"^]
+* https://["Merriam - Webster の辞書オンライン"^]
 
 
 
@@ -594,7 +594,7 @@ TIP: 大きな声で書き出してください。アメリカの小説家およ
 
 === 商標
 
-ほとんどの技術コンテンツには商標記号は含まれていません。これは、テンプレートに記載されている法的記述が十分であるためです。ただし、を使用する場合は、すべての使用規則に従ってください https://www.netapp.com/us/legal/netapptmlist.aspx["ネットアップの商標"^]：
+ほとんどの技術コンテンツには商標記号は含まれていません。これは、テンプレートに記載されている法的記述が十分であるためです。ただし、を使用する場合は、すべての使用規則に従ってください https://["ネットアップの商標"^]：
 
 * 商標用語は、形容詞としてのみ使用し、名詞、動詞、または口頭として使用しないでください。
 * 商標用語を省略、ハイフンで区切る、または斜体にしないでください。

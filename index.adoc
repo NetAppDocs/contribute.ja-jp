@@ -48,9 +48,9 @@ video::0A-xQJaDkco[youtube,width=848,height=480]
 TIP: ユーザが入力したコメントはすべて一般に公開されています。GitHub リポジトリで問題に移動した人は誰でもコメントを見ることができます。
 
 .手順
-. GitHub アカウントをお持ちでない場合は、 https://github.com/join["github.com から作成します"^]。
+. GitHub アカウントをお持ちでない場合は、 https://["github.com から作成します"^]。
 . GitHub アカウントにログインします。
-. Web ブラウザを使用して、のページを開きます https://docs.netapp.com["docs.netapp.com"] これはあなたのフィードバックに関連しています。
+. Web ブラウザを使用して、のページを開きます https://["docs.netapp.com"] これはあなたのフィードバックに関連しています。
 . ページの右側で、 [ ドキュメントの変更を要求する *] をクリックします。
 +
 image:screenshot-request-doc-changes.png["ドキュメントの変更を申請してください"]
@@ -90,9 +90,9 @@ image:screenshot-issues.png["[ 問題 ] タブ"]
 
 
 .手順
-. GitHub アカウントをお持ちでない場合は、 https://github.com/join["github.com から作成します"^]。
+. GitHub アカウントをお持ちでない場合は、 https://["github.com から作成します"^]。
 . GitHub アカウントにログインします。
-. Web ブラウザを使用して、のページを開きます https://docs.netapp.com["docs.netapp.com"] を編集します。
+. Web ブラウザを使用して、のページを開きます https://["docs.netapp.com"] を編集します。
 . ページの右側で、「 * このページを編集する * 」をクリックします。
 +
 image:screenshot-edit-this-page.png["このページを編集します"]
