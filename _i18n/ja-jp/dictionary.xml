@@ -393,7 +393,6 @@
   <block id="f8bf3ad3550f95af891e242fcfff7b8a" category="inline-link">docs.netapp.com</block>
   <block id="8a4e27c18032ec0b6639a19d635d31e4" category="list-text">Web ブラウザを使用して、のページを開きます<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> これはあなたのフィードバックに関連しています。</block>
   <block id="58d1e1d3dad3ec015e2540b3713ef488" category="paragraph"><block ref="58d1e1d3dad3ec015e2540b3713ef488" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="da894d315c3a28edc86e627db54669ca" category="paragraph">新しいブラウザタブが開き、ドキュメントチームに詳細を提供するためのフォームが表示されます。</block>
   <block id="947e4b9915f7e5c398e8dbce136bcf89" category="paragraph"><block ref="947e4b9915f7e5c398e8dbce136bcf89" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95aee4fc901facb0b53ed386f6ba53da" category="paragraph">問題を開くと、 GitHub のコメントを使用してコラボレーションを行うことができます。GitHub のアカウント設定で指定した設定に基づいて、電子メール通知が送信されます。</block>
   <block id="0e3fe7eab71196775ffe760806bbfb3e" category="paragraph"><block ref="0e3fe7eab71196775ffe760806bbfb3e" category="inline-image-macro-rx" type="image"></block></block>
@@ -443,7 +442,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="97dd767bd76bea2996ce155f6fded935" category="list-text">[ドキュメントの変更をリクエストする]*を選択して、一般的なフィードバックを送信したり、コンテンツに関する質問をしたりします。ネットアップのコンテンツリーダーがリクエストを確認し、ドキュメントに必要な変更を特定します。これが最も一般的なオプションです。</block>
   <block id="52b3d02fd2caf09c367f6a8e47835fc2" category="list-text">コンテンツを自分で直接編集するには、*このページを編集*を選択します。ネットアップのコンテンツリーダーが編集内容を確認し、マージします。</block>
-  <block id="c9dfb8a3cf2c4d02f86adae4807900dc" category="paragraph">次のビデオでは、これら2つのオプションの概要を説明します。</block>
   <block id="3cafc4d2380a4f8525dcaa0a65259e21" category="video-title">docs.netapp.comへの貢献の概要</block>
   <block id="626ac697ef02a0c6709fb546054d122b" category="paragraph">以下のセクションでは、ステップバイステップの手順を説明します。</block>
   <block id="07c96edbc201979283e816b9981511ba" category="list-text">GitHub アカウントをお持ちでない場合は、<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block></block>
@@ -513,4 +511,7 @@
   <block id="bd62ac2d873965d23f9623cfb0176399" category="paragraph">UI 要素に名前を付ける必要がある細分性レベルにドキュメント化しないでください。インターフェイスを使用して、インタラクションの詳細をユーザーに説明します。特定のラベルを取得する必要がある場合は、そのラベルに名前を付けます。たとえば、目的のボリュームを選択するか、[既存のボリュームを使用する]を選択します。 メニュー、ラジオボタン、チェックボックスに名前を付ける必要はありません。ラベルを使用するだけです。</block>
   <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">ユーザーが選択する必要があるアイコンの場合は、アイコンの画像を使用します。名前を付けようとしないでください。このルール環境では、矢印、鉛筆、ギア、 kabob 、ハンバーガー、 など。</block>
   <block id="3d053f543ceb20e8d9a54ccac1275a6f" category="paragraph">スクリーンキャプチャ（「スクリーンショット」）は、ワークフロー中にインターフェイスを開始または変更するときに、インターフェイス内の適切な場所にいることをユーザが確信できるようにします。スクリーンキャプチャを使用して、入力するデータや選択する値を表示しないでください。</block>
+  <block id="aa475deb1febd97e43051f4cd6e0e03c" category="paragraph">次のビデオでは、これら2つのオプションの概要を説明します。</block>
+  <block id="d2a6bdb03847dd26c195e27066ccdb58" category="paragraph">新しいブラウザタブが開き、GitHubフォームが表示されます。このフォームを使用して、ドキュメントチームに詳細を提供できます。</block>
+  <block id="60a186f1a1bf3949fd214cb8c41bc66f" category="paragraph">新しいブラウザタブが開き、ドキュメントサイトのGitHubリポジトリ内のファイルに移動します。</block>
 </blocks>
