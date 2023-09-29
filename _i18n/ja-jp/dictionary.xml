@@ -3,17 +3,12 @@
   <block id="927796bbaa454c7de262b6c5f63a9498" category="doc">GitHub のネットアップテクニカルコンテンツに投稿できます</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="2e91d8a2b46d1150d0a32df6d40575f5" category="inline-link">github.com から作成します</block>
-  <block id="3abb7514ea5c7ede0747a0733732c2f3" category="list-text">GitHub アカウントをお持ちでない場合は、<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block>。</block>
   <block id="b18871a00508acb170fcc72706ee5239" category="list-text">GitHub アカウントにログインします。</block>
   <block id="caa1e25984e775c1ab44cfd42620d720" category="inline-image-macro">鉛筆のアイコン</block>
-  <block id="0c78a81fa65e4357f7ee46b933c7e6dd" category="paragraph">GitHub は、変更のために自動的にブランチ名（ _username-patch-n など）を入力します。</block>
   <block id="931231a18711fc1a896b57286e811c85" category="inline-image-macro">ファイルの変更を提案する</block>
-  <block id="3ae1151e4be411b5f717a9545786a443" category="list-text">作成した編集に関するコメントを入力し、 * プル要求の作成 * をクリックします。</block>
-  <block id="de275cc7c4f3e817ed9ecc4e830c24d7" category="inline-image-macro">プル要求を作成します</block>
   <block id="eb343639c45a95881e36d4973088d4ee" category="inline-image-macro">プルリクエストタブ</block>
   <block id="951885a0dd056fe4b77aec324c26ddc3" category="inline-image-macro">ドキュメントの変更を申請してください</block>
   <block id="f6e56229ccb769a21a8ee36c8ce1097b" category="inline-image-macro">新しい問題を送信します</block>
-  <block id="0cc0be5a3257632810d8db494aff25e6" category="paragraph">GitHub 検索ボックスの横にある上部バナーで [* Issues* （問題） ] をクリックして、リクエストのステータスを表示することもできます。</block>
   <block id="3dd521ea84dae3c68a7c4831eb73ee9c" category="inline-image-macro">[ 問題 ] タブ</block>
   <block id="de2149b178d59ac3e76c6bf02f61f3c7" category="doc">AsciiDoc リファレンス</block>
   <block id="f9ad3e2b82cfd8da0b3369fed741706c" category="inline-link">AsciiDoctor ユーザーマニュアル</block>
@@ -143,22 +138,16 @@
   <block id="88c3dc92387f534cb0d262ec1e8f1bb2" category="doc">ネットアップのドキュメントのスタイルガイド</block>
   <block id="e2d0dae9d76032e451e39d8e99304566" category="paragraph">私たちのスタイルは会話型で共感的ですが、プロ意識を維持し、その点に到達しています。ネットアップのドキュメントのコンテンツを作成する際は、次のガイドラインに従ってください。</block>
   <block id="99cadf0b9e522abf385884bbba7ba292" category="section-title">書き込みの変換</block>
-  <block id="a50fac6c5f3dd2cb4730087ea54252bf" category="paragraph">プロフェッショナルな同僚に何かを説明しているときは、話しているように書きます。会話の中で文章を書くと、聞き手とつながりやすくなります。</block>
   <block id="7d0edd1178aac4fd80f275d473a2bbba" category="admonition">大きな声で書き出してください。アメリカの小説家およびスクリーンライター、 Elmore Leonard が言ったように、「それが執筆のように聞こえたら、私はそれを書き直します。」。</block>
   <block id="14162950f27b607637ed0c3681ea338c" category="cell">形式が多すぎます</block>
   <block id="706ee9fc99a081223cc401929741a52a" category="cell">カジュアルすぎます</block>
   <block id="e3d632fe289ec28c552b21075d04a8fc" category="cell">私たちのスタイル</block>
   <block id="e79230b3b0562e674e6294e0554d48d4" category="cell">Cloud Tiering で問題が発生した場合は、クラスタダッシュボードに健全性ステータスを表示して、エラーの原因を特定できます。ヘルスは、 ONTAP システムとサービスコネクタのステータスを表します。</block>
-  <block id="38eaae780dedf233f8b16537af9bf66f" category="cell">失敗が起こったときは、楽しみではありません。ただし、クラスタダッシュボードを確認して、何が起こったのか、何が影響を受けたのかを確認してください。</block>
-  <block id="4203483b917dd9616ff240c282ea3de2" category="cell">障害が発生すると、 Cloud Tiering は、クラスタダッシュボードに「失敗」正常性ステータスを表示します。ステータスを表示して、障害に関する情報を確認します。</block>
   <block id="09083b2e235c493fdbe1bd76c4fc1759" category="cell">クラウド階層化の料金はさまざまな方法で支払うことができます。従量課金制のサブスクリプションを使用してクラウド階層化の料金を支払うか、 ONTAP 階層化ライセンスを使用して料金を支払うか、または両方を組み合わせて料金を支払うことができます。Cloud Manager からライセンスを取得することはできません。設定するには、 Cloud Tiering サービスに直接アクセスする必要があります。</block>
-  <block id="2019b14ea1228e2750567a5a10b6082b" category="cell">クラウド階層化の料金を支払う方法は 3 通りあります。もちろん、従量課金制のサブスクリプションだけでなく、 ONTAP の階層化ライセンス、あるいはその両方を組み合わせたライセンスも必要です。ただし、 Cloud Manager からライセンスを取得することはできません。 Cloud Tiering サービスに直接アクセスして、ライセンスを設定してください。</block>
-  <block id="2293c6f5616ca3c3739756e3ba4335f3" category="cell">従量課金制のサブスクリプション、 ONTAP 階層化ライセンス、またはその両方を組み合わせて使用して、クラウド階層化の料金を支払うことができます。ライセンスは Cloud Manager からは取得できませんが、直接 Cloud Tiering サービスにアクセスして設定できます。</block>
   <block id="d610c8ffc37561f4634a190387a5f3b6" category="cell">ストレージをプロビジョニングする前に、 Cloud Manager から ONTAP クラスタを検出する必要があります。検出が完了したら、作業環境を開いてストレージをプロビジョニングする必要があります。</block>
   <block id="17b767c95630dcda77217ed5b3e18485" category="cell">まず、 Cloud Manager から ONTAP クラスタを検出し、次に作業環境を開いてストレージのプロビジョニングを開始します。簡単！</block>
   <block id="a8e0043a624da44dc1444007f03701d9" category="cell">Cloud Manager で ONTAP クラスタを検出したら、作業環境を開いてストレージをプロビジョニングします。</block>
   <block id="e7d907ab95696d826dd2c779e9e54c9f" category="cell">分析する内容に応じて、ストレージシステムの健全性属性を 2 つの方法で分析します。ダッシュボードで健全性属性ウィジェットを選択するか、すべて表示を選択して健全性属性のリスト全体を表示します。</block>
-  <block id="4dbdef08a39727e79d1de0ea347e493d" category="cell">システムのウェルネス属性を分析するには、ダッシュボードでウェルネス属性ウィジェットを選択するだけです。または、 1 つのビューにウェルネス属性の全リストが表示される場合は、 [ すべて表示 ] を選択します。</block>
   <block id="75ab0e119891809d63bcc8c56b8c2793" category="cell">ダッシュボードで健全性属性ウィジェットを選択するか、すべて表示を選択してすべてのアクションとリスクのリストを表示します。</block>
   <block id="7a8e71d910db3b72c9392f6de16c626b" category="cell">セットアップウィザードが起動したら、ウィザードの指示に従ってノードをセットアップし、クラスタに追加します。以下に、ウィザードでの手順を示します。</block>
   <block id="1a06075f56c7d5e9e311fe51b475db66" category="cell">セットアップウィザードが表示されます。このウィザードで、ノードを設定してクラスタに追加する簡単な手順を説明します。</block>
@@ -167,16 +156,13 @@
   <block id="512c554de100f0a0303aff43a4938548" category="cell">システムをどのようにセットアップしてインストールしますか？複数のコンテンツ形式での手順を説明しますが、学習方法は知っているものだけです。</block>
   <block id="5c95199f716f82b32872292114a229c6" category="cell">システムの設置とセットアップをガイドするコンテンツフォーマットタイプを選択します。</block>
   <block id="a6cf0a00702e536a363628733d5213a4" category="section-title">簡単に記入してください</block>
-  <block id="b298933aad8731ee717027872a8dabf8" category="paragraph">複雑で大きな言葉は避けてください。シンプルに管理あなたは専門の同僚に何かを説明していますが、語彙は表示されません。</block>
   <block id="724de70f821b15b77c199ba6c3c78a52" category="paragraph">** これではなく ** 「 NetApp Cloud Central アカウントからユーザを削除する」</block>
   <block id="4ce32d6ad30ddad687a9afb502393612" category="paragraph">** これを実行 ** ：「 NetApp Cloud Central アカウントからユーザを削除してください」</block>
   <block id="33d3bee5bdc5b545c2ff65c8aae964bc" category="section-title">最小限の情報を書き込みます</block>
-  <block id="38001d100fec2d1dcdfc105a2ae60826" category="paragraph">短い簡潔な文章で、コンテンツの読み取りやスキャンが簡単になります。より長い文章を今すぐ使用しても問題ありませんが、より短い文章をフォローしてください。いいですね。</block>
   <block id="277b7e6928cc03b89a034957458a45da" category="paragraph">** これよりも ** ：「 AWS および他のネットワークの ONTAP システムの Cloud Volumes ONTAP システム間でデータをレプリケートするには、 Amazon VPC と他のネットワーク（たとえば、 Azure VNet または企業ネットワーク）間に VPN 接続が必要です。」</block>
   <block id="82cbaceb5cc1b3b8f540b9fdf3f6ce57" category="paragraph">** これを実行 **: 「ネットワーク間のデータレプリケーションには VPN 経由の接続が必要です。たとえば、 Amazon VPC と企業ネットワークの間、または AWS と Azure の間などです。」</block>
   <block id="d96895205deeecea5fd74faa492c18cc" category="paragraph">も参照してください <block ref="8cb72eb8cdc2204aae415c32d9befda5" category="inline-xref-macro-rx"></block>。</block>
   <block id="8e7628e7047272997974cb838b8802bb" category="section-title">積極的に書く</block>
-  <block id="18e434c4fc4101ee7ce1f57f64538979" category="paragraph">受動的な声を避けることは技術的な記述のための標準的な規則であるが、会話をしたいときは特に活動的な声を使用することは重要である。</block>
   <block id="e7f1238ab8b35c783b4369d921ea7697" category="paragraph">** この ** ではなく ** ：「最初のクラスタを展開する前に、必要な権限を提供する必要があります。」</block>
   <block id="de3a57bf9669fa7f4f6095f285c91a30" category="paragraph">** これを実行 **: 「最初のクラスタを展開する前に、必要な権限を指定してください。」</block>
   <block id="24cceca19bc255113b993d523dbb1606" category="paragraph">も参照してください <block ref="7bec9538d082ed3ef031877eda02f047" category="inline-xref-macro-rx"></block>。</block>
@@ -185,7 +171,6 @@
   <block id="d658c6f2741d4739bd62749a7c146725" category="paragraph">ネットアップ製品のコンテンツを作成する際には、デグレード、人種差別、表現力の低下と解釈される言語は使用しないでください。その代わりに、ドキュメントを使用する必要があるすべてのユーザーにアクセスして歓迎される言語を使用してください。たとえば、「マスター / スレーブ」ではなく「プライマリ / セカンダリ」と指定します。</block>
   <block id="c0453e84074ee6c764cfff4036e7a5c6" category="paragraph">すべての非包括的な言語をドキュメントや製品から削除するために、私たちは取り組んでいることを知っています。現在は、当社の標準とベストプラクティスに積極的に取り組んでおり、将来的に追加のガイダンスを提供してこのセクションを更新する予定です。</block>
   <block id="4b836daed67a5f68f01caa4387d2997b" category="section-title">その点に到達します</block>
-  <block id="13d17bb08bd45206448047778da1b7f1" category="paragraph">まず、ユーザーにとって重要なことから始めます。ユーザが何をしようとしているかを調べ、その目標を達成するための支援に焦点を当てます。</block>
   <block id="32c2a7211a973f6ee77acc3d1be224e6" category="paragraph">** これよりも ** ： Cloud Sync では、転送中のデータ暗号化を使用して、ある NFS サーバから別の NFS サーバにデータを同期できます。データを暗号化すると、ネットワーク上でデータを転送するための厳格なセキュリティポリシーがある場合に役立ちます。」</block>
   <block id="1aa40d7589b9dc222cf6a6724ee49913" category="paragraph">** これを実行 **: 「企業が厳格なセキュリティポリシーを持っている場合は、転送中のデータ暗号化を使用して、異なるネットワーク上の NFS サーバ間でデータを同期します。」</block>
   <block id="a361775444b7090a1bfe12fd4cbcfa6d" category="section-title">多くのビジュアル要素を使用します</block>
@@ -201,9 +186,7 @@
   <block id="7aa31077b5ec51459df6b7f159c11f4a" category="list-text"><block ref="7aa31077b5ec51459df6b7f159c11f4a" category="inline-link-rx"></block></block>
   <block id="47945a33d278a568329ca94149c9de10" category="list-text"><block ref="47945a33d278a568329ca94149c9de10" category="inline-link-rx"></block></block>
   <block id="48b0365b286aecd7e2fa7fad18b782c3" category="section-title">ユーザの目標やその目標の特定の側面に焦点を当てます</block>
-  <block id="4e343630a75c3e40f896bf1b3949e932" category="paragraph">一連のタスクの実行方法を説明している場合は、概念や参照ベースの情報など、一連のセクションのすべてのページを 1 つのページにまとめます。ページをいくつかのミニページに分割しないでください。そのためには、クリックが多すぎます。同時に、長い、威圧的なページを作成しないでください。ページが長すぎる場合は、最善の判断で決定してください。</block>
   <block id="bbd886ca20f28831914094c490a3750a" category="list-text"><block ref="bbd886ca20f28831914094c490a3750a" category="inline-link-rx"></block></block>
-  <block id="80919881084bfcbd235a91900f343911" category="section-title">ユーザーの目標に沿ってコンテンツを整理する</block>
   <block id="efec69bedd6bf6180648cc5205533500" category="paragraph">必要なときに必要な情報を検索できるようにユーザを支援します。コンテンツを次のように整理することで、ドキュメントの内外にできる限り迅速に配置できます。</block>
   <block id="c7c09212616a4a2622a565139e7747b4" category="list-text">左側ナビゲーションの最初のエントリ（高レベル）</block>
   <block id="5897a788a4b61495b4004511efbbbdca" category="list-text">ユーザーが達成しようとしている目標に沿ってコンテンツを整理する。たとえば、データの利用や保護などを行います。</block>
@@ -224,9 +207,6 @@
   <block id="e7c58fb2c1e9e7aeaf7a80bc212c873e" category="list-text">専門用語、口語、および比喩は避けてください。</block>
   <block id="57767c4e6018050031f1ad01a5fb80c4" category="list-text">テクニカル以外の例は避けてください。</block>
   <block id="dd13126a02977b1e5fa5494f561a633f" category="list-text">ハードリターンと間隔を使用しないでください。</block>
-  <block id="cf69f9e6df2c429e1272656be751b491" category="list-text">ユーモアや皮肉を使わないでください。</block>
-  <block id="2969189a292b348bb185765b8fd945e2" category="list-text">差別的なコンテンツは使用しないでください。</block>
-  <block id="21a8b957c78ffc7ccd09aaad0b47c584" category="list-text">特定のペルソナに向けて作成する場合を除き、性別に偏った言語を使用しないでください。</block>
   <block id="16d11ee29f6f290bcb8babae3728286f" category="section-title">A~Z のガイドラインです</block>
   <block id="9fdb82acade07b9103cacdcaa0d9ab74" category="section-title">アクティブな音声（「パッシブな音声」とは対照的）</block>
   <block id="b9a359c8e1d57c92c8c83c4735d269c7" category="paragraph">アクティブな音声では、文の主題はアクションの doer です。</block>
@@ -237,9 +217,7 @@
   <block id="e43565b3dce418b9df37a2f9ccbcc4bd" category="list-text">システムが正しくシャットダウンされていない場合は、警告メッセージが表示されます。</block>
   <block id="2c8e117631c6f08c9039f90314fd8195" category="list-text">ネットアップは契約を獲得しました。</block>
   <block id="9fda5fb9a772f0024a87367f5cea4555" category="paragraph">次の場合にパッシブボイスを使用：</block>
-  <block id="003ceb47259c89d1527affc67a914633" category="list-text">アクションを実行したユーザーや実行した内容がわからない。</block>
   <block id="c012fbf53ac9515a3c6afd27e2d55d47" category="list-text">アクションの結果に対するユーザーの責任を回避したい場合。</block>
-  <block id="071c14989c3de25d0d36396910447945" category="list-text">前提条件に関する情報など、その情報を記述することはできません。</block>
   <block id="af64200956f4064e1a823bf61e40dff2" category="paragraph">その他の動詞の規則については、次を参照してください。</block>
   <block id="00c1d9795bac737a221ed9550c76fa9c" category="inline-link">『 Microsoft Writing Style Guide 』</block>
   <block id="028b46cc7b75d3506f83fd48efbdd6ec" category="list-text"><block ref="028b46cc7b75d3506f83fd48efbdd6ec" category="inline-link-rx"></block></block>
@@ -250,7 +228,6 @@
   <block id="33f6518588649a99a675cf3b6920a297" category="section-title">モニター</block>
   <block id="51081b1df080a1e17eccc89518ca8d20" category="paragraph">次のラベルを使用して、メインコンテンツフローとは別にコンテンツを識別します。</block>
   <block id="10de4bc81f754b19b0d27246a0589c05" category="list-text">注</block>
-  <block id="13979727d586bab6e8bda11cdad7ad56" category="paragraph">テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要としない「知るべき情報」については、メモを使用しないでください。</block>
   <block id="1eab470a6f707b92e15040773251a746" category="list-text">ヒント</block>
   <block id="80de2a8faacb1711bb579e0ee9293a10" category="paragraph">ヒントは、デフォルトで常にベストプラクティス情報を文書化するというポリシーであるため、慎重に使用してください。必要に応じて、ヒントを使用して、ユーザーが製品を使用したり、ステップやタスクを簡単かつ効率的に完了したりするのに役立つベストプラクティス情報を含めます。</block>
   <block id="18a970540d05e11964e25e6c04e72b53" category="list-text">注意</block>
@@ -260,20 +237,16 @@
   <block id="5a3a871d7d2309eb3e1156a1b1feab07" category="list-text">「 1 回」のみを「 1 回」を意味します。</block>
   <block id="07ccfe360dce69b84595428e2ec1c1cc" category="section-title">また</block>
   <block id="06957db97049767f064edfa829e41728" category="list-text">「追加」を意味するには、「も」を使用します。</block>
-  <block id="d48a5e563d03d65fabf3db8a9546bc47" category="list-text">「または」を意味するために「また」を使用しないでください。</block>
   <block id="db9cdfa0cd758f90d8341ab3a5f4ff2b" category="section-title">および / または</block>
   <block id="5b2f3b950d84523641b7e094eeec8e24" category="paragraph">用語がある場合は、より正確な用語を選択します。どちらの用語も他の用語より正確でない場合は、「 AND / OR 」を使用します。</block>
   <block id="f970e2767d0cfe75876ea857f92e319b" category="section-title">として</block>
-  <block id="6a31e21ec82baa6c20bac757bffc72eb" category="paragraph">「理由」を意味するために「 As 」を使用しないでください。</block>
   <block id="1bc7acda049c903a563634db1454818a" category="section-title">を使用する（「使用」または「 with 」を使用する）</block>
   <block id="c8142131cc29833653036fdf1342fc5f" category="list-text">を使用しているエンティティが件名である場合は、「を使用して」を使用します。「コンポーネント」メニューを使用して、新しいコンポーネントをリポジトリに追加できます。」</block>
   <block id="a677e1f957506ca7882c7b477cfba6d5" category="list-text">文中の先頭には、「 using 」または「 with 」を使用できます。これらの文は、製品名に応じて使用できます。「 Using SnapDrive 、 you can manage virtual disks and Snapshot copies in a Windows environment. 」</block>
   <block id="209aa0af78a1d2f904e56e0c68cea78f" category="section-title">可能（「かもしれない」、「かもしれない」、「すべき」、「すべき」、「すべき」）</block>
   <block id="cb220724d35d1167bbd7aefdac36544d" category="list-text">「 CAN 」を使用して、機能を示します。「この手順の実行中はいつでも変更をコミットできます。」</block>
   <block id="eb8d13d99bb47a62875974eabf7f17a2" category="list-text">「複数のプログラムをダウンロードすると処理時間に影響する可能性がある」という状況を示すには、「次の場合があります」を使用します</block>
-  <block id="1c4e024c5aa9af9183ac743eb6869ed0" category="list-text">「場合によっては」を使用しないでください。これは、機能または権限のどちらかを意味する可能性があるため、あいまいです。</block>
   <block id="2cc35eb381bb87884eea68b6830e3f6f" category="list-text">推奨されているがオプションのアクションを示すには、「すべき」を使用します。代わりに、「推奨」などの別のフレーズを使用することを検討してください。</block>
-  <block id="dfa94a25086a223dac36e5bfddb69ab8" category="list-text">「必須」はパッシブなので使用しないでください。命令的な音声を使用して、思考を命令として再調整することを検討してください。「必須」を使用する場合は、これを使用して必要なアクションまたは条件を指定します。</block>
   <block id="0e18a46a2b02489fafa6c6df3df6cd0e" category="section-title">資本金</block>
   <block id="b63f5554f4f480aa1ef79652ec27ee13" category="paragraph">ほとんどすべての場合、文スタイルの大文字と小文字を使用します。大文字のみ：</block>
   <block id="9dee471d50e8b5fed02a8a6cbbb90cea" category="list-text">表の見出しを含む、センテンスと見出しの最初の単語</block>
@@ -284,15 +257,10 @@
   <block id="b6dea776027677497d9ec4e6845882fb" category="section-title">注意事項</block>
   <block id="4ad5d623c472c8819c4f6851ac9feb1a" category="paragraph">を参照してください <block ref="8b099210f8d5e10883a9054cab340bdd" category="inline-xref-macro-rx"></block> メインコンテンツフローとは別にコンテンツを識別する他のラベル。</block>
   <block id="6ae8e6245174ea624fcc4a1336dd05af" category="section-title">一貫性</block>
-  <block id="d2c92861c000091d81a0411ab74d3b21" category="paragraph">「プロフェッショナルな同僚に何かを説明しているときは、あなたが話しているように書きます」とは、全員が違うことを意味します。アバナードのプロフェッショナルな会話スタイルは、ユーザーとのつながりを支援し、複数の貢献者の間で軽微な不整合の頻度を高めます。</block>
-  <block id="e25398dfd5577f409da4898205f8be16" category="list-text">コンテンツを明確にして使いやすくすることに重点を置いています。すべてのコンテンツが明確で使いやすい場合、若干の不整合は問題になりません。</block>
-  <block id="188004c76eeadf5c3e45ab44d5faa3bc" category="list-text">作成しているページ内で一貫性を保ちます。</block>
   <block id="abd401c81b52a092eef7f29c422e5a5d" category="list-text">のガイドラインに必ず従ってください <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>。</block>
   <block id="322669f84f436ca5d7fcc2d36731876a" category="section-title">収縮</block>
   <block id="0667b9338a10390acafe32ae7c3b1521" category="paragraph">収縮は会話の口調を補強し、多くの収縮は理解し、翻訳することが容易である。</block>
   <block id="8d4dafc6ad003b14fa5e30dbddf58fa2" category="list-text">これらのような収縮を使い、理解しやすく、翻訳も簡単です。</block>
-  <block id="de50b823bbd4a96bc08ef43cb15fe379" category="cell">ありません</block>
-  <block id="fdd70d5503ea1b3645849f7fed4719e9" category="cell">あなたはです</block>
   <block id="4de6581944a6bd25ecc90a52947add4c" category="cell">ありません</block>
   <block id="075a959179a3ff15345c5865a10c5435" category="cell">ネットアップは</block>
   <block id="f8291da3d6882dd7a1c80846efe60c1c" category="cell">はいませんでした</block>
@@ -300,18 +268,11 @@
   <block id="a3252eb3d0451297e8a3214fcbc9ed7f" category="cell">ありませんでした</block>
   <block id="3f347890f95ef75c2eacb4f01c622ac9" category="cell">それでは</block>
   <block id="db8b923a9180129ba0052fbcd986f8b9" category="cell">分かりませんでした</block>
-  <block id="860409e835ddff6374e51f7a60a2f61f" category="cell">（将来の緊張が必要な場合）</block>
   <block id="59a7709f7ee8c9dadf75615cbe4a79cf" category="cell">ありません</block>
   <block id="3c2bb9e95fa5b8a7d4e0a0d41ad5b86f" category="cell">できない（将来の緊張が必要な場合）</block>
   <block id="5970929a425637241abb7a44591e32b3" category="cell">しないでください</block>
   <block id="a4b1e16e36a349a9247d2137cac483f8" category="cell">将来の緊張感が必要な場合は、</block>
   <block id="fa4dcd229606d27eb80b780e6fb39231" category="list-text">これらのような逆収縮は、理解して翻訳するのが難しいため使用しないでください。</block>
-  <block id="22b0516e4e0a6a24068d27acc265a339" category="cell">可能性があります</block>
-  <block id="9ec050339edf939566225955c7a46050" category="cell">必要です</block>
-  <block id="7ca6e0da2078511cbe3eb53169be8ca6" category="cell">お持ちではありません</block>
-  <block id="f4a539d06503e1f877ecb52f310cc7c3" category="cell">お持ちではありません</block>
-  <block id="caa5017c91c79ca997ec48aa33e90fc9" category="cell">可能性もあります</block>
-  <block id="dbc501eb79216263386ba3cfe3cd39b4" category="cell">できませんでした</block>
   <block id="ab3eb88106f999d04a740ab008a0767b" category="section-title">（「確認」または「検証」とは対照的に）</block>
   <block id="164762d67b4e5fe97d86d9a9f282ea25" category="list-text">「確認」を使用して、「確認」を意味します。 必要に応じて、「それ」を含めます。「図の周囲に十分な白いスペースがあることを確認してください。」</block>
   <block id="3676fe680dc352d532d7e7d2de7067e9" category="list-text">「確認」は、約束や保証を意味するものではありません。「 ONTAP クラスタで NFS ボリュームと CIFS ボリュームをプロビジョニングできるように、 Cloud Manager を使用してください」</block>
@@ -323,7 +284,6 @@
   <block id="b3d1bd6a249a6a85c42bc5762cec6e1f" category="section-title">文法</block>
   <block id="6d327be841a032bf5396053a09819082" category="paragraph">特に明記されていない限り、文法、句読点、および次の表記法に従ってください。</block>
   <block id="edddbccf5720c62aea76f84134446e73" category="section-title">そうでない場合は</block>
-  <block id="f7bcb4d9c40e5093371e80d29232d20d" category="paragraph">以前の文を参照するために、「そうでない場合」だけを使用しないでください。</block>
   <block id="5d057fbef3fbf1f4ea61254d664eb909" category="paragraph">** この ** ではなく ** ： " コンピュータはオフになっている必要があります。そうでない場合は、オフにします。」</block>
   <block id="f7374e56bb0693536626afe622146018" category="paragraph">** これを実行 ** ： " コンピュータがオフになっていることを確認してください。 "</block>
   <block id="41306d987ed3cbd9c35fe26b8ad29056" category="section-title">IF （「いつ」または「いつ」のどちらか）</block>
@@ -337,9 +297,7 @@
   <block id="b3ea8b01998e78b3c2e70cc88ad4b0d5" category="list-text">パッシブボイスの代わりに必ず音声を使用することを検討してください。</block>
   <block id="84509c9c0ef2e15f9f3c90a682fb0f76" category="list-text">概念的な情報とリファレンス情報に手順を組み込む場合は、 imperative voice を使用しないでください。</block>
   <block id="c797af56551596c24b34d61ad167502b" category="section-title">IP アドレスと IPv6 アドレス</block>
-  <block id="cf4dbcf0b519eef649f72bb2f26667ce" category="paragraph">たとえば、 IP アドレス（ IPv6 を含む）の場合は、「 10.x 」で始まるアドレスを含めても安全です。</block>
   <block id="cb277327ff86def837ef04f0405c226e" category="section-title">今後の機能またはリリース</block>
-  <block id="3b07962f1c1c4dc7bf28b0e7e5894a84" category="paragraph">今後リリースされる製品や機能のタイミングや内容を参照しないでください。ただし、機能が「現在サポートされていません」である場合を除く。</block>
   <block id="e843eeb69636fc6020ca63dad53b5ffb" category="section-title">技術情報アーティクル：「 Referring to</block>
   <block id="8aacbd721ee842f62c002641bc604a42" category="paragraph">該当する場合は、 KB （ネットアップナレッジベース）記事を参照してください。リソースページおよび GitHub コンテンツの場合は、リンクを実行中のテキストに配置します。</block>
   <block id="e6dbca21d4865b265ca2780205b19305" category="section-title">リスト</block>
@@ -349,7 +307,6 @@
   <block id="2338eb397c8abd6df9094da8edbe3fdf" category="list-text">リストエントリは、できる限りスキャン可能にする必要があります。リストエントリをスキャン可能な状態に保つ方法でテキストのブロックを避けます。</block>
   <block id="abbf51d81adc3957b31167816443126c" category="list-text">リストエントリは大文字で開始する必要があり、リストエントリは文法的に平行である必要があります。たとえば、名詞または動詞を使用して各エントリを開始します。</block>
   <block id="17de64fcb1f9b55eb373463234c451ae" category="list-text">すべてのリストエントリが完全な文の場合は、ピリオドで終了します。</block>
-  <block id="39b94dd9d8c6008e5e0e0d194931bc90" category="list-text">すべてのリストエントリが文の断片の場合は、ピリオドで終了しないでください。</block>
   <block id="a5b9dd23d74280fb7ba58e82cac098a5" category="list-text">リストエントリは、アルファベット順や年代順に並べ替える必要があります。</block>
   <block id="0662a73e1733968abaea58a21d0e7d99" category="section-title">ローカリゼーション</block>
   <block id="b3d4c2782746a809f3e060ca4df45342" category="paragraph">を参照してください <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>。</block>
@@ -381,7 +338,6 @@
   <block id="12b631fee9688baf4ba19b15eb1b9c4a" category="list-text">手順：「最初のクラスタを展開するために必要な権限を指定します。」</block>
   <block id="af3162878fb6cb3441b612fc24d1b4c9" category="section-title">以前（「前」、「前」、または「前」）</block>
   <block id="9758d401c21b103ae3b3d6a0298a62b1" category="list-text">可能であれば、「前」を「前」に置き換えます。</block>
-  <block id="7effb64d7843e7c28ac29184b711fbe5" category="list-text">「前」を使用できない場合は、「前」を形容詞として使用して、以前に発生したことや重要度の高いことを参照します。</block>
   <block id="c96fcf3c64cb5227a1879dda06698dd6" category="list-text">「前へ」を使用して、事前に指定されていない時間に発生したことを示します。</block>
   <block id="883ff354ec6bc47d0be7d29cb8c8423c" category="list-text">「先行」を使用して、事前に発生したことを示します。</block>
   <block id="9ac6d441030eb0844ffb83ba4f100c94" category="section-title">句読点</block>
@@ -389,7 +345,6 @@
   <block id="2182d64dc233fbc158d44298889d9f56" category="list-text">3 つ以上の品目の説明リストで、組み合わせ（「 AND 」または「 OR 」）の前にシリアルカンマ（ Oxford コンマ）を使用します。</block>
   <block id="0d04ba12e7e714d951125d0424b0ff70" category="list-text">セミコロンとコロンの使用を制限します。</block>
   <block id="50324905c471f3d4d61f7d3f723f3644" category="section-title">以来</block>
-  <block id="c9ab9b1734a90fc3a6b9b87d9aabaf55" category="paragraph">「経過時間」を示すには、「経過時間」を使用します。「理由」を意味するために「以降」を使用しないでください。</block>
   <block id="fe8ec90a5524db5c338d82b17517dcdb" category="section-title">スペルチェック</block>
   <block id="da01f0261195de207a317ade84c7ce2a" category="section-title">それ（「誰が」）</block>
   <block id="9901f54d0e3e057debd17f5d8f8e5c04" category="list-text">（末尾にカンマを入れずに）「 that 」を使用して、文が意味を持つようにするために必要な句を説明します。</block>
@@ -399,32 +354,22 @@
   <block id="bf611303b2be9960071c292c79b44a34" category="section-title">TIP 情報</block>
   <block id="3d5cfd3d5e627e33b27fadb6b405a1dd" category="section-title">商標</block>
   <block id="e273e00cc1e1e5b94a098e24137cf85e" category="inline-link">ネットアップの商標</block>
-  <block id="a21f9a3a9f34f12ba952d46e928679fd" category="paragraph">ほとんどの技術コンテンツには商標記号は含まれていません。これは、テンプレートに記載されている法的記述が十分であるためです。ただし、を使用する場合は、すべての使用規則に従ってください<block ref="2e2a247b84825e1844201424214689d3" category="inline-link-rx"></block>：</block>
   <block id="20771c4637e265828d5e2a091ea4c61b" category="list-text">商標用語は、形容詞としてのみ使用し、名詞、動詞、または口頭として使用しないでください。</block>
-  <block id="1633071dc1a74c21f19f086be4f91780" category="list-text">商標用語を省略、ハイフンで区切る、または斜体にしないでください。</block>
-  <block id="a1e00e9673f04704b72c69d34ca8e8fe" category="list-text">商標のある用語を盗もうとしないでください。複数形が必要な場合は、商標名を形容詞として使用し、複数形名詞を修正します。</block>
-  <block id="8faef2d0a92049ea443f4b932f913298" category="list-text">商標用語の独占的形式は使用しないでください。ネットアップなど、ネットアップの会社名は、商標登録用語ではなく一般的な意味で使用されている場合に、独占的な形式を使用できます。</block>
   <block id="41d8e72b4f5f3cc4857e431dec4e269c" category="section-title">ユーザインターフェイス</block>
   <block id="9d82d4741b1969a54d01e8bf171afc7e" category="paragraph">ユーザを誘導するには、可能な限りインターフェイスを使用します。</block>
   <block id="d82cb0209a5722e763aa8eb79a8868f1" category="section-title">一般的なガイドライン</block>
   <block id="5355febad7711fb3953aa0a70799f4a3" category="paragraph">当社の UI 文書化のスタイルはシンプルで最小限です。</block>
   <block id="b8b563f55b69e0abca0d50aa6d8fdcc5" category="list-text">ユーザーがコンテンツの読み取り中にインターフェイスを使用しているとします。</block>
   <block id="9b63f1e2091c52c7e2a1cdd189e7a586" category="list-text">ユーザをガイドするには、インターフェイスを使用します。</block>
-  <block id="f5312bdeca5306d070589cf57f03b0de" category="list-text">ユーザーがウィザードや画面の手順を一歩ずつ進めないようにしてください。インターフェイスから明確でない重要な事項のみを呼び出します。</block>
-  <block id="219b180f29bb4082f0a3f13fbf13627a" category="list-text">「 OK 」をクリックしたり、「保存」をクリックしたり、「ボリュームが作成されている」、またはタスクを実行している人にとって明らかなその他のものを含めないでください。</block>
   <block id="1b8d1f910b382b0cc9563c9a6075268d" category="list-text">成功を想定します。ほとんどの場合、処理が失敗すると予想される場合を除き、障害パスは文書化しないでください。インターフェイスが適切なガイダンスを提供しているとします。</block>
-  <block id="10fa8199a030925455c84c7a1ac5f645" category="list-text">「クリック」は使わないでください。マウス、タッチ、キーボード、その他の選択方法をカバーするため、必ず「 SELECT 」を使用してください。</block>
   <block id="cfb6729137a6d954b8da252581dd2b3a" category="list-text">お客様のユースケースに対応し、ワークフローを開始するためにユーザをインターフェイス内の適切な場所に配置するためのワークフローに、コンテンツを集中的に配置します。</block>
   <block id="678db84be7d1b3a0571d0bd4777deb5b" category="list-text">ユーザーの目標を達成するための最良の方法の 1 つを常に文書化してください。</block>
   <block id="2e4ba66275505e14599da983d8966f0d" category="list-text">ワークフローで重大な決定が必要な場合は、必ず決定規則を文書化してください。</block>
   <block id="a69f6b92d1b2cc6e712a2bb8ae42b9ce" category="list-text">ほとんどのユーザには、最低限必要な手順を使用します。</block>
   <block id="c8ac8ac544647d0524755cbe9b3c4f13" category="section-title">UI 要素に名前を付ける</block>
-  <block id="f6f6dda79f3e2b59e925c9cc39f4b8b1" category="paragraph">UI 要素に名前を付ける必要がある細分性レベルにドキュメント化しないでください。インターフェイスを使用して、インタラクションの詳細をユーザーに説明します。特定のラベルを取得する必要がある場合は、そのラベルに名前を付けます。たとえば、「目的のボリュームを選択」または「既存のボリュームを使用」を選択します。 メニューやラジオボタン、またはチェックボックスに名前を付ける必要はありません。ラベルを使用してください。</block>
-  <block id="227d3e514604389d1db2b12eb3ed2d5a" category="paragraph">ユーザーが選択する必要があるアイコンの場合は、アイコンの画像を使用します。名前を付けないでください。このルール環境では、矢印、鉛筆、ギア、 kabob 、ハンバーガー、 など。</block>
   <block id="ea403515c7449c382f3a20bd19ddbd50" category="section-title">表示されているラベルを表します</block>
   <block id="5b078359de5ea1377775cc2c12b42a23" category="paragraph">ラベルを識別するときは、ユーザインターフェイスで使用されるスペルと大文字小文字の区別に従ってください。ラベルの後ろに省略記号が付いている場合は、オブジェクトの名前に省略記号を含めないでください。ユーザインターフェイスラベルにタイトルスタイルの大文字と小文字を使用して、ユーザインターフェイスラベルについて簡単に記述できるようにするように開発者に勧めてください。</block>
   <block id="4ef516ca2cc08cdcd670e074e779540e" category="section-title">スクリーンキャプチャを使用する</block>
-  <block id="94d97b8df621fd69669b2aa6dfafa642" category="paragraph">スクリーンキャプチャ（「スクリーンショット」）は、ワークフロー中にインターフェイスを開始または変更するときに、インターフェイス内の適切な場所にいることをユーザが確信できるようにします。入力するデータや選択する値をスクリーンキャプチャで表示しないでください。</block>
   <block id="7e98c78138dbc7722a43f387f4052b09" category="section-title">一時的（「はい」）</block>
   <block id="feb46c67d37a04caac252d715c9e4613" category="list-text">「 While 」を使用して、時間内に発生していることを示します。</block>
   <block id="21356e57c78537682c670e8c101a558f" category="list-text">「はい」を使用して、ほぼ同じ時間に発生する、または別のアクティビティの直後に発生するアクティビティを表します。</block>
@@ -439,23 +384,17 @@
   <block id="5b1673a33a3bc92200f7685076cfb382" category="paragraph">ネットアップの製品とサービスのドキュメントはオープンソースで提供されています。これにより、改善、修正、提案を行うことで、コンテンツに貢献できます。必要なのは、 GitHub アカウントと少しのイニシアチブだけです。</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">概要</block>
   <block id="f1eb983643f08d3d76ff0c9dcdd99f9b" category="paragraph">ドキュメントには次のオプションを使用して投稿できます。</block>
-  <block id="8cde20289ec80332bf3964328635ceb5" category="list-text">[ ドキュメントの変更をリクエスト ] をクリックして一般的なフィードバックを送信するか、コンテンツに関する質問をします。ネットアップのコンテンツリーダーがリクエストを確認し、ドキュメントに必要な変更を特定します。これが最も一般的なオプションです。</block>
   <block id="23d6db8a7a0210825154e8421432bd93" category="inline-xref">このオプションの詳しい手順を確認してください</block>
   <block id="7529a6aeec9295f2f09df129b4d04439" category="paragraph"><block ref="bdef3b81bca2a18babf456d240e884c2" category="inline-xref-macro-rx"></block>。</block>
-  <block id="f9acf8da15ab4fb5a75a7c0351d299b6" category="list-text">コンテンツを自分で直接編集するには、 [ このページを編集 ] をクリックします。ネットアップのコンテンツリーダーが編集内容を確認し、マージします。</block>
   <block id="fc6fa4fa9c3500ee1dd0b740b3114c08" category="paragraph"><block ref="c1785ec6df9b224ef79cf3c09e64e1f0" category="inline-xref-macro-rx"></block>。</block>
   <block id="c32408dce34914d1382b48004c1bf8b6" category="paragraph">ドキュメントの変更リクエストを提出することは、ネットアップのドキュメントを作成するための最も一般的な方法です。リクエストを送信すると、コンテンツリーダーがフィードバックを受け取ったことを確認します。GitHub から電子メール通知が送信されます。</block>
   <block id="7c7af2a4854e39ebf4680896ae4a923c" category="paragraph">コンテンツリーダーが、コンテンツの品質を向上させることができることに同意した場合は、その直後に変更をコミットします。フィードバックが反映されたことを知らせる通知が表示されます。</block>
   <block id="a05fae06f0ea6344a1a2e3664f26c452" category="admonition">ユーザが入力したコメントはすべて一般に公開されています。GitHub リポジトリで問題に移動した人は誰でもコメントを見ることができます。</block>
   <block id="f8bf3ad3550f95af891e242fcfff7b8a" category="inline-link">docs.netapp.com</block>
   <block id="8a4e27c18032ec0b6639a19d635d31e4" category="list-text">Web ブラウザを使用して、のページを開きます<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> これはあなたのフィードバックに関連しています。</block>
-  <block id="1f619b573ae23c66ea41f59e590271bc" category="list-text">ページの右側で、 [ ドキュメントの変更を要求する *] をクリックします。</block>
   <block id="58d1e1d3dad3ec015e2540b3713ef488" category="paragraph"><block ref="58d1e1d3dad3ec015e2540b3713ef488" category="inline-image-macro-rx" type="image"></block></block>
   <block id="da894d315c3a28edc86e627db54669ca" category="paragraph">新しいブラウザタブが開き、ドキュメントチームに詳細を提供するためのフォームが表示されます。</block>
-  <block id="5f2272ef73288779845c4c08e2f59ebf" category="list-text">タイトルを入力し、リクエストの詳細を入力します。</block>
-  <block id="aced665f55b18038fb5c4f5d628e63ab" category="paragraph">コメントフィールドには、ページのタイトルと URL があらかじめ入力されています。この情報は削除しないでください。リクエストを理解するために必要になります。</block>
   <block id="947e4b9915f7e5c398e8dbce136bcf89" category="paragraph"><block ref="947e4b9915f7e5c398e8dbce136bcf89" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2890ce089ba2b3aaa1f10b5e3e703a49" category="list-text">[ 新しい問題の送信 ] をクリックして、リクエストの問題を作成します。</block>
   <block id="95aee4fc901facb0b53ed386f6ba53da" category="paragraph">問題を開くと、 GitHub のコメントを使用してコラボレーションを行うことができます。GitHub のアカウント設定で指定した設定に基づいて、電子メール通知が送信されます。</block>
   <block id="0e3fe7eab71196775ffe760806bbfb3e" category="paragraph"><block ref="0e3fe7eab71196775ffe760806bbfb3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1482bc2757808e2d1858d6d85b2b3760" category="section-title">ドキュメントに編集内容を送信します</block>
@@ -466,22 +405,12 @@
   <block id="10785bb6cb06604e049556197d164114" category="inline-link-macro">AsciiDoc の構文</block>
   <block id="5a154fee0d82d09b2f38381ace957a3a" category="list-text"><block ref="5a154fee0d82d09b2f38381ace957a3a" category="inline-link-macro-rx"></block></block>
   <block id="579b796bc7d54ee31ef84e8c48422971" category="list-text">Web ブラウザを使用して、のページを開きます<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> を編集します。</block>
-  <block id="7a662600d17a7a3fc3d67377bf85d44b" category="list-text">ページの右側で、「 * このページを編集する * 」をクリックします。</block>
   <block id="e7d8ad09698890d7f20cd3a3b8e95fc8" category="inline-image-macro">このページを編集します</block>
   <block id="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="paragraph"><block ref="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b59c044d870fb1294e907044621f124b" category="list-text">鉛筆アイコンをクリックします。</block>
   <block id="e2e5c2e55b331168cbbca8d31c8231aa" category="paragraph"><block ref="e2e5c2e55b331168cbbca8d31c8231aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="792d0dce959b2d9ae148b407c3b1fcdc" category="list-text">コンテンツを編集します。</block>
-  <block id="a00f3d1c6f1da7962755317b49908656" category="inline-link-macro">AsciiDoc の構文については、こちらをクリックしてください</block>
-  <block id="3064132ace3608ae734c003590fb2fe4" category="paragraph">コンテンツは、軽量マークアップ言語の AsciiDoc で記述されています。サポートが必要な場合は、 <block ref="2bedc0416ed9f3a7518e6a4699b53152" category="inline-link-macro-rx"></block>。</block>
-  <block id="2d03f964de7fdb330c454135ee653115" category="list-text">変更を確定するには、ページを下にスクロールしてフォームに入力します。</block>
-  <block id="61a1e31c63e5f226790417c1f720a1a0" category="list-text">タイトルとオプションの概要を入力します。</block>
-  <block id="72f37f83756bbfaf46021d50b742f9e1" category="list-text">* このコミットの新しいブランチを作成し、プル要求を開始 * を選択します。</block>
-  <block id="d153affd9948551a245f582eb2c07226" category="list-text">変更を提案する * をクリックします。</block>
   <block id="093fde2206aa408d480819dfd5a67301" category="paragraph"><block ref="093fde2206aa408d480819dfd5a67301" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eff336df8f860a8a23a11f39595d1d8a" category="paragraph"><block ref="eff336df8f860a8a23a11f39595d1d8a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ca8213edfdeec4eefac41aec2db1d81" category="paragraph">変更を提案したら、変更内容を確認し、必要な編集を行ってから、変更内容を GitHub リポジトリにマージします。</block>
-  <block id="b5dd88b790a83a46fee3bc8055ca8606" category="paragraph">GitHub 検索ボックスの横にある上部バナーで [*Pull requests*] をクリックすると、プル要求のステータスを表示できます。</block>
   <block id="179de754e52640d4cfddf43d10964d76" category="paragraph"><block ref="179de754e52640d4cfddf43d10964d76" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8183edfde3465c9016aab7bccd65b592" category="paragraph">2 つの注意：</block>
   <block id="88a5eb6b6d68c90223dbe1ecc9129d1a" category="inline-link">AsciiDoctor のドキュメント</block>
@@ -492,7 +421,6 @@
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">このタスクについて</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">次の手順</block>
   <block id="7acb8defb656ebd5f9decf15c05926ca" category="paragraph-title">完了したら</block>
-  <block id="58ae06b250b4f23ead9f3ff7dfe81646" category="paragraph">次のビデオでは、これらのコントリビューションオプションを使用する方法を示します。下にスクロールして、記載されている手順を確認することもできます。</block>
   <block id="e29016dcbdfa079e649a759e6f2c7d73" category="paragraph">NetAppDocsに投稿するすべての人は、次のポリシーに従うことを期待しています。</block>
   <block id="3d2f76e77fa66405170b95a4e6d0f881" category="paragraph">NetAppDocsの作成者は、次の点に留意する必要があります。</block>
   <block id="3c00452e7eb4795d729c810a473fcbc2" category="list-text">新しいテクニカルドキュメントの著作権はネットアップ社内に保持する必要があり、正式な製品リリース日および関連するテクニカルドキュメントが発行されるまでは、ネットアップ社外のAISと共有しないでください。</block>
@@ -513,4 +441,76 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="97dd767bd76bea2996ce155f6fded935" category="list-text">[ドキュメントの変更をリクエストする]*を選択して、一般的なフィードバックを送信したり、コンテンツに関する質問をしたりします。ネットアップのコンテンツリーダーがリクエストを確認し、ドキュメントに必要な変更を特定します。これが最も一般的なオプションです。</block>
+  <block id="52b3d02fd2caf09c367f6a8e47835fc2" category="list-text">コンテンツを自分で直接編集するには、*このページを編集*を選択します。ネットアップのコンテンツリーダーが編集内容を確認し、マージします。</block>
+  <block id="c9dfb8a3cf2c4d02f86adae4807900dc" category="paragraph">次のビデオでは、これら2つのオプションの概要を説明します。</block>
+  <block id="3cafc4d2380a4f8525dcaa0a65259e21" category="video-title">docs.netapp.comへの貢献の概要</block>
+  <block id="626ac697ef02a0c6709fb546054d122b" category="paragraph">以下のセクションでは、ステップバイステップの手順を説明します。</block>
+  <block id="07c96edbc201979283e816b9981511ba" category="list-text">GitHub アカウントをお持ちでない場合は、<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block></block>
+  <block id="d57a9503d361d3ae7c6c8a8901e4ec01" category="list-text">ページの上部で、*[変更の提案]&gt;[ドキュメントの変更をリクエスト]*を選択します。</block>
+  <block id="e7148b174b009d86d5508576edce5e79" category="list-text">タイトル、概要を入力し、問題に機密情報が含まれていないことを確認します。</block>
+  <block id="ce0d3c95cabd252488704b76d67de5a3" category="paragraph">フォームには、ページのURLとタイトルがあらかじめ入力されています。この情報は削除しないでください。リクエストを理解するために必要になります。</block>
+  <block id="0c390f846ca58a227d1aee296de3ecc8" category="list-text">[新しい問題を送信]*を選択して、リクエストの問題を作成します。</block>
+  <block id="6106644210508f0d3cdd2e75fbcd2426" category="paragraph">GitHubバナーから* Issues *を選択して、リクエストのステータスを表示することもできます。</block>
+  <block id="e2dcb1b61f17b0edfa4bf0efc3daa00d" category="list-text">ページの上部で、*[Suggest Changes]&gt;[Edit this page]*を選択します。</block>
+  <block id="abbfd3cb01caeb0215de02a39bcfc5db" category="list-text">鉛筆アイコンを選択します。</block>
+  <block id="d6f7cb925f7942a5f32afb8f574b2d6b" category="list-text">リポジトリのフォークを作成するように求められたら、*[このリポジトリをフォークする]*を選択します。</block>
+  <block id="c168afecd52fbcd34ad4c5b1cb309cbd" category="inline-link-macro">AsciiDocの構文について</block>
+  <block id="0ae8405b0d16e28dc8c63d65a6ffcbc3" category="paragraph">コンテンツは、軽量マークアップ言語の AsciiDoc で記述されています。 <block ref="ea8314bd523035ede707a5b1e820e8e3" category="inline-link-macro-rx"></block>。</block>
+  <block id="5a5671132212d9d3a7dd5ab13cf9feca" category="list-text">変更をコミットするには、*[Commit Changes]*を選択し、次のフォームに入力します。</block>
+  <block id="46a83309329de081f1a3c036b2c678b2" category="list-text">必要に応じて、デフォルトのコミットメッセージを変更します。</block>
+  <block id="78dbd5078284d84d925a9d3d1ed61819" category="list-text">オプションの概要を追加します。</block>
+  <block id="2e84483ed9299418b0150374661cf99c" category="list-text">[変更を提案]*を選択します。</block>
+  <block id="607644ea86d6d93cc4cdd29af464ffb4" category="list-text">[プルリクエストの作成]*を選択します。</block>
+  <block id="fc6c6e20ee1801385613951d198838c6" category="paragraph">GitHubバナーから* Pull Requests *を選択すると、プルリクエストのステータスを表示できます。</block>
+  <block id="a0bc5d64ea914c22438ad9b10a8d2bca" category="paragraph">プロの同僚に何かを説明しているときは、話すように書いてください。会話の中で文章を書くと、聞き手とつながりやすくなります。</block>
+  <block id="3564fc274e19607926c43722a0d4037c" category="cell">失敗が起こるのは楽しいことではありません。クラスタダッシュボードで何が起こったのか、何が影響を受けるのかを確認してください。</block>
+  <block id="42638156b2d0e0647061b81fe0d27503" category="cell">障害が発生すると、Cloud Tieringのクラスタダッシュボードに「失敗」の健常性ステータスが表示されます。ステータスを表示して、障害に関する情報を確認します。</block>
+  <block id="4ddc5daa3f6952d24c7f1e44afc7da05" category="cell">クラウド階層化の料金を支払う方法は 3 通りあります。もちろん、従量課金制のサブスクリプションだけでなく、 ONTAP の階層化ライセンス、あるいはその両方を組み合わせたライセンスも必要です。ただし、Cloud Managerからライセンスを取得することはできないため、Cloud Tieringサービスに直接アクセスしてセットアップするだけです。</block>
+  <block id="bd99dd6ef2e014ae56a7f23c577742dc" category="cell">従量課金制のサブスクリプション、 ONTAP 階層化ライセンス、またはその両方を組み合わせて使用して、クラウド階層化の料金を支払うことができます。Cloud Manager内からライセンスを取得することはできませんが、Cloud Tieringサービスに直接アクセスしてセットアップできます。</block>
+  <block id="c972f122e78507c540f344a4e61ce1c7" category="cell">システムの健全性属性を分析する方法は2つあります。ダッシュボードで[Wellness Attribute]ウィジェットを選択するだけです。または、健全性属性のリスト全体を1つのビューに表示する場合は、[すべて表示]を選択します。</block>
+  <block id="419e062b0a0e2775c1a54691ccef8b1b" category="paragraph">複雑で大きな言葉は避けてください。シンプルに管理あなたは専門の同僚に何かを説明していて、あなたの語彙を誇示していません。</block>
+  <block id="5d943fe7d088fe2acb6eb914be0e07b9" category="paragraph">短い簡潔な文章で、コンテンツの読み取りやスキャンが簡単になります。時 々 長い文を使っても構いませんが、短い文で続けても構いません。いいですね。</block>
+  <block id="34adf8b022c7b72afa623dd7ec748764" category="paragraph">受動的な声を避けることは技術的な執筆のための標準的な規則であるが、会話的な音を鳴らすためにアクティブな声を使用することは特に重要である。</block>
+  <block id="337aec4bab6bfffa105b941993954ccd" category="paragraph">ユーザーにとって重要なことから始めます。ユーザが何をしようとしているかを調べ、その目標を達成するための支援に焦点を当てます。</block>
+  <block id="87a0e0ee70915382c17e655bd3ffa9dd" category="paragraph">一連のタスクの実行方法を説明している場合は、概念や参照ベースの情報など、一連のセクションで1ページにまとめてください。ページを複数のミニページに分割しないでください。同時に、長くて威圧的なページを作成しないでください。ページが長すぎる場合は、最善の判断で決定してください。</block>
+  <block id="72a758f7515c20caaea0a45f816c6112" category="section-title">ユーザーの目標に沿ってコンテンツを整理する</block>
+  <block id="05a5f50f88982e6ed8b6a3f52aeebdf2" category="list-text">ユーモアや皮肉を使わないでください。</block>
+  <block id="8af7fc9385a3720c928df0ca6e942892" category="list-text">差別的な内容を使用しないでください。</block>
+  <block id="ca82ee793e3056ec4d0835ae2473a598" category="list-text">特定のペルソナのために執筆している場合を除き、性別に偏った言語を使用しないでください。</block>
+  <block id="2d26cccc873ac9d1cdacdf8bb797d5db" category="list-text">誰が、何がアクションを実行したのかはわかりません。</block>
+  <block id="5f5cba4ea52fa838a05e1f2d89ad6656" category="list-text">前提条件の情報など、周囲に書くことはできません。</block>
+  <block id="2abbe335946d2b00acf396cf266f79e5" category="paragraph">テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要ではない「知っておくと便利な」情報にはメモを使用しないでください。</block>
+  <block id="ba499125a72ffd5b8b1e00177f718b36" category="list-text">「代替」という意味で「also」を使用しないでください。</block>
+  <block id="f4023bffe0a0ebb018f9db72a2d2a6d7" category="paragraph">「理由」を意味するために「AS」を使用しないでください。</block>
+  <block id="22fa855460a1fecec0585fd7a19bc5e7" category="list-text">機能または権限のいずれかを意味する可能性があるため、あいまいな「may」は使用しないでください。</block>
+  <block id="3af0e91d720edbe50472dc244089ac4d" category="list-text">「必須」は受動的なので使用しないでください。命令的な音声を使用して、思考を命令として再調整することを検討してください。「必須」を使用する場合は、これを使用して必要なアクションまたは条件を指定します。</block>
+  <block id="e9582246b9c9dc3ba33ceb6cefb5ef42" category="paragraph">「プロの同僚に何かを説明しているときは、話したように書く」ということは、誰にとっても何か違うことを意味します。アバナードのプロフェッショナルな会話スタイルは、ユーザーとのつながりを支援し、複数の貢献者の間で軽微な不整合の頻度を高めます。</block>
+  <block id="945c6682875eec566264ce79cbd2ad0d" category="list-text">コンテンツを明確にして使いやすくすることに重点を置いています。すべてのコンテンツが明確で使いやすい場合は、小さな矛盾は問題になりません。</block>
+  <block id="e298d7e5e24682a3c8bdbb35a4fe032b" category="list-text">あなたが書いているページ内で一貫性を保ちなさい。</block>
+  <block id="5759b7c5715d057d5710c3f672f2fa6b" category="cell">そうじゃない</block>
+  <block id="56de9219979795654f00a462f479b92d" category="cell">お前は...</block>
+  <block id="284097c621ee43e2ed3a2212d29102f5" category="cell">（将来時制が必要な場合）</block>
+  <block id="d90e297e46a1967fdcc50b1b348bfb6d" category="cell">もしそうなら</block>
+  <block id="80d265e5e803c6d25656a0342dfe9058" category="cell">すべきだった</block>
+  <block id="0eab61dbc3e8ad63324f3382baf86ac7" category="cell">そんなことはしない</block>
+  <block id="368ae8075df4c346356ccb30d7017e0f" category="cell">すべきではなかった</block>
+  <block id="f53d2e2b9d5955df6129edc300678d0e" category="cell">可能性があった</block>
+  <block id="4f6cd60d5fc734e269d47ea283663717" category="cell">できませんでした</block>
+  <block id="735bfdc7bbc42ed734cb31f537471349" category="paragraph">「そうでない場合」だけを使用して前の文を参照しないでください。</block>
+  <block id="2bbd53c30d55211887b496ed8d655501" category="paragraph">たとえば、IPアドレス（IPv6を含む）の場合は、「10.x」で始まるアドレスを含めても問題ありません。</block>
+  <block id="d921ee7449d1cc46bad312a669fc1dfc" category="paragraph">機能や機能が「現在サポートされていない」と言う以外に、今後の製品リリースや機能のタイミングや内容を言及しないでください。</block>
+  <block id="a2aa669690daf70aa345dc242196842e" category="list-text">すべてのリストエントリが文の断片である場合は、ピリオドで終わらないでください。</block>
+  <block id="25cbf556f141e0456fc4754e98765063" category="list-text">「Before」を使用できない場合は、形容詞として「Prior」を使用して、時間の早い時期に発生した、または重要度の高いものを参照してください。</block>
+  <block id="9bc4b7e8f51eb64e4d558ca5a59a7ddc" category="paragraph">「経過時間」を示すには、「経過時間」を使用します。「Since」を「because」の意味に使用しないでください。</block>
+  <block id="ab9b9e78a26798d3eaa0db4706f384d3" category="paragraph">当社の技術コンテンツのほとんどに商標記号は含まれていません。これは、テンプレートの法的記述で十分であるためです。ただし、を使用する場合は、すべての使用規則に従ってください<block ref="2e2a247b84825e1844201424214689d3" category="inline-link-rx"></block>：</block>
+  <block id="ff559a115ec6086ff7a0014b09a7628a" category="list-text">商標登録されている用語を省略したり、ハイフンを付けたり、斜体にしたりしないでください。</block>
+  <block id="10705c28baf7efc3b2835cbefb6f4e3a" category="list-text">商標登録された用語を複数化してはいけません。複数形が必要な場合は、商標名を形容詞として使用し、複数形名詞を修正します。</block>
+  <block id="760515d763f215ba568e0df111ef068c" category="list-text">商標登録された用語の所有形態を使用してはいけない。ネットアップなど、ネットアップの会社名は、商標登録用語ではなく一般的な意味で使用されている場合に、独占的な形式を使用できます。</block>
+  <block id="aaa67196f34f17bf807576a3879d2ae0" category="list-text">ウィザードや画面を段階的に操作しないでください。インターフェイスから明確でない重要な事項のみを呼び出します。</block>
+  <block id="38833712b2d186bf03b201fea01c856b" category="list-text">「OKをクリック」、「保存をクリック」、「ボリュームが作成された」など、タスクを実行している人にわかりやすいものは含めないでください。</block>
+  <block id="20fa4a924392561a86abe95d269610bd" category="list-text">「クリック」はまったく使用しないでください。マウス、タッチ、キーボード、その他の選択方法をカバーするため、必ず「 SELECT 」を使用してください。</block>
+  <block id="bd62ac2d873965d23f9623cfb0176399" category="paragraph">UI 要素に名前を付ける必要がある細分性レベルにドキュメント化しないでください。インターフェイスを使用して、インタラクションの詳細をユーザーに説明します。特定のラベルを取得する必要がある場合は、そのラベルに名前を付けます。たとえば、目的のボリュームを選択するか、[既存のボリュームを使用する]を選択します。 メニュー、ラジオボタン、チェックボックスに名前を付ける必要はありません。ラベルを使用するだけです。</block>
+  <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">ユーザーが選択する必要があるアイコンの場合は、アイコンの画像を使用します。名前を付けようとしないでください。このルール環境では、矢印、鉛筆、ギア、 kabob 、ハンバーガー、 など。</block>
+  <block id="3d053f543ceb20e8d9a54ccac1275a6f" category="paragraph">スクリーンキャプチャ（「スクリーンショット」）は、ワークフロー中にインターフェイスを開始または変更するときに、インターフェイス内の適切な場所にいることをユーザが確信できるようにします。スクリーンキャプチャを使用して、入力するデータや選択する値を表示しないでください。</block>
 </blocks>
