@@ -269,9 +269,7 @@
   <block id="3f347890f95ef75c2eacb4f01c622ac9" category="cell">それでは</block>
   <block id="db8b923a9180129ba0052fbcd986f8b9" category="cell">分かりませんでした</block>
   <block id="59a7709f7ee8c9dadf75615cbe4a79cf" category="cell">ありません</block>
-  <block id="3c2bb9e95fa5b8a7d4e0a0d41ad5b86f" category="cell">できない（将来の緊張が必要な場合）</block>
   <block id="5970929a425637241abb7a44591e32b3" category="cell">しないでください</block>
-  <block id="a4b1e16e36a349a9247d2137cac483f8" category="cell">将来の緊張感が必要な場合は、</block>
   <block id="fa4dcd229606d27eb80b780e6fb39231" category="list-text">これらのような逆収縮は、理解して翻訳するのが難しいため使用しないでください。</block>
   <block id="ab3eb88106f999d04a740ab008a0767b" category="section-title">（「確認」または「検証」とは対照的に）</block>
   <block id="164762d67b4e5fe97d86d9a9f282ea25" category="list-text">「確認」を使用して、「確認」を意味します。 必要に応じて、「それ」を含めます。「図の周囲に十分な白いスペースがあることを確認してください。」</block>
@@ -487,7 +485,6 @@
   <block id="e298d7e5e24682a3c8bdbb35a4fe032b" category="list-text">あなたが書いているページ内で一貫性を保ちなさい。</block>
   <block id="5759b7c5715d057d5710c3f672f2fa6b" category="cell">そうじゃない</block>
   <block id="56de9219979795654f00a462f479b92d" category="cell">お前は...</block>
-  <block id="284097c621ee43e2ed3a2212d29102f5" category="cell">（将来時制が必要な場合）</block>
   <block id="d90e297e46a1967fdcc50b1b348bfb6d" category="cell">もしそうなら</block>
   <block id="80d265e5e803c6d25656a0342dfe9058" category="cell">すべきだった</block>
   <block id="0eab61dbc3e8ad63324f3382baf86ac7" category="cell">そんなことはしない</block>
@@ -514,4 +511,9 @@
   <block id="d2a6bdb03847dd26c195e27066ccdb58" category="paragraph">新しいブラウザタブが開き、GitHubフォームが表示されます。このフォームを使用して、ドキュメントチームに詳細を提供できます。</block>
   <block id="60a186f1a1bf3949fd214cb8c41bc66f" category="paragraph">新しいブラウザタブが開き、ドキュメントサイトのGitHubリポジトリ内のファイルに移動します。</block>
   <block id="864a308d9063db9563fd2862dc533628" category="list-text">機密文書や新規作成されたコンテンツをAI (ChatGPTまたはその他のツール)に送信しないでください。ChatGPTに入力されたすべての情報は、そのトレーニングデータセットの一部となり、OpenAIのプロパティとなり、それらとそのユーザーが使用できるようになります。これらのデータの多くは一般公開されていますが、独自のIPでモデルをトレーニングすることは避けたいと考えています。</block>
+  <block id="733e053a02d21c4877d499d0fbb4c11d" category="list-text">できません</block>
+  <block id="19aac40a7d990d8b8aa21091fd07466d" category="list-title">将来時制が必要な場合は、これらの収縮を使用しないでください。</block>
+  <block id="fc8b507a72b6956dbc043bfe0002b248" category="list-text">私たちは</block>
+  <block id="b7a61cf5d29e4ad809c301c74229b078" category="list-text">しない</block>
+  <block id="fa6c9d5de251d2da13b9f81db8da0ca6" category="list-text">お前は...</block>
 </blocks>

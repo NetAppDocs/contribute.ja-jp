@@ -3,15 +3,12 @@ sidebar: sidebar
 permalink: ai-policy.html 
 ---
 = ネットアップのテクニカルドキュメントに記載されているAI生成コンテンツの使用を禁止するポリシー
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
