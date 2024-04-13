@@ -138,17 +138,9 @@
   <block id="88c3dc92387f534cb0d262ec1e8f1bb2" category="doc">ネットアップのドキュメントのスタイルガイド</block>
   <block id="e2d0dae9d76032e451e39d8e99304566" category="paragraph">私たちのスタイルは会話型で共感的ですが、プロ意識を維持し、その点に到達しています。ネットアップのドキュメントのコンテンツを作成する際は、次のガイドラインに従ってください。</block>
   <block id="99cadf0b9e522abf385884bbba7ba292" category="section-title">書き込みの変換</block>
-  <block id="7d0edd1178aac4fd80f275d473a2bbba" category="admonition">大きな声で書き出してください。アメリカの小説家およびスクリーンライター、 Elmore Leonard が言ったように、「それが執筆のように聞こえたら、私はそれを書き直します。」。</block>
   <block id="14162950f27b607637ed0c3681ea338c" category="cell">形式が多すぎます</block>
   <block id="706ee9fc99a081223cc401929741a52a" category="cell">カジュアルすぎます</block>
   <block id="e3d632fe289ec28c552b21075d04a8fc" category="cell">私たちのスタイル</block>
-  <block id="e79230b3b0562e674e6294e0554d48d4" category="cell">Cloud Tiering で問題が発生した場合は、クラスタダッシュボードに健全性ステータスを表示して、エラーの原因を特定できます。ヘルスは、 ONTAP システムとサービスコネクタのステータスを表します。</block>
-  <block id="09083b2e235c493fdbe1bd76c4fc1759" category="cell">クラウド階層化の料金はさまざまな方法で支払うことができます。従量課金制のサブスクリプションを使用してクラウド階層化の料金を支払うか、 ONTAP 階層化ライセンスを使用して料金を支払うか、または両方を組み合わせて料金を支払うことができます。Cloud Manager からライセンスを取得することはできません。設定するには、 Cloud Tiering サービスに直接アクセスする必要があります。</block>
-  <block id="d610c8ffc37561f4634a190387a5f3b6" category="cell">ストレージをプロビジョニングする前に、 Cloud Manager から ONTAP クラスタを検出する必要があります。検出が完了したら、作業環境を開いてストレージをプロビジョニングする必要があります。</block>
-  <block id="17b767c95630dcda77217ed5b3e18485" category="cell">まず、 Cloud Manager から ONTAP クラスタを検出し、次に作業環境を開いてストレージのプロビジョニングを開始します。簡単！</block>
-  <block id="a8e0043a624da44dc1444007f03701d9" category="cell">Cloud Manager で ONTAP クラスタを検出したら、作業環境を開いてストレージをプロビジョニングします。</block>
-  <block id="e7d907ab95696d826dd2c779e9e54c9f" category="cell">分析する内容に応じて、ストレージシステムの健全性属性を 2 つの方法で分析します。ダッシュボードで健全性属性ウィジェットを選択するか、すべて表示を選択して健全性属性のリスト全体を表示します。</block>
-  <block id="75ab0e119891809d63bcc8c56b8c2793" category="cell">ダッシュボードで健全性属性ウィジェットを選択するか、すべて表示を選択してすべてのアクションとリスクのリストを表示します。</block>
   <block id="7a8e71d910db3b72c9392f6de16c626b" category="cell">セットアップウィザードが起動したら、ウィザードの指示に従ってノードをセットアップし、クラスタに追加します。以下に、ウィザードでの手順を示します。</block>
   <block id="1a06075f56c7d5e9e311fe51b475db66" category="cell">セットアップウィザードが表示されます。このウィザードで、ノードを設定してクラスタに追加する簡単な手順を説明します。</block>
   <block id="8792ee5d1e83c1d33d5410776949cde4" category="cell">セットアップウィザードの手順に従ってノードをセットアップし、クラスタに追加します。</block>
@@ -156,46 +148,20 @@
   <block id="512c554de100f0a0303aff43a4938548" category="cell">システムをどのようにセットアップしてインストールしますか？複数のコンテンツ形式での手順を説明しますが、学習方法は知っているものだけです。</block>
   <block id="5c95199f716f82b32872292114a229c6" category="cell">システムの設置とセットアップをガイドするコンテンツフォーマットタイプを選択します。</block>
   <block id="a6cf0a00702e536a363628733d5213a4" category="section-title">簡単に記入してください</block>
-  <block id="724de70f821b15b77c199ba6c3c78a52" category="paragraph">** これではなく ** 「 NetApp Cloud Central アカウントからユーザを削除する」</block>
-  <block id="4ce32d6ad30ddad687a9afb502393612" category="paragraph">** これを実行 ** ：「 NetApp Cloud Central アカウントからユーザを削除してください」</block>
   <block id="33d3bee5bdc5b545c2ff65c8aae964bc" category="section-title">最小限の情報を書き込みます</block>
-  <block id="277b7e6928cc03b89a034957458a45da" category="paragraph">** これよりも ** ：「 AWS および他のネットワークの ONTAP システムの Cloud Volumes ONTAP システム間でデータをレプリケートするには、 Amazon VPC と他のネットワーク（たとえば、 Azure VNet または企業ネットワーク）間に VPN 接続が必要です。」</block>
-  <block id="82cbaceb5cc1b3b8f540b9fdf3f6ce57" category="paragraph">** これを実行 **: 「ネットワーク間のデータレプリケーションには VPN 経由の接続が必要です。たとえば、 Amazon VPC と企業ネットワークの間、または AWS と Azure の間などです。」</block>
-  <block id="d96895205deeecea5fd74faa492c18cc" category="paragraph">も参照してください <block ref="8cb72eb8cdc2204aae415c32d9befda5" category="inline-xref-macro-rx"></block>。</block>
   <block id="8e7628e7047272997974cb838b8802bb" category="section-title">積極的に書く</block>
-  <block id="e7f1238ab8b35c783b4369d921ea7697" category="paragraph">** この ** ではなく ** ：「最初のクラスタを展開する前に、必要な権限を提供する必要があります。」</block>
-  <block id="de3a57bf9669fa7f4f6095f285c91a30" category="paragraph">** これを実行 **: 「最初のクラスタを展開する前に、必要な権限を指定してください。」</block>
-  <block id="24cceca19bc255113b993d523dbb1606" category="paragraph">も参照してください <block ref="7bec9538d082ed3ef031877eda02f047" category="inline-xref-macro-rx"></block>。</block>
   <block id="8218b70694b9a19d40ad23d53669958f" category="section-title">包括的な言語を使用します</block>
   <block id="6b779f3ec24824723334061dfbc337ce" category="paragraph">ネットアップは、製品ドキュメントに記載されている言語を差別化して排他的に使用することはできないと考えてい私たちが使用する言葉は、お客様との良好な関係を築くことと、お客様を離れさせることの違いを生み出すことができます。特に、言葉を書くと、意図よりもインパクトが重要になります。</block>
   <block id="d658c6f2741d4739bd62749a7c146725" category="paragraph">ネットアップ製品のコンテンツを作成する際には、デグレード、人種差別、表現力の低下と解釈される言語は使用しないでください。その代わりに、ドキュメントを使用する必要があるすべてのユーザーにアクセスして歓迎される言語を使用してください。たとえば、「マスター / スレーブ」ではなく「プライマリ / セカンダリ」と指定します。</block>
-  <block id="c0453e84074ee6c764cfff4036e7a5c6" category="paragraph">すべての非包括的な言語をドキュメントや製品から削除するために、私たちは取り組んでいることを知っています。現在は、当社の標準とベストプラクティスに積極的に取り組んでおり、将来的に追加のガイダンスを提供してこのセクションを更新する予定です。</block>
   <block id="4b836daed67a5f68f01caa4387d2997b" category="section-title">その点に到達します</block>
-  <block id="32c2a7211a973f6ee77acc3d1be224e6" category="paragraph">** これよりも ** ： Cloud Sync では、転送中のデータ暗号化を使用して、ある NFS サーバから別の NFS サーバにデータを同期できます。データを暗号化すると、ネットワーク上でデータを転送するための厳格なセキュリティポリシーがある場合に役立ちます。」</block>
-  <block id="1aa40d7589b9dc222cf6a6724ee49913" category="paragraph">** これを実行 **: 「企業が厳格なセキュリティポリシーを持っている場合は、転送中のデータ暗号化を使用して、異なるネットワーク上の NFS サーバ間でデータを同期します。」</block>
   <block id="a361775444b7090a1bfe12fd4cbcfa6d" category="section-title">多くのビジュアル要素を使用します</block>
-  <block id="c99c9a6aa69b2c5aaca314b276ebac5b" category="paragraph">ほとんどの人は視覚的な学習者である。ビデオ、図、スクリーンショットを使用して、学習を促進します。また、ビジュアル要素はテキストのブロックを分割するのにも役立ちます。</block>
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="list-title">例</block>
   <block id="2c1f35f6a2d89783cc4e3cb5dddbf13e" category="inline-link">例 1</block>
-  <block id="8043907a5143d799b67c701bade9898a" category="list-text"><block ref="8043907a5143d799b67c701bade9898a" category="inline-link-rx"></block></block>
   <block id="f878cf0dd42dc4c0fea1e3d46b29bd65" category="inline-link">例 2</block>
-  <block id="fed62f795a2ddbdf2038c39203acda7d" category="list-text"><block ref="fed62f795a2ddbdf2038c39203acda7d" category="inline-link-rx"></block></block>
-  <block id="de3f6bdf0d88db0d3f3b57dee5cb654a" category="paragraph">も参照してください <block ref="f9b158fd04b8fe385dbf8b00d9130e6c" category="inline-xref-macro-rx"></block>。</block>
   <block id="e03e1e7d88cf65f2b375e60b53e89c18" category="section-title">スキャン可能なコンテンツを作成します</block>
-  <block id="ed05a72d1291aded6dd57c79ca2e07b6" category="paragraph">見出し、リスト、および表を使用して、ユーザーが必要なものを検索できるようにします。</block>
-  <block id="7aa31077b5ec51459df6b7f159c11f4a" category="list-text"><block ref="7aa31077b5ec51459df6b7f159c11f4a" category="inline-link-rx"></block></block>
-  <block id="47945a33d278a568329ca94149c9de10" category="list-text"><block ref="47945a33d278a568329ca94149c9de10" category="inline-link-rx"></block></block>
-  <block id="48b0365b286aecd7e2fa7fad18b782c3" category="section-title">ユーザの目標やその目標の特定の側面に焦点を当てます</block>
-  <block id="bbd886ca20f28831914094c490a3750a" category="list-text"><block ref="bbd886ca20f28831914094c490a3750a" category="inline-link-rx"></block></block>
-  <block id="efec69bedd6bf6180648cc5205533500" category="paragraph">必要なときに必要な情報を検索できるようにユーザを支援します。コンテンツを次のように整理することで、ドキュメントの内外にできる限り迅速に配置できます。</block>
   <block id="c7c09212616a4a2622a565139e7747b4" category="list-text">左側ナビゲーションの最初のエントリ（高レベル）</block>
-  <block id="5897a788a4b61495b4004511efbbbdca" category="list-text">ユーザーが達成しようとしている目標に沿ってコンテンツを整理する。たとえば、データの利用や保護などを行います。</block>
-  <block id="0862b4c88f63f656355d7b3f3ce05c73" category="list-text">ナビゲーションの 2 番目のエントリ（中レベル）</block>
-  <block id="a5417562df9594ebe395cb67838f9ded" category="list-text">目標を構成する幅広いタスクを中心にコンテンツを整理する。たとえば、ディザスタリカバリの設定やデータ保護の設定などを行います。</block>
   <block id="7cc3e492c1345524ee2effcd59abda63" category="list-text">個々のページ（詳細レベル）</block>
-  <block id="d29a200a927c5ca27c22c1bf95b654d7" category="list-text">幅広いタスクを構成する個々のタスクに関連してコンテンツを整理します。各タスクは、 1 つの学習に焦点を当てたり、その幅広いタスクを実行したりすることに重点を置いています。たとえば、ディザスタリカバリの設定に必要なタスクなどです。</block>
   <block id="ec826192fccf8be31a46bdad89b15a35" category="section-title">グローバルユーザー向けに作成します</block>
-  <block id="24b0f763196d87cb8d056e2b1e6e0cd6" category="paragraph">当社は世界中のお客様とパートナー様に情報を提供しています。当社のコンテンツの多くは、ニューラル機械翻訳ツールまたは人間による翻訳を使用して翻訳されています。わかりやすく、翻訳を容易にするには、次のガイドラインに従ってください。</block>
   <block id="f0f9c60e1d1c38e5a9282af65e27df3e" category="list-text">短い簡潔な文を書く。</block>
   <block id="ddcc68ade0c576c92ac92ba06b373fce" category="list-text">標準の文法と句読点を使用します。</block>
   <block id="909018b5da2bdfa309a623714b4abce2" category="list-text">1 つの意味に 1 つの単語を使用し、 1 つの単語に 1 つの意味を使用します。</block>
@@ -208,11 +174,7 @@
   <block id="57767c4e6018050031f1ad01a5fb80c4" category="list-text">テクニカル以外の例は避けてください。</block>
   <block id="dd13126a02977b1e5fa5494f561a633f" category="list-text">ハードリターンと間隔を使用しないでください。</block>
   <block id="16d11ee29f6f290bcb8babae3728286f" category="section-title">A~Z のガイドラインです</block>
-  <block id="9fdb82acade07b9103cacdcaa0d9ab74" category="section-title">アクティブな音声（「パッシブな音声」とは対照的）</block>
-  <block id="b9a359c8e1d57c92c8c83c4735d269c7" category="paragraph">アクティブな音声では、文の主題はアクションの doer です。</block>
-  <block id="8db698ad8aeb9763624e91a10127e5fa" category="list-text">システムを不適切にシャットダウンすると、インターフェイスに警告メッセージが表示されます。</block>
   <block id="2eb27342533224892a3e4726bf3cd1da" category="list-text">ネットアップは契約を受領しました。</block>
-  <block id="6b26c1f8278342b21ad858e1629f4a14" category="paragraph">アクティブな音声で、明瞭かつ鮮明に表現できます。パッシブボイスを使用する理由がない限り、アクティブな音声およびアドレスユーザを「自分」として直接使用します。</block>
   <block id="62d0f31f6dc46df87f32e1ce19fec535" category="paragraph">受動的な声では、行動の doer は不明である：</block>
   <block id="e43565b3dce418b9df37a2f9ccbcc4bd" category="list-text">システムが正しくシャットダウンされていない場合は、警告メッセージが表示されます。</block>
   <block id="2c8e117631c6f08c9039f90314fd8195" category="list-text">ネットアップは契約を獲得しました。</block>
@@ -221,8 +183,6 @@
   <block id="af64200956f4064e1a823bf61e40dff2" category="paragraph">その他の動詞の規則については、次を参照してください。</block>
   <block id="00c1d9795bac737a221ed9550c76fa9c" category="inline-link">『 Microsoft Writing Style Guide 』</block>
   <block id="028b46cc7b75d3506f83fd48efbdd6ec" category="list-text"><block ref="028b46cc7b75d3506f83fd48efbdd6ec" category="inline-link-rx"></block></block>
-  <block id="aac49a8fdd48cdfb3fd4114a867ff924" category="inline-link">シカゴ・マニュアル・オブ・スタイル</block>
-  <block id="b9f358df2e687572d0c0748eae52b586" category="list-text"><block ref="b9f358df2e687572d0c0748eae52b586" category="inline-link-rx"></block></block>
   <block id="97aba9ddd85fa7db3ab0975897188664" category="inline-link">Merriam - Webster の辞書オンライン</block>
   <block id="a5c0a6970afaed0f8993e80f0367d714" category="list-text"><block ref="a5c0a6970afaed0f8993e80f0367d714" category="inline-link-rx"></block></block>
   <block id="33f6518588649a99a675cf3b6920a297" category="section-title">モニター</block>
@@ -232,21 +192,10 @@
   <block id="80de2a8faacb1711bb579e0ee9293a10" category="paragraph">ヒントは、デフォルトで常にベストプラクティス情報を文書化するというポリシーであるため、慎重に使用してください。必要に応じて、ヒントを使用して、ユーザーが製品を使用したり、ステップやタスクを簡単かつ効率的に完了したりするのに役立つベストプラクティス情報を含めます。</block>
   <block id="18a970540d05e11964e25e6c04e72b53" category="list-text">注意</block>
   <block id="acf7e64aba7071e147e493ba4b62b706" category="paragraph">死亡や重傷につながることのない原因の人身事故を引き起こす可能性がある条件や手順について、ユーザに警告するときは注意してください。</block>
-  <block id="4730fb9af1d7470a4eda365c5957916c" category="section-title">導入後（「 1 回」）</block>
-  <block id="5b576504ca4429405c2bde1e6261e5d6" category="list-text">「後」を使用して年代を示します。「電源を入れてからコンピュータを起動します。」</block>
-  <block id="5a3a871d7d2309eb3e1156a1b1feab07" category="list-text">「 1 回」のみを「 1 回」を意味します。</block>
   <block id="07ccfe360dce69b84595428e2ec1c1cc" category="section-title">また</block>
   <block id="06957db97049767f064edfa829e41728" category="list-text">「追加」を意味するには、「も」を使用します。</block>
   <block id="db9cdfa0cd758f90d8341ab3a5f4ff2b" category="section-title">および / または</block>
-  <block id="5b2f3b950d84523641b7e094eeec8e24" category="paragraph">用語がある場合は、より正確な用語を選択します。どちらの用語も他の用語より正確でない場合は、「 AND / OR 」を使用します。</block>
   <block id="f970e2767d0cfe75876ea857f92e319b" category="section-title">として</block>
-  <block id="1bc7acda049c903a563634db1454818a" category="section-title">を使用する（「使用」または「 with 」を使用する）</block>
-  <block id="c8142131cc29833653036fdf1342fc5f" category="list-text">を使用しているエンティティが件名である場合は、「を使用して」を使用します。「コンポーネント」メニューを使用して、新しいコンポーネントをリポジトリに追加できます。」</block>
-  <block id="a677e1f957506ca7882c7b477cfba6d5" category="list-text">文中の先頭には、「 using 」または「 with 」を使用できます。これらの文は、製品名に応じて使用できます。「 Using SnapDrive 、 you can manage virtual disks and Snapshot copies in a Windows environment. 」</block>
-  <block id="209aa0af78a1d2f904e56e0c68cea78f" category="section-title">可能（「かもしれない」、「かもしれない」、「すべき」、「すべき」、「すべき」）</block>
-  <block id="cb220724d35d1167bbd7aefdac36544d" category="list-text">「 CAN 」を使用して、機能を示します。「この手順の実行中はいつでも変更をコミットできます。」</block>
-  <block id="eb8d13d99bb47a62875974eabf7f17a2" category="list-text">「複数のプログラムをダウンロードすると処理時間に影響する可能性がある」という状況を示すには、「次の場合があります」を使用します</block>
-  <block id="2cc35eb381bb87884eea68b6830e3f6f" category="list-text">推奨されているがオプションのアクションを示すには、「すべき」を使用します。代わりに、「推奨」などの別のフレーズを使用することを検討してください。</block>
   <block id="0e18a46a2b02489fafa6c6df3df6cd0e" category="section-title">資本金</block>
   <block id="b63f5554f4f480aa1ef79652ec27ee13" category="paragraph">ほとんどすべての場合、文スタイルの大文字と小文字を使用します。大文字のみ：</block>
   <block id="9dee471d50e8b5fed02a8a6cbbb90cea" category="list-text">表の見出しを含む、センテンスと見出しの最初の単語</block>
@@ -254,13 +203,8 @@
   <block id="9eb4dcddf6980c19c68d5273a13b86c5" category="list-text">適切な名詞</block>
   <block id="eddba1fe20f91ded5ec182b32682e6c7" category="list-text">ドキュメントのタイトルと字幕（ 5 文字以上の主な単語や前の位置をすべて大文字にする）</block>
   <block id="48d8af07449dc749dcbfeb9a6c1885b4" category="list-text">UI 要素。ただし、インターフェイス内で大文字になっている場合に限ります。それ以外の場合は小文字を使用します。</block>
-  <block id="b6dea776027677497d9ec4e6845882fb" category="section-title">注意事項</block>
-  <block id="4ad5d623c472c8819c4f6851ac9feb1a" category="paragraph">を参照してください <block ref="8b099210f8d5e10883a9054cab340bdd" category="inline-xref-macro-rx"></block> メインコンテンツフローとは別にコンテンツを識別する他のラベル。</block>
-  <block id="6ae8e6245174ea624fcc4a1336dd05af" category="section-title">一貫性</block>
   <block id="abd401c81b52a092eef7f29c422e5a5d" category="list-text">のガイドラインに必ず従ってください <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>。</block>
   <block id="322669f84f436ca5d7fcc2d36731876a" category="section-title">収縮</block>
-  <block id="0667b9338a10390acafe32ae7c3b1521" category="paragraph">収縮は会話の口調を補強し、多くの収縮は理解し、翻訳することが容易である。</block>
-  <block id="8d4dafc6ad003b14fa5e30dbddf58fa2" category="list-text">これらのような収縮を使い、理解しやすく、翻訳も簡単です。</block>
   <block id="4de6581944a6bd25ecc90a52947add4c" category="cell">ありません</block>
   <block id="075a959179a3ff15345c5865a10c5435" category="cell">ネットアップは</block>
   <block id="f8291da3d6882dd7a1c80846efe60c1c" category="cell">はいませんでした</block>
@@ -271,30 +215,14 @@
   <block id="59a7709f7ee8c9dadf75615cbe4a79cf" category="cell">ありません</block>
   <block id="5970929a425637241abb7a44591e32b3" category="cell">しないでください</block>
   <block id="fa4dcd229606d27eb80b780e6fb39231" category="list-text">これらのような逆収縮は、理解して翻訳するのが難しいため使用しないでください。</block>
-  <block id="ab3eb88106f999d04a740ab008a0767b" category="section-title">（「確認」または「検証」とは対照的に）</block>
-  <block id="164762d67b4e5fe97d86d9a9f282ea25" category="list-text">「確認」を使用して、「確認」を意味します。 必要に応じて、「それ」を含めます。「図の周囲に十分な白いスペースがあることを確認してください。」</block>
-  <block id="3676fe680dc352d532d7e7d2de7067e9" category="list-text">「確認」は、約束や保証を意味するものではありません。「 ONTAP クラスタで NFS ボリュームと CIFS ボリュームをプロビジョニングできるように、 Cloud Manager を使用してください」</block>
-  <block id="a897a6b4bb270d7a82cbbed2b633f8c5" category="list-text">すでに存在するものや、すでに発生しているものを再度確認する必要がある場合は、「 confirm 」または「 verify 」を使用します。「 NFS がクラスタ上に設定されていることを確認します」</block>
   <block id="73b0472d43069103642ffa07997ff20a" category="section-title">グラフィックス</block>
-  <block id="ffe2862494e45f01f343a9146ec2b078" category="paragraph">コンテンツに役立つイラスト、図、フローチャート、スクリーンキャプチャ、その他の視覚的な参考資料などが含まれているかどうかを継続的に評価します。グラフィックは、複雑な概念や手順をテキストよりも明確に表します。</block>
-  <block id="3edd0ecd98cebbebd5ce49aac831ddf8" category="list-text">図の説明の概要を含めてください。「次の図は、背面パネルの AC 電源装置の LED を示しています。</block>
-  <block id="95682870d988f7bc53efabc2c36e9e40" category="list-text">図の位置を「上」または「下」ではなく、「下」または「上」または「前」と参照してください。</block>
   <block id="b3d1bd6a249a6a85c42bc5762cec6e1f" category="section-title">文法</block>
   <block id="6d327be841a032bf5396053a09819082" category="paragraph">特に明記されていない限り、文法、句読点、および次の表記法に従ってください。</block>
   <block id="edddbccf5720c62aea76f84134446e73" category="section-title">そうでない場合は</block>
-  <block id="5d057fbef3fbf1f4ea61254d664eb909" category="paragraph">** この ** ではなく ** ： " コンピュータはオフになっている必要があります。そうでない場合は、オフにします。」</block>
   <block id="f7374e56bb0693536626afe622146018" category="paragraph">** これを実行 ** ： " コンピュータがオフになっていることを確認してください。 "</block>
-  <block id="41306d987ed3cbd9c35fe26b8ad29056" category="section-title">IF （「いつ」または「いつ」のどちらか）</block>
-  <block id="e75cb199a23a6fda0f508191e295846c" category="list-text">「 If this 、 then that 」構文などの条件を指定するには、「 if 」を使用します。</block>
-  <block id="ba94d314308b8ce720d1e63b1a7de711" category="list-text">指定された条件または暗黙の条件がある場合は、「どうか」を使用します。翻訳を容易にするためには、「どうか」を単独で置き換えるのが最適です。</block>
-  <block id="18daca6427f1eda051e5bb57e116a538" category="list-text">時間の経過を示すには、「 when 」を使用します。</block>
   <block id="935a47d77d7a3c44e0c0b52932eed24b" category="section-title">命令的な音声</block>
-  <block id="41a33c483fe196269f1300c300eaacb9" category="list-text">ユーザアクションのリストには、ステップ、ディレクティブ、要求、および見出しに imperative voice を使用します。</block>
-  <block id="9a1897915c6216afb353fcabd9524ea4" category="list-text">「 [Working Environments （作業環境） ] ページで、 [Discover （検出） ] をクリックし、 ONTAP Cluster （クラスタの検出）を選択</block>
-  <block id="4ebd966121850efc9b5eaee86c22f215" category="list-text">「カムハンドルを回して、電源装置と同一面になるようにします。」</block>
   <block id="b3ea8b01998e78b3c2e70cc88ad4b0d5" category="list-text">パッシブボイスの代わりに必ず音声を使用することを検討してください。</block>
   <block id="84509c9c0ef2e15f9f3c90a682fb0f76" category="list-text">概念的な情報とリファレンス情報に手順を組み込む場合は、 imperative voice を使用しないでください。</block>
-  <block id="c797af56551596c24b34d61ad167502b" category="section-title">IP アドレスと IPv6 アドレス</block>
   <block id="cb277327ff86def837ef04f0405c226e" category="section-title">今後の機能またはリリース</block>
   <block id="e843eeb69636fc6020ca63dad53b5ffb" category="section-title">技術情報アーティクル：「 Referring to</block>
   <block id="8aacbd721ee842f62c002641bc604a42" category="paragraph">該当する場合は、 KB （ネットアップナレッジベース）記事を参照してください。リソースページおよび GitHub コンテンツの場合は、リンクを実行中のテキストに配置します。</block>
@@ -307,58 +235,34 @@
   <block id="17de64fcb1f9b55eb373463234c451ae" category="list-text">すべてのリストエントリが完全な文の場合は、ピリオドで終了します。</block>
   <block id="a5b9dd23d74280fb7ba58e82cac098a5" category="list-text">リストエントリは、アルファベット順や年代順に並べ替える必要があります。</block>
   <block id="0662a73e1733968abaea58a21d0e7d99" category="section-title">ローカリゼーション</block>
-  <block id="b3d4c2782746a809f3e060ca4df45342" category="paragraph">を参照してください <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>。</block>
   <block id="6a02ad2d520b51e6b2e6392b2a25afe6" category="section-title">ミニマリズム</block>
   <block id="a8deee35ded32ce6132adf7972bcf9f2" category="list-text">この時点で、ユーザーはこのコンテンツを必要としていますか？</block>
   <block id="20bcf054830ff9c3e53c74382e6823c6" category="list-text">あまり形式的でない、またはあまりにカジュアルではなく、より少ない言葉でコンテンツを表示できますか？</block>
   <block id="eb56305480f1800f960d7fe6af51ceac" category="list-text">長い文章を短くしたり、単純化したり、 2 つ以上の文章に分割することはできますか？</block>
   <block id="bb012a61ae1699900a94d563de53cdc2" category="list-text">リストを使用して、コンテンツをスキャン可能にできますか。</block>
   <block id="973abe3339e6e5539f176843c11014ae" category="list-text">グラフィックを使用してテキストブロックを補強または置換できますか。</block>
-  <block id="eb1d221f6cdc8988e11a42b341cd2d49" category="section-title">NOTE 情報</block>
   <block id="ee5c35ce3d081da90622a10d2272ed5e" category="section-title">数字</block>
   <block id="8f9a17dd774590a49d5e848c91e50b86" category="list-text">次の例外を除いて、 10 以上のすべての数値にアラビア数字を使用します。</block>
   <block id="9a1af7b5c8f5004b90fb140665279371" category="list-text">文字列の先頭に数字を使用する場合は、アラビア数字ではなく、単語を使用します。</block>
   <block id="077368b9c970c37dc92a6bb335fbad3e" category="list-text">概算の数値には（数字ではなく）単語を使用します。</block>
   <block id="43446036c64aba99682872d1891efb4d" category="list-text">10 未満の数字には単語を使用します。</block>
   <block id="870854ebb49996ac2172874853907e94" category="list-text">10 未満の数字と 10 を超える数字が混在する文がある場合は、すべての数字にアラビア数字を使用します。</block>
-  <block id="f6645263ec51957cc6f3ae3443a954b3" category="list-text">その他の番号の表記法については、次を参照してください</block>
   <block id="5287f067bd9e6eb8a91e2a9832344b13" category="section-title">多賀主義</block>
   <block id="936f98f41233816dff46138972fa2953" category="paragraph">ネットアップの製品、およびネットアップ製品とサードパーティ製品との連携について記載します。サードパーティ製品は文書化しません。サードパーティのコンテンツをコピーしてドキュメントに貼り付ける必要はなく、絶対にコピーしないでください。</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="section-title">前提条件</block>
   <block id="a34da8c268ec527e1d5925059a96861c" category="paragraph">前提条件は、存在する必要がある条件、または現在のタスクを開始する前にユーザが完了しておく必要がある操作を示します。</block>
-  <block id="fe7bd79e9d7c3bcb220bb04b774bb4d5" category="list-text">「前提条件」、「開始前」、「開始前」などの見出しを持つコンテンツの性質を識別します。</block>
   <block id="8394944633693445cf2a40752c8f6416" category="list-text">前提条件の言葉にパッシブな声を使用することが妥当な場合は、次のようにします。</block>
-  <block id="5c46f1d39cb0f638e92780edbcca3698" category="list-text">クラスタに NFS または CIFS を設定する必要があります。</block>
-  <block id="c5a33603fcb1ad31b67856b6cec8e903" category="list-text">クラスタを Cloud Manager に追加するには、クラスタ管理 IP アドレスと admin ユーザアカウントのパスワードが必要です。</block>
-  <block id="9a2c90cf0ed0c5fc39129c0806e5da67" category="list-text">必要に応じて、前提条件を明確にします。「 NFS または CIFS をクラスタにセットアップする必要があります。System Manager または CLI を使用して、 NFS と CIFS を設定できます。</block>
   <block id="528a1008a1221d32453075e9ca6eb4f9" category="list-text">他の方法で情報を提示することも検討してください。たとえば、現在のタスクの最初のステップとしてコンテンツをリワードするのが適切かどうかを検討します。</block>
-  <block id="80afa3b693dea7d0c73497249d7a1c3c" category="list-text">前提条件：「最初のクラスタを導入する前に、必要な権限を持っている必要があります。」</block>
-  <block id="12b631fee9688baf4ba19b15eb1b9c4a" category="list-text">手順：「最初のクラスタを展開するために必要な権限を指定します。」</block>
-  <block id="af3162878fb6cb3441b612fc24d1b4c9" category="section-title">以前（「前」、「前」、または「前」）</block>
-  <block id="9758d401c21b103ae3b3d6a0298a62b1" category="list-text">可能であれば、「前」を「前」に置き換えます。</block>
-  <block id="c96fcf3c64cb5227a1879dda06698dd6" category="list-text">「前へ」を使用して、事前に指定されていない時間に発生したことを示します。</block>
-  <block id="883ff354ec6bc47d0be7d29cb8c8423c" category="list-text">「先行」を使用して、事前に発生したことを示します。</block>
   <block id="9ac6d441030eb0844ffb83ba4f100c94" category="section-title">句読点</block>
   <block id="397121b9a7d73a380fe1920cf1a977f4" category="paragraph">シンプルに管理一般に、文章に含まれる句読点が多いほど、理解するために必要な脳細胞が増えます。</block>
-  <block id="2182d64dc233fbc158d44298889d9f56" category="list-text">3 つ以上の品目の説明リストで、組み合わせ（「 AND 」または「 OR 」）の前にシリアルカンマ（ Oxford コンマ）を使用します。</block>
   <block id="0d04ba12e7e714d951125d0424b0ff70" category="list-text">セミコロンとコロンの使用を制限します。</block>
   <block id="50324905c471f3d4d61f7d3f723f3644" category="section-title">以来</block>
   <block id="fe8ec90a5524db5c338d82b17517dcdb" category="section-title">スペルチェック</block>
-  <block id="da01f0261195de207a317ade84c7ce2a" category="section-title">それ（「誰が」）</block>
-  <block id="9901f54d0e3e057debd17f5d8f8e5c04" category="list-text">（末尾にカンマを入れずに）「 that 」を使用して、文が意味を持つようにするために必要な句を説明します。</block>
-  <block id="151dfd91fc447e29cf21cf0cb5ff6cdd" category="list-text">「その」は、文章が英語ではなくても使用します。「コンピュータがオフになっていることを確認します。」</block>
-  <block id="daf44f3bca464829ecd99cbbbdbf7d5e" category="list-text">補足情報を追加するが、意味を持たせるために文には必要ない句を導入するには、“ which ”（末尾にカンマを付けて）を使用します。</block>
-  <block id="c33b68c4c7251717a35aeaca0e47bce9" category="list-text">「誰」を使用して、人を参照する句を紹介します。</block>
-  <block id="bf611303b2be9960071c292c79b44a34" category="section-title">TIP 情報</block>
   <block id="3d5cfd3d5e627e33b27fadb6b405a1dd" category="section-title">商標</block>
   <block id="e273e00cc1e1e5b94a098e24137cf85e" category="inline-link">ネットアップの商標</block>
   <block id="20771c4637e265828d5e2a091ea4c61b" category="list-text">商標用語は、形容詞としてのみ使用し、名詞、動詞、または口頭として使用しないでください。</block>
   <block id="41d8e72b4f5f3cc4857e431dec4e269c" category="section-title">ユーザインターフェイス</block>
-  <block id="9d82d4741b1969a54d01e8bf171afc7e" category="paragraph">ユーザを誘導するには、可能な限りインターフェイスを使用します。</block>
   <block id="d82cb0209a5722e763aa8eb79a8868f1" category="section-title">一般的なガイドライン</block>
-  <block id="5355febad7711fb3953aa0a70799f4a3" category="paragraph">当社の UI 文書化のスタイルはシンプルで最小限です。</block>
-  <block id="b8b563f55b69e0abca0d50aa6d8fdcc5" category="list-text">ユーザーがコンテンツの読み取り中にインターフェイスを使用しているとします。</block>
-  <block id="9b63f1e2091c52c7e2a1cdd189e7a586" category="list-text">ユーザをガイドするには、インターフェイスを使用します。</block>
   <block id="1b8d1f910b382b0cc9563c9a6075268d" category="list-text">成功を想定します。ほとんどの場合、処理が失敗すると予想される場合を除き、障害パスは文書化しないでください。インターフェイスが適切なガイダンスを提供しているとします。</block>
   <block id="cfb6729137a6d954b8da252581dd2b3a" category="list-text">お客様のユースケースに対応し、ワークフローを開始するためにユーザをインターフェイス内の適切な場所に配置するためのワークフローに、コンテンツを集中的に配置します。</block>
   <block id="678db84be7d1b3a0571d0bd4777deb5b" category="list-text">ユーザーの目標を達成するための最良の方法の 1 つを常に文書化してください。</block>
@@ -366,15 +270,8 @@
   <block id="a69f6b92d1b2cc6e712a2bb8ae42b9ce" category="list-text">ほとんどのユーザには、最低限必要な手順を使用します。</block>
   <block id="c8ac8ac544647d0524755cbe9b3c4f13" category="section-title">UI 要素に名前を付ける</block>
   <block id="ea403515c7449c382f3a20bd19ddbd50" category="section-title">表示されているラベルを表します</block>
-  <block id="5b078359de5ea1377775cc2c12b42a23" category="paragraph">ラベルを識別するときは、ユーザインターフェイスで使用されるスペルと大文字小文字の区別に従ってください。ラベルの後ろに省略記号が付いている場合は、オブジェクトの名前に省略記号を含めないでください。ユーザインターフェイスラベルにタイトルスタイルの大文字と小文字を使用して、ユーザインターフェイスラベルについて簡単に記述できるようにするように開発者に勧めてください。</block>
   <block id="4ef516ca2cc08cdcd670e074e779540e" category="section-title">スクリーンキャプチャを使用する</block>
-  <block id="7e98c78138dbc7722a43f387f4052b09" category="section-title">一時的（「はい」）</block>
-  <block id="feb46c67d37a04caac252d715c9e4613" category="list-text">「 While 」を使用して、時間内に発生していることを示します。</block>
-  <block id="21356e57c78537682c670e8c101a558f" category="list-text">「はい」を使用して、ほぼ同じ時間に発生する、または別のアクティビティの直後に発生するアクティビティを表します。</block>
-  <block id="2e2e2d35a15a6146a9bbbc246a9ea4cd" category="section-title">ワークフロー</block>
-  <block id="af96c6e9b9d96508f00139a0731a545a" category="paragraph">ユーザーはコンテンツを読み、特定の目標を達成します。ユーザーは、必要なコンテンツを検索し、目標を達成し、家族に向けて家に帰りたいと考えています。当社の仕事は製品や機能を文書化することではなく、ユーザーの目標を文書化することです。ワークフローは、ユーザの目標達成を支援する最も直接的な方法です。</block>
   <block id="26bcf216756ee1aebfeb7431d225e3c4" category="paragraph">ワークフローとは、ユーザの目標を達成する方法を説明する一連のステップまたはサブタスクです。ワークフローの範囲は完全な目標です。</block>
-  <block id="36da226eb3fe17950978138e8ad49367" category="paragraph">たとえば、ボリューム自体での作成は完全な目標ではないため、ボリュームの作成手順はワークフローにはなりません。ESX サーバでストレージを使用できるようにする手順は、ワークフローになります。この手順には、ボリュームの作成だけでなく、ボリュームのエクスポート、必要な権限の設定、ネットワークインターフェイスの作成などが含まれます。ワークフローは、お客様のユースケースに基づいています。ワークフローは、目標を達成するための最良の方法を 1 つだけ示しています。</block>
   <block id="f0e4224652765b139f46a83b11feccc3" category="sidebar">コンテンツを投稿します</block>
   <block id="10d4522e6465e87db3593c69181bea32" category="sidebar">ネットアップのドキュメントの形式</block>
   <block id="1c63689daf8192c8174ec60fb9622c70" category="paragraph">このコマンドと変数テキストは次のようになります。</block>
@@ -460,27 +357,14 @@
   <block id="fc6c6e20ee1801385613951d198838c6" category="paragraph">GitHubバナーから* Pull Requests *を選択すると、プルリクエストのステータスを表示できます。</block>
   <block id="a0bc5d64ea914c22438ad9b10a8d2bca" category="paragraph">プロの同僚に何かを説明しているときは、話すように書いてください。会話の中で文章を書くと、聞き手とつながりやすくなります。</block>
   <block id="3564fc274e19607926c43722a0d4037c" category="cell">失敗が起こるのは楽しいことではありません。クラスタダッシュボードで何が起こったのか、何が影響を受けるのかを確認してください。</block>
-  <block id="42638156b2d0e0647061b81fe0d27503" category="cell">障害が発生すると、Cloud Tieringのクラスタダッシュボードに「失敗」の健常性ステータスが表示されます。ステータスを表示して、障害に関する情報を確認します。</block>
-  <block id="4ddc5daa3f6952d24c7f1e44afc7da05" category="cell">クラウド階層化の料金を支払う方法は 3 通りあります。もちろん、従量課金制のサブスクリプションだけでなく、 ONTAP の階層化ライセンス、あるいはその両方を組み合わせたライセンスも必要です。ただし、Cloud Managerからライセンスを取得することはできないため、Cloud Tieringサービスに直接アクセスしてセットアップするだけです。</block>
-  <block id="bd99dd6ef2e014ae56a7f23c577742dc" category="cell">従量課金制のサブスクリプション、 ONTAP 階層化ライセンス、またはその両方を組み合わせて使用して、クラウド階層化の料金を支払うことができます。Cloud Manager内からライセンスを取得することはできませんが、Cloud Tieringサービスに直接アクセスしてセットアップできます。</block>
-  <block id="c972f122e78507c540f344a4e61ce1c7" category="cell">システムの健全性属性を分析する方法は2つあります。ダッシュボードで[Wellness Attribute]ウィジェットを選択するだけです。または、健全性属性のリスト全体を1つのビューに表示する場合は、[すべて表示]を選択します。</block>
   <block id="419e062b0a0e2775c1a54691ccef8b1b" category="paragraph">複雑で大きな言葉は避けてください。シンプルに管理あなたは専門の同僚に何かを説明していて、あなたの語彙を誇示していません。</block>
   <block id="5d943fe7d088fe2acb6eb914be0e07b9" category="paragraph">短い簡潔な文章で、コンテンツの読み取りやスキャンが簡単になります。時 々 長い文を使っても構いませんが、短い文で続けても構いません。いいですね。</block>
   <block id="34adf8b022c7b72afa623dd7ec748764" category="paragraph">受動的な声を避けることは技術的な執筆のための標準的な規則であるが、会話的な音を鳴らすためにアクティブな声を使用することは特に重要である。</block>
-  <block id="337aec4bab6bfffa105b941993954ccd" category="paragraph">ユーザーにとって重要なことから始めます。ユーザが何をしようとしているかを調べ、その目標を達成するための支援に焦点を当てます。</block>
-  <block id="87a0e0ee70915382c17e655bd3ffa9dd" category="paragraph">一連のタスクの実行方法を説明している場合は、概念や参照ベースの情報など、一連のセクションで1ページにまとめてください。ページを複数のミニページに分割しないでください。同時に、長くて威圧的なページを作成しないでください。ページが長すぎる場合は、最善の判断で決定してください。</block>
-  <block id="72a758f7515c20caaea0a45f816c6112" category="section-title">ユーザーの目標に沿ってコンテンツを整理する</block>
   <block id="05a5f50f88982e6ed8b6a3f52aeebdf2" category="list-text">ユーモアや皮肉を使わないでください。</block>
   <block id="8af7fc9385a3720c928df0ca6e942892" category="list-text">差別的な内容を使用しないでください。</block>
   <block id="ca82ee793e3056ec4d0835ae2473a598" category="list-text">特定のペルソナのために執筆している場合を除き、性別に偏った言語を使用しないでください。</block>
   <block id="2d26cccc873ac9d1cdacdf8bb797d5db" category="list-text">誰が、何がアクションを実行したのかはわかりません。</block>
   <block id="5f5cba4ea52fa838a05e1f2d89ad6656" category="list-text">前提条件の情報など、周囲に書くことはできません。</block>
-  <block id="2abbe335946d2b00acf396cf266f79e5" category="paragraph">テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要ではない「知っておくと便利な」情報にはメモを使用しないでください。</block>
-  <block id="ba499125a72ffd5b8b1e00177f718b36" category="list-text">「代替」という意味で「also」を使用しないでください。</block>
-  <block id="f4023bffe0a0ebb018f9db72a2d2a6d7" category="paragraph">「理由」を意味するために「AS」を使用しないでください。</block>
-  <block id="22fa855460a1fecec0585fd7a19bc5e7" category="list-text">機能または権限のいずれかを意味する可能性があるため、あいまいな「may」は使用しないでください。</block>
-  <block id="3af0e91d720edbe50472dc244089ac4d" category="list-text">「必須」は受動的なので使用しないでください。命令的な音声を使用して、思考を命令として再調整することを検討してください。「必須」を使用する場合は、これを使用して必要なアクションまたは条件を指定します。</block>
-  <block id="e9582246b9c9dc3ba33ceb6cefb5ef42" category="paragraph">「プロの同僚に何かを説明しているときは、話したように書く」ということは、誰にとっても何か違うことを意味します。アバナードのプロフェッショナルな会話スタイルは、ユーザーとのつながりを支援し、複数の貢献者の間で軽微な不整合の頻度を高めます。</block>
   <block id="945c6682875eec566264ce79cbd2ad0d" category="list-text">コンテンツを明確にして使いやすくすることに重点を置いています。すべてのコンテンツが明確で使いやすい場合は、小さな矛盾は問題になりません。</block>
   <block id="e298d7e5e24682a3c8bdbb35a4fe032b" category="list-text">あなたが書いているページ内で一貫性を保ちなさい。</block>
   <block id="5759b7c5715d057d5710c3f672f2fa6b" category="cell">そうじゃない</block>
@@ -491,29 +375,203 @@
   <block id="368ae8075df4c346356ccb30d7017e0f" category="cell">すべきではなかった</block>
   <block id="f53d2e2b9d5955df6129edc300678d0e" category="cell">可能性があった</block>
   <block id="4f6cd60d5fc734e269d47ea283663717" category="cell">できませんでした</block>
-  <block id="735bfdc7bbc42ed734cb31f537471349" category="paragraph">「そうでない場合」だけを使用して前の文を参照しないでください。</block>
-  <block id="2bbd53c30d55211887b496ed8d655501" category="paragraph">たとえば、IPアドレス（IPv6を含む）の場合は、「10.x」で始まるアドレスを含めても問題ありません。</block>
-  <block id="d921ee7449d1cc46bad312a669fc1dfc" category="paragraph">機能や機能が「現在サポートされていない」と言う以外に、今後の製品リリースや機能のタイミングや内容を言及しないでください。</block>
   <block id="a2aa669690daf70aa345dc242196842e" category="list-text">すべてのリストエントリが文の断片である場合は、ピリオドで終わらないでください。</block>
-  <block id="25cbf556f141e0456fc4754e98765063" category="list-text">「Before」を使用できない場合は、形容詞として「Prior」を使用して、時間の早い時期に発生した、または重要度の高いものを参照してください。</block>
-  <block id="9bc4b7e8f51eb64e4d558ca5a59a7ddc" category="paragraph">「経過時間」を示すには、「経過時間」を使用します。「Since」を「because」の意味に使用しないでください。</block>
   <block id="ab9b9e78a26798d3eaa0db4706f384d3" category="paragraph">当社の技術コンテンツのほとんどに商標記号は含まれていません。これは、テンプレートの法的記述で十分であるためです。ただし、を使用する場合は、すべての使用規則に従ってください<block ref="2e2a247b84825e1844201424214689d3" category="inline-link-rx"></block>：</block>
   <block id="ff559a115ec6086ff7a0014b09a7628a" category="list-text">商標登録されている用語を省略したり、ハイフンを付けたり、斜体にしたりしないでください。</block>
   <block id="10705c28baf7efc3b2835cbefb6f4e3a" category="list-text">商標登録された用語を複数化してはいけません。複数形が必要な場合は、商標名を形容詞として使用し、複数形名詞を修正します。</block>
   <block id="760515d763f215ba568e0df111ef068c" category="list-text">商標登録された用語の所有形態を使用してはいけない。ネットアップなど、ネットアップの会社名は、商標登録用語ではなく一般的な意味で使用されている場合に、独占的な形式を使用できます。</block>
   <block id="aaa67196f34f17bf807576a3879d2ae0" category="list-text">ウィザードや画面を段階的に操作しないでください。インターフェイスから明確でない重要な事項のみを呼び出します。</block>
-  <block id="38833712b2d186bf03b201fea01c856b" category="list-text">「OKをクリック」、「保存をクリック」、「ボリュームが作成された」など、タスクを実行している人にわかりやすいものは含めないでください。</block>
-  <block id="20fa4a924392561a86abe95d269610bd" category="list-text">「クリック」はまったく使用しないでください。マウス、タッチ、キーボード、その他の選択方法をカバーするため、必ず「 SELECT 」を使用してください。</block>
-  <block id="bd62ac2d873965d23f9623cfb0176399" category="paragraph">UI 要素に名前を付ける必要がある細分性レベルにドキュメント化しないでください。インターフェイスを使用して、インタラクションの詳細をユーザーに説明します。特定のラベルを取得する必要がある場合は、そのラベルに名前を付けます。たとえば、目的のボリュームを選択するか、[既存のボリュームを使用する]を選択します。 メニュー、ラジオボタン、チェックボックスに名前を付ける必要はありません。ラベルを使用するだけです。</block>
   <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">ユーザーが選択する必要があるアイコンの場合は、アイコンの画像を使用します。名前を付けようとしないでください。このルール環境では、矢印、鉛筆、ギア、 kabob 、ハンバーガー、 など。</block>
-  <block id="3d053f543ceb20e8d9a54ccac1275a6f" category="paragraph">スクリーンキャプチャ（「スクリーンショット」）は、ワークフロー中にインターフェイスを開始または変更するときに、インターフェイス内の適切な場所にいることをユーザが確信できるようにします。スクリーンキャプチャを使用して、入力するデータや選択する値を表示しないでください。</block>
   <block id="aa475deb1febd97e43051f4cd6e0e03c" category="paragraph">次のビデオでは、これら2つのオプションの概要を説明します。</block>
   <block id="d2a6bdb03847dd26c195e27066ccdb58" category="paragraph">新しいブラウザタブが開き、GitHubフォームが表示されます。このフォームを使用して、ドキュメントチームに詳細を提供できます。</block>
   <block id="60a186f1a1bf3949fd214cb8c41bc66f" category="paragraph">新しいブラウザタブが開き、ドキュメントサイトのGitHubリポジトリ内のファイルに移動します。</block>
   <block id="864a308d9063db9563fd2862dc533628" category="list-text">機密文書や新規作成されたコンテンツをAI (ChatGPTまたはその他のツール)に送信しないでください。ChatGPTに入力されたすべての情報は、そのトレーニングデータセットの一部となり、OpenAIのプロパティとなり、それらとそのユーザーが使用できるようになります。これらのデータの多くは一般公開されていますが、独自のIPでモデルをトレーニングすることは避けたいと考えています。</block>
-  <block id="733e053a02d21c4877d499d0fbb4c11d" category="list-text">できません</block>
-  <block id="19aac40a7d990d8b8aa21091fd07466d" category="list-title">将来時制が必要な場合は、これらの収縮を使用しないでください。</block>
-  <block id="fc8b507a72b6956dbc043bfe0002b248" category="list-text">私たちは</block>
-  <block id="b7a61cf5d29e4ad809c301c74229b078" category="list-text">しない</block>
-  <block id="fa6c9d5de251d2da13b9f81db8da0ca6" category="list-text">お前は...</block>
+  <block id="6001ad801f9374c95cd6e5159d3ca554" category="cell">BlueXPの階層化で問題が発生した場合は、クラスタダッシュボードで健全性ステータスを確認してエラーが発生した理由を確認できます。ヘルスは、 ONTAP システムとサービスコネクタのステータスを表します。</block>
+  <block id="3d13de22585f7c90feb3af32fb6255e3" category="cell">BlueXP階層化サービスで障害が発生すると、クラスタダッシュボードに「失敗」の健常性ステータスが表示されます。ステータスを表示して、障害に関する情報を確認します。</block>
+  <block id="4aceae741b6dd0da0c4af2d6f9999125" category="cell">ストレージをプロビジョニングする前に、BlueXPからONTAPクラスタを検出する必要があります。検出が完了したら、作業環境を開いてストレージをプロビジョニングする必要があります。</block>
+  <block id="a359d239071c811073a8090adc7d2869" category="cell">最初にBlueXPからONTAPクラスタを検出し、作業環境を開いてストレージのプロビジョニングを開始するだけです。簡単！</block>
+  <block id="72b0a15f6dc7f75a391b8f2deb80eada" category="cell">BlueXPからONTAPクラスタを検出したら、作業環境を開いてストレージをプロビジョニングします。</block>
+  <block id="eeb97b72bcb04cbd8d8e08ff9fd0ab1e" category="section-title">収縮を使用する</block>
+  <block id="dcb43d00e586f1a5b0a455d4c42911a3" category="inline-xref">会話のトーン</block>
+  <block id="aed4cc72dbafe70c1659fca7aaf48fc5" category="paragraph">収縮はAを強化します。 <block ref="e5dc0ddf6053ca851efc9fc29efec6f8" category="inline-xref-macro-rx"></block>そして、多くの収縮は理解しやすく翻訳しやすいです。</block>
+  <block id="22a9cd16fbcd63280c29272ce4f6f4f4" category="example-title">展開して詳細を確認</block>
+  <block id="4e8f541c93e50f21ff3ed4936a4d83b2" category="list-text">次のような収縮を使用します。これらの収縮は理解しやすく翻訳も簡単です。</block>
+  <block id="284097c621ee43e2ed3a2212d29102f5" category="cell">（将来時制が必要な場合）</block>
+  <block id="3c2bb9e95fa5b8a7d4e0a0d41ad5b86f" category="cell">できない（将来の緊張が必要な場合）</block>
+  <block id="a4b1e16e36a349a9247d2137cac483f8" category="cell">将来の緊張感が必要な場合は、</block>
+  <block id="82dad67d8806110a136a6a9600650fb6" category="paragraph">**これではなく**：「NetApp Cloud Centralアカウントとユーザの関連付けを解除してください。」</block>
+  <block id="6a33be9f6f0a79bf8672d096460da953" category="paragraph">**手順**：「NetApp Cloud Centralアカウントからユーザを削除してください。」</block>
+  <block id="d03e3b3315dec359ee190696d4c8fea4" category="paragraph">**ではなく**：「AWSのCloud Volumes ONTAPシステムと他のネットワークのONTAPシステムの間でデータをレプリケートするには、Amazon VPCと他のネットワーク（Azure VNetや企業ネットワークなど）の間にVPN接続が必要です。」</block>
+  <block id="fb9660af12bf79398c26a55f35753c8c" category="paragraph">**これを行う**:「ネットワーク間のデータレプリケーションには、VPNを介した接続が必要です。たとえば、Amazon VPCと企業ネットワークの間、AWSとAzureの間などです。」</block>
+  <block id="5b72a9011d8b03de8f68b8e22728980e" category="paragraph">次のことを自問してください。</block>
+  <block id="0acb624cdc21050020228a5c1b2d0e12" category="list-text">ユーザインターフェイスはすでに十分にユーザを誘導していますか。そうでない場合、簡潔に追加できる追加ガイダンスは何ですか？</block>
+  <block id="f5c4358a30b11e4d51f1b70da59a1e4f" category="section-title">アクティブボイス</block>
+  <block id="94f4580af34642dca5602d20328864c6" category="paragraph">文の主題が動詞の行動を実行するようにアクティブな声を使用してください。これは通常、動詞が文の主題に従うことを意味します。アクティブな音声で、明瞭かつ鮮明に表現できます。パッシブボイスを使用する特定の理由がない限り、アクティブボイスを使用し、ユーザを「あなた」として直接アドレス指定します。</block>
+  <block id="05726c0b25584edfbbeb54bbd42743a4" category="paragraph">ここでは、優れたアクティブな音声ライティングの例をいくつか示します。次のように書きます。</block>
+  <block id="641eb1e93e5d30befeffc406c18468f0" category="list-text">最初のクラスタを導入する前に、必要な権限を指定してください。</block>
+  <block id="3f005421948d646b44ec122316154b68" category="list-text">システムを不適切にシャットダウンすると、インターフェイスに警告メッセージが表示されます。</block>
+  <block id="1a303c5f4eed3b77a97d8862ea467f56" category="section-title">パッシブ音声</block>
+  <block id="a652699ef60f4419b461c63059111c2c" category="section-title">必須の気分</block>
+  <block id="4ae2240fd55c51892cf9aeb3660b592d" category="paragraph">手順、指示、要求、およびユーザアクションのリストの見出しには、必須のムードを使用します。</block>
+  <block id="73cfa7195e4bda4f2eb88c5590b1c78a" category="list-text">[Working Environments]ページで、[Discover]をクリックし、ONTAP Cluster]を選択します。</block>
+  <block id="62adb2c93dd55a3ad3d8889df0be24b3" category="list-text">カムハンドルを回転させて、電源装置と同一面になるようにします。</block>
+  <block id="3a698e7c782f0bc63fada32b2af47ac7" category="paragraph">**ではなく**：「最初のクラスタを導入する前に、必要な権限を指定する必要があります。」</block>
+  <block id="c1b2c901a32fc9ec6b28212940de0c42" category="paragraph">**この手順**：「最初のクラスタを導入する前に、必要な権限を指定してください。」</block>
+  <block id="1acf3eec4bf44f260077b611735cda38" category="section-title">整合性のあるコンテンツの書き込み</block>
+  <block id="dbcb6b42cd14c232d7ba50d192e5a676" category="paragraph">「プロの同僚に何かを説明しているときは、話すように書く」ということは、誰にとっても何か違うことを意味します。私たちのプロフェッショナルでありながら会話スタイルは、私たちをユーザーと結び付け、複数の投稿者間で小さな矛盾が発生する頻度を高めます。</block>
+  <block id="9d3ffae4c41a85389531314f29cbb6fc" category="paragraph">最初にその人を指し、次に障害を指す場合は、人を第一言語として使用します。</block>
+  <block id="f40469276f47411b50d930362b052a73" category="paragraph">彼、彼、彼、彼女、彼女を使用しないでください。 または一般的な参照で彼女のもの。代わりに：</block>
+  <block id="5ff4845e38d566597471f0c55b3c56b4" category="list-text">2人目の人（あなた）を使用するように文を書き直します。</block>
+  <block id="3b7382d0392195ff5c72babf13c5cf26" category="list-text">文を複数の名詞と代名詞に書き換えます。</block>
+  <block id="7debda40c8efdcb08c862026722356d0" category="list-text">代名詞の代わりに「」または「A」を使用します（例：「ドキュメント」）。</block>
+  <block id="5f4ea7f4d410f288d581eb32bcc82714" category="list-text">ユーザーの役割（リーダー、従業員、顧客、クライアントなど）を参照します。</block>
+  <block id="1e19c25122029513475dcaf5c704fe75" category="list-text">「個人」または「個人」という用語を使用してください。</block>
+  <block id="456eaa81df236414c4dd5c77f177c4ad" category="paragraph">*包括的または排他的と見なされる単語やフレーズの例*</block>
+  <block id="80f338cfee2680507ee19b3229199a35" category="cell">包括的な例</block>
+  <block id="5d00480bffe867508198b6b890ebccdb" category="cell">限定的な例</block>
+  <block id="b750282d4f8d85fff2417b2aa976154d" category="cell">プライマリ/セカンダリ</block>
+  <block id="62f583432cdb74cef18f62e64b49e3d5" category="cell">マスター/スレーブ</block>
+  <block id="c7157221c998aef6193793b125d2da94" category="cell">許可リスト</block>
+  <block id="778f0a4cbdc7e22f17964daa6ebee02a" category="cell">ホワイトリスト</block>
+  <block id="00452d60508111f10d9c8db7e0b3d947" category="cell">ブロックリスト</block>
+  <block id="85fffe8f5074d606fa202fa5ae90d8bb" category="cell">ブラックリスト</block>
+  <block id="11a755d598c0c417f9a36758c3da7481" category="cell">停止します</block>
+  <block id="292ed5e525d66c64f13a3bf54a17c06a" category="cell">殺す</block>
+  <block id="689b1be69fae5828e6c823a30a18abfe" category="cell">応答を停止</block>
+  <block id="ab2455e33b8ddb6a9d2d41107a2ed4f6" category="cell">ハング</block>
+  <block id="bf82d72fec9844cf01ba4336fc5f8581" category="cell">終了またはキャンセル</block>
+  <block id="727b63583e01fa2b3952dab580c84dc2" category="cell">中止</block>
+  <block id="85921137ab0e8ba55b5a95ab295eba9a" category="cell">人時</block>
+  <block id="26eecafda11f3c1376eb5128760a1dfd" category="cell">マンアワー</block>
+  <block id="debbc9acb80d94bb6e3d641aec77c5bd" category="cell">開発者は開発環境内のサーバーにアクセスする必要がありますが、Azure内のサーバーにアクセスする必要はありません。</block>
+  <block id="9e172cc5e7bee49d581c45bcd2da3976" category="cell">開発者は開発環境内のサーバーにアクセスする必要がありますが、Azure内のサーバーにアクセスする必要はありません。</block>
+  <block id="4376869978c1dabbd66bba6af23f9b40" category="cell">目が見えない人</block>
+  <block id="8981aeed5f3f47d00b8b8c84caf07b30" category="cell">視力障害</block>
+  <block id="a975729e202349117c6c1f43f8d0f45b" category="cell">視力の低い人</block>
+  <block id="3bd892e6666bfd00ac5f39832e9776c7" category="cell">視力障害</block>
+  <block id="9082d6a2f8de143afa954fe0c4cf6945" category="paragraph">各ページは、ユーザーにとって最も重要なものから始める必要があります。私たちは、ユーザーが何をしようとしているのかを調べ、その目標を達成するための支援に焦点を当てる必要があります。また、スキャン能力を向上させるために、文の先頭にキーワードを追加する必要があります。</block>
+  <block id="8c29cb528c9acdb9c999cb34aee5b7e9" category="paragraph">次の一般的な文のガイドラインに従ってください。</block>
+  <block id="d5f2fccfddda581beb53a2459722b9b6" category="list-text">正確に言うと</block>
+  <block id="541dbc00c41c24cf98300f33bd67cd32" category="list-text">フィラーの言葉は避けてください。</block>
+  <block id="d98ae29b67b990f903f5bb2f40097624" category="list-text">短くしてください。</block>
+  <block id="e67a5e22d1a07b7e8eabbc9f49ecb5f6" category="list-text">書式設定されたテキストまたは箇条書きリストを使用して、キーポイントを強調表示します。</block>
+  <block id="dceb6717054666676ad0df601a567926" category="paragraph">*ポイントに到達する例*</block>
+  <block id="7a55da0ef1d91f39c5ff520e50c0b66d" category="cell">良い例</block>
+  <block id="4a8f14c4a239ddaa4ad56f019d8b630c" category="cell">悪い例</block>
+  <block id="cca610b37e5c92d570af0565fb168d75" category="cell">厳しいセキュリティポリシーが適用されている場合は、転送中データの暗号化を使用して、異なるネットワークにあるNFSサーバ間でデータを同期します。</block>
+  <block id="984d4c6b2ffa73254b0fd5fde862ae55" category="cell">Cloud Syncでは、転送中データ暗号化を使用して、あるNFSサーバから別のNFSサーバにデータを同期できます。データを暗号化すると、ネットワーク経由でデータを転送するための厳格なセキュリティポリシーがある場合に役立ちます。</block>
+  <block id="7f4b4a408e18cd38029cc949851f32ef" category="cell">頻繁に使用するスタイル、フォーマット、およびページレイアウトを含むドキュメントテンプレートを作成することで、時間を節約できます。その後、新しいドキュメントを作成するたびにテンプレートを使用します。</block>
+  <block id="91a8e43b996744967bcbdeeeae9903f2" category="cell">テンプレートは、新しいドキュメントを作成するための出発点となります。テンプレートには、頻繁に使用するスタイル、フォーマット、およびページレイアウトを含めることができます。ドキュメントに同じページレイアウトとスタイルを使用することが多い場合は、テンプレートの作成を検討してください。</block>
+  <block id="2015850df67c84dacc3aded964cb89e7" category="cell">Astra Controlには3つの運用モードが用意されており、ユーザに割り当ててAstra Controlとクラウド環境間のアクセスを慎重に制御できます。</block>
+  <block id="89f398ff00a32f170adf2b0fc2218064" category="cell">Astra Controlでは、AWSアカウントのユーザに3つの運用モードのいずれかを割り当てることができます。モードを使用すると、ITポリシーに基づいてAstra Controlとクラウド環境間のアクセスを慎重に制御できます。</block>
+  <block id="1864c222f58633821b22c7218a8549db" category="paragraph">ほとんどの人は視覚的な学習者である。ビデオ、図、スクリーンショットを使用して、学習を改善し、テキストのブロックを分割し、タスクの指示のどこにいるかをユーザーに視覚的に示すことができます。</block>
+  <block id="51ef9ea48493941bc576dd6d603525a6" category="list-text">「次の図は、背面パネルのAC電源装置LEDを示しています。」</block>
+  <block id="4347bfb9354591c0efb77ea5675a9917" category="list-text">図の位置を「following」または「preceding」、「not」「above」または「below」と参照してください。</block>
+  <block id="ab633aa0c21a92c34cac65602b26f6c2" category="list-text">埋め込まれたビジュアルに代替テキストを使用します。</block>
+  <block id="a6738e6aa310d5b98c7ca42b747b84c5" category="list-text">ビジュアルがステップに関連している場合は、ステップの直後にビジュアルを含め、ステップ番号に合わせてインデントします。</block>
+  <block id="09615f545d6349275c0de10801b43fec" category="paragraph">スクリーンショットのベストプラクティス：</block>
+  <block id="5a0431aaf7896c50656adc50e0906685" category="list-text">1つのタスクに含めるスクリーンショットは5つまでです。</block>
+  <block id="ce7c67e7dcecd0f49b902ed57e692a2c" category="list-text">スクリーンショットにテキストを含めないでください。代わりに番号付きコールアウトを使用します。</block>
+  <block id="e4a1c3066b57e220d58f713fba1ecd59" category="list-text">含めることを選択したスクリーンショットを慎重に使用してください。スクリーンショットはすぐに古くなる可能性があります。</block>
+  <block id="b6e33f8ec09a06fa6546129739b40a58" category="paragraph">ビデオまたはアニメーションのベストプラクティス：</block>
+  <block id="d995b1f252e6594c2cc511b74f0db877" category="list-text">ビデオの長さは5分未満である必要があります。</block>
+  <block id="16087e77bb97f85e464276292accdc6f" category="inline-link">例1 AWSのクレデンシャルと権限について確認する</block>
+  <block id="4e301c300a2eac21077308b32d6701f2" category="list-text"><block ref="4e301c300a2eac21077308b32d6701f2" category="inline-link-rx"></block></block>
+  <block id="25e00dbf7007dccc0edce40a044c779f" category="inline-link">例2 BlueXPのバックアップとリカバリでONTAPボリュームのデータを保護</block>
+  <block id="a0b3bbdf77af26ed1c7f5d247698d537" category="list-text"><block ref="a0b3bbdf77af26ed1c7f5d247698d537" category="inline-link-rx"></block></block>
+  <block id="25db87514589f0d1fda20a16eb47d9e3" category="inline-link">例3レプリケーション計画の作成（タスクのスクリーンショットを表示）</block>
+  <block id="656f88bccb854bfe1dde64118314bc1f" category="list-text"><block ref="656f88bccb854bfe1dde64118314bc1f" category="inline-link-rx"></block></block>
+  <block id="05dca879cba3ee232764be79b43635cd" category="inline-link">例4 BlueXPビデオでのクレデンシャルの管理</block>
+  <block id="fac3f782f8cfaef69bbf66d0ddc3eff9" category="list-text"><block ref="fac3f782f8cfaef69bbf66d0ddc3eff9" category="inline-link-rx"></block></block>
+  <block id="9d96cde19a8d0003c078bf6b180c53ba" category="paragraph">セクション見出しの下にテキストを整理したり、リストや表を使用して、読者がコンテンツをすばやく見つけられるように支援します。見出し、文、段落は短くて読みやすいものにする必要があります。最も重要な情報を最初に提供する必要があります。</block>
+  <block id="dcae47ba844f0d6d2a40917b4973f29b" category="list-text"><block ref="dcae47ba844f0d6d2a40917b4973f29b" category="inline-link-rx"></block></block>
+  <block id="1cb758c099dd7ebd99ee1aa7e2310d01" category="list-text"><block ref="1cb758c099dd7ebd99ee1aa7e2310d01" category="inline-link-rx"></block></block>
+  <block id="92cd82f697902b78aca5db471cd8c67b" category="section-title">ユーザの目標達成を支援するワークフローを作成する</block>
+  <block id="993fcd038b6183bc6e97ccc62f5f1abd" category="paragraph">ユーザーはコンテンツを読み、特定の目標を達成します。ユーザーは、必要なコンテンツを検索し、目標を達成し、家族に向けて家に帰りたいと考えています。私たちの仕事は、製品や機能を文書化することではありません。私たちの仕事は、ユーザーの目標を文書化することです。ワークフローは、ユーザの目標達成を支援する最も直接的な方法です。</block>
+  <block id="4f8439580cde85d7bf0bd20007ca537a" category="paragraph">たとえば、ボリューム自体での作成は完全な目標ではないため、ボリュームの作成手順はワークフローにはなりません。ESX サーバでストレージを使用できるようにする手順は、ワークフローになります。この手順には、ボリュームの作成だけでなく、ボリュームのエクスポート、必要な権限の設定、ネットワークインターフェイスの作成などが含まれます。</block>
+  <block id="05e22cb91d07b3617eaef49d2b614040" category="paragraph">ワークフローは、お客様のユースケースに基づいています。ワークフローは、目標を達成するための最良の方法を 1 つだけ示しています。</block>
+  <block id="98bdfab35b28541738e294c787d2d326" category="section-title">ユーザーの目標に基づいてコンテンツを整理する</block>
+  <block id="ac8ea0814363a901ce108dc1061489b1" category="paragraph">ユーザーが達成しようとしている目標に基づいてコンテンツを整理することで、ユーザーが情報をすばやく見つけるのを支援します。この標準環境では、ドキュメントサイトの目次（ナビゲーション）と、サイトに表示される個 々 のページを表示します。</block>
+  <block id="5178596f33051639e4edb27f4b7d9e26" category="paragraph">次のようにコンテンツを整理します。</block>
+  <block id="f05ce9ddbc589e513e72ad5ab78dcfa0" category="list-text">ユーザーが達成しようとしている目標に沿ってコンテンツを整理します。たとえば、サイトのナビゲーションの最初のエントリは「Get started」または「Protect data」です。</block>
+  <block id="c7ed614b9c8d85ef8360668f4e44930d" category="list-text">ドキュメントサイトのナビゲーションの2番目のレベルのエントリ（中規模）</block>
+  <block id="c2b0b88a28e350016be32f2565ae2334" category="list-text">目標を構成する幅広いタスクを中心にコンテンツを整理する。</block>
+  <block id="0dfa5a4ae580d127570193f6547719f3" category="paragraph">たとえば、「Get started」セクションには次のページが含まれます。</block>
+  <block id="67f289221dc2b8315be57c85a28e0619" category="list-text">設置を準備</block>
+  <block id="53bd62bb5aae1139e8b0a414528697bc" category="list-text">&lt;product name&gt;のインストールとセットアップ</block>
+  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="list-text">ライセンスをセットアップする</block>
+  <block id="d0a7edff5cd82c23f3d1c18e0779ccbc" category="list-text">次は何ができるか</block>
+  <block id="fcc5f8a22c33b5532eade25555182fa6" category="list-text">各ページで、広範なタスクを構成する個 々 のタスクを中心にコンテンツを整理します。たとえば、インストールの準備やディザスタリカバリの設定に必要なコンテンツなどです。</block>
+  <block id="847cfc3e08fb4a887f64577b54937889" category="paragraph">1つのページには、1つのタスクまたは複数のタスクを記述できます。複数のタスクがある場合は、ページの別 々 のセクションで説明する必要があります。各セクションは、幅広いタスクの1つの学習または実行面に焦点を当てる必要があります。これには、タスクを完了するために必要な概念や参照ベースの情報が含まれる場合があります。</block>
+  <block id="789479b6a331f03724677e1f733505d0" category="paragraph">私たちのドキュメントは、主な言語が英語ではない多くのユーザーに読まれています。当社は、Neural Machine Translationツールや人間による翻訳を使用して、コンテンツを他の言語に翻訳しています。世界中のユーザーをサポートするために、読みやすく翻訳しやすいコンテンツを作成しています。</block>
+  <block id="955abac4e6854335582815280aaf36b4" category="paragraph">以下のガイドラインに従って、グローバルユーザー向けに記事を作成してください。</block>
+  <block id="09fe3985f91385714baf11e8ccf88305" category="section-title">アクティブ音声（パッシブ音声との比較）</block>
+  <block id="9f9f2635eab2378cac8b309f14376108" category="paragraph">を参照してください <block ref="0c285b154ac93c1540ae9e5281017dec" category="inline-xref-macro-rx"></block>。</block>
+  <block id="9a7a2c05bfc68a16b33bc5aeb9281db6" category="paragraph">テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要ではない「知っておくと便利な」情報にはメモを使用しないでください。</block>
+  <block id="6647a0d8ddca3a32764030eaa8d33eaf" category="section-title">導入後（「1回」とは対照的）</block>
+  <block id="dbb3ad88bf35c794d6f4916649c3a5f9" category="list-text">「後」を使用して、「電源を入れた後にコンピュータの電源を入れます」という時系列を示します。</block>
+  <block id="c2173ab81c2076af318b1e50b4c92d38" category="list-text">「1回」は「1回」を意味する場合にのみ使用してください。</block>
+  <block id="8208198b3f48adf43fc4f69bd282936d" category="list-text">「代替」という意味で「also」を使用しないでください。</block>
+  <block id="ea84c9cf2753148ded71d53a83400571" category="paragraph">用語がある場合は、より正確な用語を選択します。どちらの用語ももう一方の用語よりも正確でない場合は、「AND / OR」を使用します。</block>
+  <block id="ba8c59349702c086e7df3ebe3ea4277e" category="paragraph">「理由」という意味で「as」を使用しないでください。</block>
+  <block id="637ae8221997308dd8fcc110e2e5e27f" category="section-title">を使用する（「using」または「with」とは対照的）</block>
+  <block id="8dee1cec1a6e9725cc1fcf446045983f" category="list-text">を使用しているエンティティが主体である場合は'を使用して使用しますコンポーネントメニューを使用して'リポジトリに新しいコンポーネントを追加できます</block>
+  <block id="dbd86f25365feb9a486d0f31a5a0dfab" category="list-text">You can begin a sentence with either "using" or "with" which are sometimes acceptable with product names:"Using SnapDriveを使用すると、Windows環境で仮想ディスクとSnapshotコピーを管理できます。"</block>
+  <block id="f8ba8b49b8c4978a384020d13afd11f2" category="section-title">CAN（対「might」、「May」、「should」、「must」）</block>
+  <block id="4b4a3499f36083e10cb9d086cd9eb415" category="list-text">「CAN」を使用して機能を示します。「この手順中はいつでも変更をコミットできます。」</block>
+  <block id="2ee145f807ac8dfcf172a52c952ba48b" category="list-text">「might」を使用して、「複数のプログラムをダウンロードすると処理時間に影響する可能性があります」という可能性を示します。</block>
+  <block id="88fb0be320034bd283425d99592c0b2a" category="list-text">「may」は使用しないでください。機能または権限のいずれかを意味する可能性があるため、あいまいです。</block>
+  <block id="a2cef3d007a6cf67bffcd8a1119a1ee8" category="list-text">推奨されるがオプションのアクションを指定するには、「should」を使用します。代わりに、「We recommend」などの別のフレーズを使用することを検討してください。</block>
+  <block id="831996cebc6c9bf7687e922c3437be69" category="inline-xref">パッシブ</block>
+  <block id="c4dc5ac1800b6f6c71705d2383606ca1" category="list-text">「must」の使用は避けてください。 <block ref="67063d8c0eb567d1f8340ca4c020375f" category="inline-xref-macro-rx"></block>。命令的な音声を使用して、思考を命令として再調整することを検討してください。「must」を使用する場合は、必要なアクションまたは条件を示すために使用します。</block>
+  <block id="757e3dc7acca7a7f9b54d3c4f0d5c504" category="section-title">注意事項</block>
+  <block id="c1b968c395ac7490714efb8fd0a63007" category="paragraph">を参照してください <block ref="8b099210f8d5e10883a9054cab340bdd" category="inline-xref-macro-rx"></block>。</block>
+  <block id="00eb1a63407a4e68c59607bea7412054" category="paragraph">使用 <block ref="171d7b9bec085f3a21cae919f826841f" category="inline-xref-macro-rx"></block> 対話的に書くことの一部として。</block>
+  <block id="8ef442456d62d61063c596f5dc44927c" category="section-title">確実にする（「confirm」または「verify」ではなく）</block>
+  <block id="9aeb76015c15a0d23324929c5980901e" category="list-text">「確実にする」を意味するには、「確実にする」を使用します。 必要に応じて「that」を含めます。「イラストの周囲に十分な空白があることを確認してください。」</block>
+  <block id="c9d8607fa16c3a714c0c2f8559ab65e4" category="list-text">Never use "ensure" to imply a promise or guarantee："Cloud Managerを使用して、ONTAPクラスタでNFSボリュームとCIFSボリュームをプロビジョニングできるようにします。"</block>
+  <block id="ea3427d6c6f74deb8784719dca08ebab" category="list-text">すでに存在するものやすでに発生したものを再確認する必要がある場合は、「confirm」または「verify」を使用します。「Verify that NFS is set up on the cluster」</block>
+  <block id="f662ce9a504b91d302ba6eeeb8d4171e" category="paragraph">を参照してください <block ref="9a0e14fb1289de2d3cff01148f57284f" category="inline-xref-macro-rx"></block>。</block>
+  <block id="91317769d501c864c691b74f6f5e18be" category="paragraph">「そうでない場合」を単独で使用して前の文を参照しないでください。</block>
+  <block id="e5363ac9cf61667b8b89d463f10f2181" category="list-text">**ではなく**：「コンピュータの電源がオフになっている必要があります。そうでない場合は、オフにしてください。"</block>
+  <block id="314ac7c923658bd32bd8cfe5b8f31f03" category="section-title">if（「whether」または「when」との比較）</block>
+  <block id="57cea60e898baad9c19780409b1f720a" category="list-text">「If」を使用して条件を指定します。たとえば、「If this, then that」のように指定します。</block>
+  <block id="4fde9f415cfd38c4ac4b8c19eeb346b5" category="list-text">明示的または黙示的な条件がある場合は、「whether」を使用します。翻訳を容易にするためには、「どうか」を単独で置き換えるのが最適です。</block>
+  <block id="482a815dda5cae3562f040a54b311368" category="list-text">時間の経過を示すには、「when」を使用します。</block>
+  <block id="af53d25413a7125a35f1e589763c4cdb" category="paragraph">機能や機能が「現在サポートされていない」と言う以外に、今後の製品リリースや機能のタイミングや内容を言及しないでください。</block>
+  <block id="96a49d1c99ca2a13ba02195d3ec5c3a1" category="paragraph">を参照してください <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a5fff28a31e710f1992d186b2d7fc799" category="paragraph">を参照してください <block ref="0ef7c8822f1ba28949b862da7815a111" category="inline-xref-macro-rx"></block>。</block>
+  <block id="4caf5ad146ee22283dbdf0209ac460f8" category="list-text">その他の番号規則については、を参照してください。<block ref="1959342221a46bb956c369d76f7bb821" category="inline-link-rx"></block>。</block>
+  <block id="fd826dfe5f5f6157612b1b0680fd88d2" category="list-text">「前提条件」、「開始する前に」、「開始する前に」などの見出しでコンテンツの性質を識別します。</block>
+  <block id="c2159f5cfdf68b7ab4a868ea44b857c7" category="list-text">"クラスタでNFSまたはCIFSがセットアップされている必要があります。"</block>
+  <block id="45361464d379c94ba6f235d2b85b29ca" category="list-text">"Cloud Managerにクラスタを追加するには、クラスタ管理IPアドレスと管理者ユーザアカウントのパスワードが必要です。"</block>
+  <block id="925f58fabde93eb0ac1a9c6c2a6cf788" category="list-text">必要に応じて「NFSまたはCIFSがクラスタでセットアップされている必要があります」を明確にします。System ManagerまたはCLIを使用してNFSとCIFSをセットアップできます。"</block>
+  <block id="a2c7987a7c5c85f719477427b45a7fc4" category="list-text">前提条件：「最初のクラスタを導入するには、必要な権限が必要です。」</block>
+  <block id="f761526d1757127301e7e53215be1ac6" category="list-text">手順：最初のクラスタを導入するために必要な権限を指定します。</block>
+  <block id="0abcbc68c9feac3ead2c933795aa6f5a" category="section-title">以前（"before"、"previous"、"previous"、"previous"）</block>
+  <block id="47ab3a85d304ea1361826a0e729ab661" category="list-text">可能であれば、「前」を「前」に置き換えます。</block>
+  <block id="82c06dcc336effe8819346a3d3e0e35c" category="list-text">「before」を使用できない場合は、「prior」を形容詞として使用して、時間の早い時期に発生した、または重要度の高いものを参照してください。</block>
+  <block id="aef01257c22641929055ed2b510e5557" category="list-text">指定されていない時間前に発生したことを示すには、「previous」を使用します。</block>
+  <block id="d3bf1889bfe2a6d3f1e58461e673b5ef" category="list-text">直前に発生したことを示すには、「preceding」を使用します。</block>
+  <block id="06b0552284df3fe59e1ab143cd975490" category="list-text">3つ以上の項目の物語リストでは、接続詞（「and」または「or」）の前にシリアルコンマ（オックスフォード・コンマ）を使用します。</block>
+  <block id="843771bfb2bc1277bdddc4bb40bba2ea" category="paragraph">時間の経過を示すには、「Since」を使用します。「Since」を「because」の意味に使用しないでください。</block>
+  <block id="5c43b9308575617af1d87b2502a8c287" category="section-title">それ（「どちら」または「誰」との対比）</block>
+  <block id="a57ceb2b83b685ed105c9e7cbf2973c5" category="list-text">文が意味を成すために必要な節を導入するには、"that"(末尾のコンマなし)を使用します。</block>
+  <block id="0aec03c873caef13ddd0cee0dfdf3d18" category="list-text">英語で文が明瞭であっても"that"を使用してください。"verify that the computer is off（コンピュータの電源がオフになっていることを確認してください）"</block>
+  <block id="d5337fb842fe71fde2a04361e0eb5cc6" category="list-text">「which」(末尾にカンマを含む)を使用して、補足情報を追加しますが、文が意味を成すために必要ではない句を導入します。</block>
+  <block id="468654d210e6315b69e22fee2ee1c328" category="list-text">「Who」を使用して、Peopleを参照する句を紹介します。</block>
+  <block id="36ccb1973b9666c02706fecb8d9f7cb2" category="paragraph">ユーザインターフェイスを文書化する場合は、ユーザをガイドするために、できるだけインターフェイスに依存してください。</block>
+  <block id="04c24915e042645166a2b76326d8a15a" category="paragraph">UIを文書化するときは、シンプルでシンプルなスタイルを使用します。</block>
+  <block id="5beef609e4101c55ac8830b63e85edc0" category="list-text">ユーザーがコンテンツの読み取り中にインターフェイスを使用していると仮定します。</block>
+  <block id="ce4c23bc75196cfbe2f4b044894abee8" category="list-text">「OKをクリック」、「保存をクリック」、「ボリュームが作成されました」など、タスクを実行している人にわかりやすいものは含めないでください。</block>
+  <block id="2a055491bf64f58be8d6a52e1e609f44" category="list-text">「クリック」をまったく使用しないでください。その単語はマウス、タッチ、キーボード、その他の選択方法をカバーしているため、常に「選択」を使用してください。</block>
+  <block id="6b251846895fc039be2285f540503e56" category="paragraph">UI 要素に名前を付ける必要がある細分性レベルにドキュメント化しないでください。</block>
+  <block id="9a7c394be2b102aff7633d176cb2cfb0" category="paragraph">インターフェイスを使用して、インタラクションの詳細をユーザーに説明します。特定のラベルを取得する必要がある場合は、そのラベルに名前を付けます。たとえば、「目的のボリュームを選択」または「既存のボリュームを使用」を選択します。 メニュー、ラジオボタン、チェックボックスに名前を付ける必要はありません。ラベルを使用するだけです。</block>
+  <block id="94ec525bb462edb85b697091fe1a12d1" category="paragraph">ラベルを識別するときは、ユーザインターフェイスで使用されるスペルと大文字小文字の区別に従ってください。</block>
+  <block id="39db270edb01c9004ca1d5b138b6e0d8" category="paragraph">ラベルの後ろに省略記号が付いている場合は、オブジェクトの名前に省略記号を含めないでください。ユーザインターフェイスラベルにタイトルスタイルの大文字と小文字を使用して、ユーザインターフェイスラベルについて簡単に記述できるようにするように開発者に勧めてください。</block>
+  <block id="a99f27f311a50b3ea0b276b124c916d6" category="paragraph">スクリーンキャプチャは慎重に使用してください。</block>
+  <block id="32610c4bd36ad36baee38e14539246c7" category="paragraph">時折スクリーンキャプチャ(「スクリーンショット」)を使用すると、ワークフロー中にインターフェイスを開始または変更するときに、インターフェイス内の適切な場所にいることをユーザーが確信できるようになります。スクリーンキャプチャを使用して、入力するデータや選択する値を表示しないでください。</block>
+  <block id="b82c2c6f8dedbeb3f2192242dfb244ce" category="section-title">while（ただし）</block>
+  <block id="a8725be5130c5015f50f29026862358e" category="list-text">「while」は、時間内に発生したことを示すために使用します。</block>
+  <block id="1f9e771dea99b07dbcdbe2912dc1adb2" category="list-text">ほぼ同時に、または別のアクティビティの直後に発生するアクティビティを表すには、「though」を使用します。</block>
 </blocks>
