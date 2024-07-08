@@ -186,12 +186,6 @@
   <block id="97aba9ddd85fa7db3ab0975897188664" category="inline-link">Merriam - Webster の辞書オンライン</block>
   <block id="a5c0a6970afaed0f8993e80f0367d714" category="list-text"><block ref="a5c0a6970afaed0f8993e80f0367d714" category="inline-link-rx"></block></block>
   <block id="33f6518588649a99a675cf3b6920a297" category="section-title">モニター</block>
-  <block id="51081b1df080a1e17eccc89518ca8d20" category="paragraph">次のラベルを使用して、メインコンテンツフローとは別にコンテンツを識別します。</block>
-  <block id="10de4bc81f754b19b0d27246a0589c05" category="list-text">注</block>
-  <block id="1eab470a6f707b92e15040773251a746" category="list-text">ヒント</block>
-  <block id="80de2a8faacb1711bb579e0ee9293a10" category="paragraph">ヒントは、デフォルトで常にベストプラクティス情報を文書化するというポリシーであるため、慎重に使用してください。必要に応じて、ヒントを使用して、ユーザーが製品を使用したり、ステップやタスクを簡単かつ効率的に完了したりするのに役立つベストプラクティス情報を含めます。</block>
-  <block id="18a970540d05e11964e25e6c04e72b53" category="list-text">注意</block>
-  <block id="acf7e64aba7071e147e493ba4b62b706" category="paragraph">死亡や重傷につながることのない原因の人身事故を引き起こす可能性がある条件や手順について、ユーザに警告するときは注意してください。</block>
   <block id="07ccfe360dce69b84595428e2ec1c1cc" category="section-title">また</block>
   <block id="06957db97049767f064edfa829e41728" category="list-text">「追加」を意味するには、「も」を使用します。</block>
   <block id="db9cdfa0cd758f90d8341ab3a5f4ff2b" category="section-title">および / または</block>
@@ -507,7 +501,6 @@
   <block id="955abac4e6854335582815280aaf36b4" category="paragraph">以下のガイドラインに従って、グローバルユーザー向けに記事を作成してください。</block>
   <block id="09fe3985f91385714baf11e8ccf88305" category="section-title">アクティブ音声（パッシブ音声との比較）</block>
   <block id="9f9f2635eab2378cac8b309f14376108" category="paragraph">を参照してください <block ref="0c285b154ac93c1540ae9e5281017dec" category="inline-xref-macro-rx"></block>。</block>
-  <block id="9a7a2c05bfc68a16b33bc5aeb9281db6" category="paragraph">テキストの他の部分と区別する必要がある重要な情報には、メモを使用します。ユーザーがタスクについて学習したり、タスクを完了したりするために必要ではない「知っておくと便利な」情報にはメモを使用しないでください。</block>
   <block id="6647a0d8ddca3a32764030eaa8d33eaf" category="section-title">導入後（「1回」とは対照的）</block>
   <block id="dbb3ad88bf35c794d6f4916649c3a5f9" category="list-text">「後」を使用して、「電源を入れた後にコンピュータの電源を入れます」という時系列を示します。</block>
   <block id="c2173ab81c2076af318b1e50b4c92d38" category="list-text">「1回」は「1回」を意味する場合にのみ使用してください。</block>
@@ -574,4 +567,17 @@
   <block id="b82c2c6f8dedbeb3f2192242dfb244ce" category="section-title">while（ただし）</block>
   <block id="a8725be5130c5015f50f29026862358e" category="list-text">「while」は、時間内に発生したことを示すために使用します。</block>
   <block id="1f9e771dea99b07dbcdbe2912dc1adb2" category="list-text">ほぼ同時に、または別のアクティビティの直後に発生するアクティビティを表すには、「though」を使用します。</block>
+  <block id="85d1422db3849226daed5a00eb7f27cf" category="section-title">略語と略語</block>
+  <block id="67e4f5c5f00a17a1b4ce3246a6964380" category="paragraph">よく知られた頭字語や略語を使用して親しみやすくしますが、明瞭さや検索性に悪影響を及ぼす可能性のあるあいまいな頭字語や略語は使用しないでください。頭字語および略語のその他の表記法については、を参照してください<block ref="129adddb06df0e4a944a90759a2b150f" category="inline-link-rx"></block>。</block>
+  <block id="bdfbb9ac9fe98f630d4d38fca776a609" category="paragraph">警告は、正しく使用されたときに強力なツールです。重要な情報に注意を向けたり、役立つヒントを提供したり、潜在的な危険性についてユーザーに警告したりすることができます。過剰に使用すると、影響を失い、ユーザーの疲労につながる可能性があります。ここでは、警告の効果的な使用を確実にするためのいくつかのガイドラインを示します。</block>
+  <block id="d8ef07099960f55e1ae0b761837ff69a" category="paragraph">次のラベルを使用して、メインコンテンツフローから警告を分離します。</block>
+  <block id="6119ac1a35955a26ef75d563906cbe3d" category="list-text">メモ「メモ」を使用して、テキストの残りの部分から際立たなければならない重要な情報を強調します。ただし、ユーザーがタスクを理解したり完了したりするために不可欠ではない「知っておくべき」情報にはメモを使用しないでください。ノートの目的は、他の方法では見落とされるかもしれない重要なポイントに読者の注意を引くことです。</block>
+  <block id="35c3c4208d908b007bea369dcf24fbd6" category="list-text">ヒントヒントは、デフォルトでベストプラクティス情報を文書化することをポリシーとしているため、使用する場合は慎重に行う必要があります。必要に応じて、ヒントを使用して、ユーザーが製品を使用したり、ステップやタスクをより簡単かつ効率的に完了するのに役立つベストプラクティス情報を強調します。ヒントは、ユーザーのエクスペリエンスを向上させるための有用なアドバイスやショートカットを提供する必要があります。</block>
+  <block id="f9157df517733068b87b36b76a31421e" category="list-text">注意人身傷害や装置の損傷など、望ましくない結果につながる可能性のある条件や操作については、ユーザーに注意して警告してください。危害や混乱を防止するためにユーザーが避けるべき潜在的な危険に注意を喚起するためには、注意を払う必要があります。</block>
+  <block id="f47ad409538c3949a332704503a8123a" category="list-title">その他のガイドライン</block>
+  <block id="1468fb461f0c5feadd816a54f9094d1d" category="list-text">サポートされている警告のみを使用します。その他の形式はサポートされていません。</block>
+  <block id="16ef0cd6a13a91b99cf8dbc20e4c5c0a" category="list-text">警告を過度に使用しないでください。過度に使用すると、ユーザーはこれらの重要なセクションをスキップする可能性があります。これは、それらがドキュメントの「ジャンクドロワー」と見なされるためです。</block>
+  <block id="7defe98212d28fe26abbe5a9cad4ae26" category="list-text">経験則として、警告の数は1ページあたり最大3つに制限してください。</block>
+  <block id="61eaa50fbc86f3a53385a189d01e4277" category="list-text">警告の中で明確で簡潔な情報を提供します。メッセージは簡潔で要点を示し、ユーザーが提供された情報の重要性をすばやく理解できるようにする必要があります。</block>
+  <block id="782ec3ae3054d5c9b55df66f9c637091" category="list-text">AsciiDocの警告は表に記載しないでください。コンテンツをメモ、ヒント、または注意として識別する必要がある場合は、メモ：、ヒント：、 または注意:テキストへのインラインリードインとして。</block>
 </blocks>
