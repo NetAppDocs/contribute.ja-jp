@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: style.html 
+keywords: style, netapp docs style, netapp docs writing style, voice 
+summary: 私たちのスタイルは会話型で共感的ですが、プロ意識を維持し、その点に到達しています。 
 ---
 = ネットアップのドキュメントのスタイルガイド
 :hardbreaks:
@@ -455,6 +457,12 @@ permalink: style.html
 === および / または
 
 用語がある場合は、より正確な用語を選択します。どちらの用語ももう一方の用語よりも正確でない場合は、「AND / OR」を使用します。
+
+
+
+=== API
+
+Application Programming Interface（API；アプリケーションプログラミングインターフェイス）とは、特定の製品またはサービスへのアクセスを提供する単一のインターフェイスのことです。大規模な製品APIでは、リソースタイプまたはコンポーネントに関連付けられたエンドポイントの各セットを参照するために_API_という用語を使用します。複数の異なるインターフェイスを参照する場合は、_APIS_という用語を使用します。
 
 
 

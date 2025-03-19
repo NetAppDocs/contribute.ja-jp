@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: ai-policy.html 
+keywords: AI, artificial intelligence, generated content, NetApp, technical documentation 
+summary: NetAppのポリシーは、人間によって検証および検証されていないAI生成コンテンツの公開を禁止することです。 
 ---
 = ネットアップのテクニカルドキュメントに記載されているAI生成コンテンツの使用を禁止するポリシー
 :hardbreaks:
