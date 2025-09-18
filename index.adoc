@@ -85,11 +85,7 @@ image:screenshot-issues.png["[ 問題 ] タブ"]
 
 外部の寄与者として、変更を直接パブリッシュすることはできません。コンテンツリードが変更内容を確認し、必要な編集を行った後、変更内容をマージします。この場合、 GitHub から電子メール通知が送信されます。
 
-記述スタイルまたはソース構文についてサポートが必要な場合は、次のリソースを使用できます。
-
-* link:style.html["ネットアップのドキュメントのスタイルガイド"]
-* link:asciidoc_syntax.html["AsciiDoc の構文"]
-
+ソースファイルの編集についてサポートが必要な場合は、link:asciidoc_syntax.html["AsciiDoc構文について学ぶ"] 。
 
 .手順
 . GitHub アカウントをお持ちでない場合は、 https://github.com/join["github.com から作成します"^]

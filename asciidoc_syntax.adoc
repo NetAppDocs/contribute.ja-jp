@@ -483,9 +483,6 @@ curl -s https:///v1/ \
 複数のページにまたがって繰り返されるコンテンツがある場合は、簡単に一度作成して、それらのページ間で再利用できます。再利用は、同じリポジトリ内および複数のリポジトリ間で可能です。その仕組みをご紹介します。
 
 . リポジトリ内に _include という名前のフォルダを作成します
-+
-https://github.com/NetAppDocs/cloud-tiering["たとえば、 Cloud Tiering リポジトリを確認します"^]。
-
 . そのフォルダに、再利用するコンテンツを含む .adoc ファイルを追加します。
 +
 文、リスト、テーブル、 1 つ以上のセクションなどを指定できます。ファイルに他のものを含めないでください。ヘッダや何もありません。
@@ -503,12 +500,8 @@ https://github.com/NetAppDocs/cloud-tiering["たとえば、 Cloud Tiering リ�
 +
  include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
 +
-例：
-
-+
- include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
-
-
 これで完了です。
+
+
 
 include ディレクティブの詳細については、 https://asciidoctor.org/docs/user-manual/#include-directive["『 AsciiDoctor User Manual 』を参照してください"^]。

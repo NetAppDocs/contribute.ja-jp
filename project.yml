@@ -11,8 +11,6 @@ sidebar:
   entries:
   - title: コンテンツを投稿します
     url: "/index.html"
-  - title: ネットアップのドキュメントの形式
-    url: "/style.html"
   - title: AsciiDoc リファレンス
     url: "/asciidoc_syntax.html"
   - title: AI生成コンテンツに関するポリシー
